@@ -1,0 +1,864 @@
+[
+  {
+    "name": "ButtonDrilldown3_text",
+    "type": "text_replacement",
+    "value": "Vendor"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_VALUE_COLUMN",
+    "type": "text_replacement",
+    "value": "NETWR_CONVERTED"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_HEADER_TABLE",
+    "type": "text_replacement",
+    "value": "EKKO"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_HEADER",
+    "type": "text_replacement",
+    "value": "PO"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_boarders",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_background_freetext",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_no_background_freetext",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking_button_b",
+    "type": "text_replacement",
+    "value": "C3CED5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking2",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking1",
+    "type": "text_replacement",
+    "value": "506671"
+  },
+  {
+    "name": "kpi_shown_t",
+    "type": "text_replacement",
+    "value": "# PO items"
+  },
+  {
+    "name": "kpi_shown",
+    "type": "text_replacement",
+    "value": "COUNT_TABLE(\"EKPO\")"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "000000000000001117 - "
+      }
+    ],
+    "linkedFormula": "<%=benchmarking_dimension%>",
+    "name": "benchmarking2",
+    "type": "text_replacement",
+    "value": "'000000000000001117 - '"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "000000000000000737 - "
+      }
+    ],
+    "linkedFormula": "<%=benchmarking_dimension%>",
+    "name": "benchmarking1",
+    "type": "text_replacement",
+    "value": "'000000000000000737 - '"
+  },
+  {
+    "name": "benchmarking_dimension_t",
+    "type": "text_replacement",
+    "value": "Material"
+  },
+  {
+    "name": "benchmarking_dimension",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_button_text",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "name": "ct_type",
+    "type": "text_replacement",
+    "value": "AVG"
+  },
+  {
+    "name": "title",
+    "type": "text_replacement",
+    "value": "Process Cockpit"
+  },
+  {
+    "name": "TIMETABLE",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"AEDAT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_VALUE",
+    "type": "text_replacement",
+    "value": "Net order value"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_ITEM",
+    "type": "text_replacement",
+    "value": "PO item"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_dim_col_t",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_dim_col_b",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_sidebar_b",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi_t",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi_b",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_box_b",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_b",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_t",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "process",
+    "type": "text_replacement",
+    "value": "P2P"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_header_background",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_button_color",
+    "type": "text_replacement",
+    "value": "F5F5F5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_sidebar_header",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_header_text",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_diagram_p",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_diagram_s",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ct_target",
+    "type": "text_replacement",
+    "value": "80"
+  },
+  {
+    "name": "from_occ",
+    "type": "text_replacement",
+    "value": "FIRST"
+  },
+  {
+    "name": "to_occ",
+    "type": "text_replacement",
+    "value": "FIRST"
+  },
+  {
+    "linkedEntries": [],
+    "name": "percentage_color_low_2",
+    "type": "text_replacement",
+    "value": "0.1"
+  },
+  {
+    "name": "percentage_color_low",
+    "type": "text_replacement",
+    "value": "0.6"
+  },
+  {
+    "name": "percentage_color_high",
+    "type": "text_replacement",
+    "value": "0.8"
+  },
+  {
+    "name": "TIMEFRAME_TEXT",
+    "type": "text_replacement",
+    "value": "Month"
+  },
+  {
+    "name": "TIMEFRAME",
+    "type": "text_replacement",
+    "value": "CASE -- 2 digit Month\nWHEN MONTH(\"EKKO\".\"AEDAT\") >= 10\nTHEN YEAR(\"EKKO\".\"AEDAT\") ||'-' || MONTH(\"EKKO\".\"AEDAT\")\nELSE YEAR(\"EKKO\".\"AEDAT\") ||'-0' || MONTH(\"EKKO\".\"AEDAT\")\nEND"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Sequence_Stop",
+    "type": "text_replacement",
+    "value": "'Cancel Goods Receipt'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Sequence_Start",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "name": "percentage_color_high_2",
+    "type": "text_replacement",
+    "value": "0.05"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Missing",
+    "type": "text_replacement",
+    "value": "'Change Currency'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= PROCESS %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Repeated",
+    "type": "text_replacement",
+    "value": "'Block Purchase Order Item','Cancel Goods Receipt','Change Currency','Change Price','Change Quantity'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Refuse Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Undesired",
+    "type": "text_replacement",
+    "value": "'Block Purchase Order Item','Cancel Goods Receipt','Change Currency','Change Price','Change Quantity','Delete Purchase Order Item','Dun Order Confirmation','Refuse Purchase Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Clear Invoice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Refuse Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Release Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Remove Payment Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Overdue Notice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order Update"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Payment Block"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "AutoActivities",
+    "type": "text_replacement",
+    "value": "'Block Purchase Order Item','Cancel Goods Receipt','Change Currency','Change Price','Change Quantity','Clear Invoice','Create Purchase Order Item','Create Purchase Requisition Item','Delete Purchase Order Item','Dun Order Confirmation','Receive Order Confirmation','Record Goods Receipt','Record Invoice Receipt','Refuse Purchase Order Item','Release Purchase Order','Remove Payment Block','Send Overdue Notice','Send Purchase Order','Send Purchase Order Update','Set Payment Block'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_TABLE",
+    "type": "text_replacement",
+    "value": "EKPO"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"AEDAT\""
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_automation_rate",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_automation_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_rework_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_rework_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_change_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_change_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "name": "unitTCT",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_CT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_CT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Purchase Requisition Item",
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "formattedValue": "Change Price",
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "formattedValue": "Create Purchase Order Item",
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "formattedValue": "Receive Order Confirmation",
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      },
+      {
+        "formattedValue": "Record Invoice Receipt",
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "formattedValue": "Record Goods Receipt",
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "formattedValue": "Delete Purchase Order Item",
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "formattedValue": "Release Purchase Order",
+        "selected": true,
+        "value": "Release Purchase Order"
+      },
+      {
+        "formattedValue": "Refuse Purchase Order",
+        "selected": true,
+        "value": "Refuse Purchase Order"
+      },
+      {
+        "formattedValue": "Cancel Invoice Receipt",
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      },
+      {
+        "formattedValue": "Change Quantity",
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "formattedValue": "Cancel Goods Receipt",
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "formattedValue": "Block Purchase Order Item",
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "formattedValue": "Send Overdue Notice",
+        "selected": true,
+        "value": "Send Overdue Notice"
+      },
+      {
+        "formattedValue": "Reactivate Purchase Order Item",
+        "selected": true,
+        "value": "Reactivate Purchase Order Item"
+      },
+      {
+        "formattedValue": "Dun Order Confirmation",
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      }
+    ],
+    "name": "activities_used_in_automation_rate",
+    "type": "text_replacement",
+    "value": "'Create Purchase Requisition Item','Change Price','Create Purchase Order Item','Receive Order Confirmation','Record Invoice Receipt','Record Goods Receipt','Delete Purchase Order Item','Release Purchase Order','Refuse Purchase Order','Cancel Invoice Receipt','Change Quantity','Cancel Goods Receipt','Block Purchase Order Item','Send Overdue Notice','Reactivate Purchase Order Item','Dun Order Confirmation'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Currency"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "Net Order Price"
+      },
+      {
+        "available": true,
+        "id": 8,
+        "selected": true,
+        "value": "Order Quantity"
+      },
+      {
+        "available": true,
+        "id": 9,
+        "selected": true,
+        "value": "Payment Block"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Vendor"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_EN\"",
+    "name": "ChangedFields",
+    "type": "text_replacement",
+    "value": "'Currency','Net Order Price','Order Quantity','Payment Block','Vendor'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "B"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "C"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "R"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B','C','R'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Purchase Order Item",
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Payment Block"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Set Payment Block'"
+  },
+  {
+    "name": "exclude_CHANGED_FIELD",
+    "type": "text_replacement",
+    "value": "('KEY','LOEKZ')"
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"<%= CASE_TABLE %>\".\"BUKRS\" || ' - ' || \"<%= CASE_TABLE %>\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "name": "ButtonDrilldown5",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "2f0b09c0-3af5-478b-94cb-ca07c5dab976",
+  "name": "Process Explorer",
+  "position": {
+    "height": 800,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Begin Quality Inspection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Approval for Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Purchase Requisition Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Delete Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Accepted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Rejected"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Receive advanced shipment notice (ASN)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Vendor Creates Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Block Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Confirmed Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Contract"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Currency"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Final Invoice Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Rejection Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Storage Location"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Vendor"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change requested delivery date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Clear Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Contract"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Net Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Dun Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Net Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Reactivate Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Receive Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Remove Payment Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: 17 Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: 17 Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New PO for L+P"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Overdue Notice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Confirmed Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Payment Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Update Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Put Away TO (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Confirmed (MM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Payment Terms"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Target Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Target Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Effective Contract Item Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Target Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Target Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Effective Contract Item Value"
+      }
+    ],
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 5,
+    "preventResize": true,
+    "throughputUnits": "days",
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

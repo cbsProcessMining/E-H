@@ -1,0 +1,77 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates a view with the following name: P2P_LFA1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+EKKO
+LFA1
+_CEL_P2P_CASES
+
+3. Required Columns:
+EKKO.EBELN
+EKKO.LIFNR
+EKKO.MANDT
+LFA1.*
+LFA1.LIFNR
+LFA1.MANDT
+_CEL_P2P_CASES.EBELN
+_CEL_P2P_CASES.MANDT
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+DROP VIEW IF EXISTS P2P_LFA1;
+
+CREATE VIEW P2P_LFA1 AS
+SELECT DISTINCT 
+	LFA1.*,
+    CASES."PRETTY_NAME", -- global job
+    CASES."SC/PC", -- global job
+    CAST(LFA1.ERDAT AS DATE) AS TS_ERDAT,
+    CAST(LFA1.GBDAT AS DATE) AS TS_GBDAT,
+    CAST(LFA1.REVDB AS DATE) AS TS_REVDB,
+    CAST(LFA1.UPDAT AS DATE) AS TS_UPDAT,
+    CAST(LFA1.QSSYSDAT AS DATE) AS TS_QSSYSDAT,
+    CAST(LFA1.RGDATE AS DATE) AS TS_RGDATE,
+    CAST(LFA1.RNEDATE AS DATE) AS TS_RNEDATE,
+    IFNULL(T077Y.TXT30,'') as "KTOKK_TEXT"
+FROM 
+    LFA1
+    INNER JOIN EKKO ON 1=1
+        AND LFA1."SCHEMA" = EKKO."SCHEMA" -- global job
+		AND LFA1.MANDT = EKKO.MANDT
+		AND LFA1.LIFNR = EKKO.LIFNR
+	INNER JOIN _CEL_P2P_CASES AS CASES ON 1=1
+        AND EKKO."SCHEMA" = CASES."SCHEMA" -- global job
+		AND EKKO.MANDT = CASES.MANDT
+		AND EKKO.EBELN = CASES.EBELN
+    LEFT JOIN T077Y on 1 = 1
+        AND LFA1."SCHEMA" = T077Y."SCHEMA"
+        AND LFA1.MANDT = T077Y.MANDT
+        AND LFA1.KTOKK = "T077Y"."KTOKK"
+        AND T077Y.SPRAS = '<%=primaryLanguageKey%>'
+;
+
+

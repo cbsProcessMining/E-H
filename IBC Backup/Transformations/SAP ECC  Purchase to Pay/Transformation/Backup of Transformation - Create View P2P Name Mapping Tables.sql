@@ -1,0 +1,91 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates a table with the following name: P2P_NAME_MAPPING_TABLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+DD02T
+
+3. Required Columns:
+DD02T.DDLANGUAGE
+DD02T.DDTEXT
+DD02T.TABNAME
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+-- Help Table for insert, for  Multi Client System
+DROP TABLE IF EXISTS "LH_DD02T";
+Create Table "LH_DD02T" as
+Select "TABNAME", "DDLANGUAGE", "DDTEXT" FROM (
+Select 	"TABNAME" AS "TABNAME",
+	"DDLANGUAGE" AS "DDLANGUAGE",
+	"DDTEXT" AS "DDTEXT",
+    ROW_NUMBER() OVER (PARTITION BY "TABNAME","DDLANGUAGE" ORDER BY "DDTEXT" asc) AS "ROW_NUM"
+FROM 
+	"DD02T" where DDLANGUAGE in ('E','D')
+) as "HELP" where "ROW_NUM" = 1;
+
+
+DROP TABLE IF EXISTS P2P_NAME_MAPPING_TABLES;
+
+CREATE TABLE P2P_NAME_MAPPING_TABLES AS
+SELECT
+	DD02T.TABNAME AS TABLE_NAME,
+	DD02T.DDLANGUAGE AS LANGUAGE,
+	DD02T.DDTEXT AS PRETTY_NAME
+FROM
+	"LH_DD02T"  as "DD02T"-- globale Anpassung
+	
+UNION
+ 
+SELECT
+	'_CEL_P2P_ACTIVITIES',
+	'D',
+	'Aktivitäten'
+	
+UNION
+
+SELECT
+	'_CEL_P2P_ACTIVITIES',
+	'E',
+	'Activities'
+;
+
+UPDATE _CEL_P2P_ACTIVITIES AS ACT
+SET CHANGED_TABLE_TEXT_EN = NM.PRETTY_NAME
+FROM P2P_NAME_MAPPING_TABLES AS NM
+WHERE 1=1
+   AND ACT.CHANGED_TABLE = NM.TABLE_NAME
+   AND NM."LANGUAGE" = 'E';
+
+UPDATE _CEL_P2P_ACTIVITIES AS ACT
+SET CHANGED_TABLE_TEXT_DE = NM.PRETTY_NAME
+FROM P2P_NAME_MAPPING_TABLES AS NM
+WHERE 1=1
+   AND ACT.CHANGED_TABLE = NM.TABLE_NAME
+   AND NM."LANGUAGE" = 'D';
+
+-- Housekeeping
+DROP TABLE IF EXISTS "LH_DD02T";

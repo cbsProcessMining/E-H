@@ -1,0 +1,5051 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 4,
+      "id": "dab3011e-bcd9-4995-bb23-77157018915f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 2,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 4,
+      "id": "503cbcf0-272a-47ff-af13-af71cf61c12d",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=30]#{processCockpit} - #{managementView}[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 84,
+      "x": 15,
+      "y": 3,
+      "zIndex": 2
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{LTAK.BDATU}",
+            "columnType": "date",
+            "expressionColumn": null,
+            "expressionLhs": "ROUND_WEEK ( \"LTAK\".\"BDATU\" ) AS \"#{LTAK.BDATU}\" FORMAT \"%Y-%m\"",
+            "filterLhs": null,
+            "format": "",
+            "hidden": null
+          },
+          "name": "#{LTAK.BDATU}",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_WEEK(\"LTAK\".\"BDATU\")",
+          "translatedName": "BDATU",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": "",
+            "fontSize": 9
+          },
+          "dataLabelsOffsetY": "2",
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "applyGradient": true,
+            "opacity": 0.748
+          },
+          "ignoreSeriesPalettes": true,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{purchaseOrderItems}",
+            "columnType": "int",
+            "expressionColumn": null,
+            "expressionLhs": null,
+            "filterLhs": null,
+            "format": ".3s",
+            "hidden": null
+          },
+          "name": "#{purchaseOrderItems}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showMarkers": true,
+          "spline": true,
+          "text": "COUNT_TABLE(\"LTAK\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "purchaseOrderItems",
+          "units": " ",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "area",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 19,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "ae48b1ef-47e5-4f3a-8757-ee1a31a604c8",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "pinScrollbarRight": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} #{transferOrderItems}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 29,
+      "x": 17,
+      "y": 9,
+      "zIndex": 3
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{LTAK.BDATU}",
+            "columnType": "date",
+            "expressionColumn": null,
+            "expressionLhs": "ROUND_WEEK ( \"LTAK\".\"BDATU\" ) AS \"#{LTAK.BDATU}\" FORMAT \"%Y-%m\"",
+            "filterLhs": null,
+            "format": "",
+            "hidden": null
+          },
+          "name": "#{LTAK.BDATU}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "ROUND_WEEK(\"LTAK\".\"BDATU\")",
+          "translatedName": "Erstellungsdatum",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": "",
+            "fontSize": 9
+          },
+          "dataLabelsOffsetY": "2",
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "applyGradient": true,
+            "opacity": 0.748
+          },
+          "ignoreSeriesPalettes": true,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{overallCycleTime}",
+            "columnType": "int",
+            "expressionColumn": null,
+            "expressionLhs": "",
+            "filterLhs": null,
+            "format": ",f",
+            "hidden": null
+          },
+          "name": "#{overallCycleTime}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showMarkers": true,
+          "spline": true,
+          "text": "KPI(\"Total Cycle Time\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Overall Cycle Time",
+          "units": " #{days}",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "area",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 19,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "aa9a3854-162b-4bbe-ae01-0d25a539b015",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "pinScrollbarRight": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} #{overallCycleTime} (Median)",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 29,
+      "x": 58,
+      "y": 9,
+      "zIndex": 3
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{\"LTAK\".\"BDATU\"}",
+            "columnType": "date",
+            "expressionLhs": "ROUND_WEEK ( \"LTAK\".\"BDATU\" ) AS \"#{\\\"LTAK\\\".\\\"BDATU\\\"}\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "#{\"LTAK\".\"BDATU\"}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_WEEK(\"LTAK\".\"BDATU\")",
+          "translatedName": "Erstellungsdatum",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": "",
+            "fontSize": 9
+          },
+          "dataLabelsOffsetY": "2",
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "applyGradient": true,
+            "opacity": 0.748
+          },
+          "ignoreSeriesPalettes": true,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{reworkRate}",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "#{reworkRate}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showMarkers": true,
+          "spline": true,
+          "text": "KPI(\"Total Rework Rate\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Rework Rate",
+          "units": "%",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "area",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 18,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "e4089cc5-2d40-4337-a2bd-c3e3a6dc9ef9",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "pinScrollbarRight": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} #{reworkRate}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 29,
+      "x": 17,
+      "y": 31,
+      "zIndex": 3
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{\"LTAK\".\"BDATU\"}",
+            "columnType": "date",
+            "expressionLhs": "ROUND_WEEK ( \"LTAK\".\"BDATU\" ) AS \"#{\\\"LTAK\\\".\\\"BDATU\\\"}\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "#{\"LTAK\".\"BDATU\"}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_WEEK(\"LTAK\".\"BDATU\")",
+          "translatedName": "Erstellungsdatum",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": "",
+            "fontSize": 9
+          },
+          "dataLabelsOffsetY": "2",
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "applyGradient": true,
+            "opacity": 0.748
+          },
+          "ignoreSeriesPalettes": true,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{automationRate}",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": "%"
+          },
+          "name": "#{automationRate}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showMarkers": true,
+          "spline": true,
+          "text": "KPI(\"Automation Rate\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Automation Rate",
+          "units": "",
+          "valueFormat": "%"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "area",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 18,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "fc9891f4-9b54-4151-b50f-b3894bab9207",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "pinScrollbarRight": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} #{automationRate}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 29,
+      "x": 58,
+      "y": 31,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Total Cycle Time\")",
+        "units": " days",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "722e9097-c391-4188-b26a-a8cae6247d63",
+      "kpiValue": null,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "#{overallCycleTime}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 88,
+      "y": 9,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Total Rework Rate\")",
+        "units": "%",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "8af0e4eb-afe9-4cb9-ae4a-a5c283c863c6",
+      "kpiValue": null,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "#{reworkRate}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 46,
+      "y": 31,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Automation Rate\")",
+        "units": "",
+        "valueFormat": "%"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "9cbb143f-a598-4d1a-a0b2-d9b4197b05ff",
+      "kpiValue": 0.3957489863828587,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "#{automationRate}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 87,
+      "y": 31,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"LTAK\")",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "e70931ad-c7bc-434a-ace6-c6ddd4862db1",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "# #{transferOrder}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 46,
+      "y": 9,
+      "zIndex": 3
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#dddddd",
+      "border": false,
+      "buttonTitle": "Detail",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "1a151069-dd85-43f3-aeab-5bd5ca938c15",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "23fd5018-8036-4a28-b08e-d8271e16be2f",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#000000",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 10,
+      "x": 46,
+      "y": 20,
+      "zIndex": 3
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#dddddd",
+      "border": false,
+      "buttonTitle": "Detail",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "49fbcb3a-4515-448b-bccd-cc7f2c153bb6",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "6d6f96fb-e00f-4ed7-81b4-7366749bf4dc",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#000000",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 10,
+      "x": 88,
+      "y": 20,
+      "zIndex": 3
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#dddddd",
+      "border": false,
+      "buttonTitle": "Detail",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "2cf0fe6e-324a-4318-82c4-aa989c544264",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "70404188-7cf2-4dc0-8bd6-279a8f462c23",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#000000",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 10,
+      "x": 46,
+      "y": 41,
+      "zIndex": 3
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#dddddd",
+      "border": false,
+      "buttonTitle": "Detail",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "49d90d04-fe27-4853-a992-77898752f758",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "a41b50f7-f054-4849-af5d-727e9eef56c5",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#000000",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 10,
+      "x": 87,
+      "y": 41,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "id": "ebe6c500-0ef0-4bb4-b359-2a6e97956c99",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "69df4c38-4d41-4e36-8757-f022d63fb132",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{time}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 9,
+      "zIndex": 3
+    },
+    {
+      "alignment": "vertical",
+      "autoAlign": true,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "datepickerSettings": {
+        "formula": {
+          "text": "\"LTAK\".\"BDATU\"",
+          "units": " "
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 5,
+      "id": "4cad750d-317e-48fa-966a-58d99b677b65",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#14A9D5",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "width": 12,
+      "x": 1,
+      "y": 11,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "75f1591d-c575-4496-8ccf-938e4caeec30",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{organization}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 17,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter1%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter1_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "c5e52124-e07f-4055-a706-2502d35d0afe",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 19,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter2%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter2_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "fe4e3fb7-7b0f-420e-a6ad-35c46942f1ef",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 21,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter3%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter3_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "accf43f4-21b5-4d0b-adba-0586ee554960",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 23,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter4%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LIKP\".\"KUNNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter4_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "f0c7e079-9410-42eb-87f3-482d70bc1040",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 25,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "7efc3196-3d2d-480c-a664-97955389f940",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{orderInformation}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 29,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter5%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter5_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "b1777ced-f471-41c3-8437-df1d3cfc0947",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 31,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter6%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LIKP\".\"KUNNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter6_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "b62ee277-ddeb-4b78-a670-c2ef0d0ec079",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 33,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter7%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"MANDT\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"LGNUM\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAK\".\"BNAME\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"VLPLA\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"LTAP\".\"MATNR\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{Origins}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{In Progress}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"MANDT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"LGNUM\" || '-' || \"LTAK\".\"LGNUM_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"LTAK\".\"BNAME\" "
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || ' - ' || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN PROCESS EQUALS 'Create Purchase Order Item'\n        THEN 'External Purchasing'\n    WHEN PROCESS EQUALS 'Create Returns Order Item'\n        THEN 'Return Order'\n    WHEN PROCESS EQUALS 'Create Warehouse Order Item'\n        THEN 'Warehouse Order'\n    WHEN PROCESS EQUALS 'Create Production Order'\n        THEN 'Production Order'\n    WHEN PROCESS EQUALS 'Create Rearrangement Order Item'\n        Then 'Rearrangement'\n    ELSE 'From Own Warehouse'  \nEND\n"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN \"LTAP\".\"PQUIT\" = 'X'\n        THEN 'Transfer Order Confirmed'\n    ELSE 'Transfer Order in Progress'\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Confirm Production Order",
+                "selected": true,
+                "value": "Confirm Production Order"
+              },
+              {
+                "formattedValue": "Confirm Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Confirm Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Delivery Item",
+                "selected": true,
+                "value": "Create Delivery Item"
+              },
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "formattedValue": "Create Rearrangement Order Item",
+                "selected": true,
+                "value": "Create Rearrangement Order Item"
+              },
+              {
+                "formattedValue": "Create Returns Delivery Item",
+                "selected": true,
+                "value": "Create Returns Delivery Item"
+              },
+              {
+                "formattedValue": "Create Returns Order Item",
+                "selected": true,
+                "value": "Create Returns Order Item"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Create Stock Transfer Order Item",
+                "selected": true,
+                "value": "Create Stock Transfer Order Item"
+              },
+              {
+                "formattedValue": "Create Transfer Order Item (Rear Storage)",
+                "selected": true,
+                "value": "Create Transfer Order Item (Rear Storage)"
+              },
+              {
+                "formattedValue": "Create Transfer Requirement Item (Procurement)",
+                "selected": true,
+                "value": "Create Transfer Requirement Item (Procurement)"
+              },
+              {
+                "formattedValue": "Create Warehouse Order Item",
+                "selected": true,
+                "value": "Create Warehouse Order Item"
+              },
+              {
+                "formattedValue": "Delivery Rearrangement Completely Processed",
+                "selected": true,
+                "value": "Delivery Rearrangement Completely Processed"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check','Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Confirm Production Order','Confirm Transfer Order Item (Rear Storage)','Create Delivery Item','Create Production Order','Create Purchase Order Item','Create Rearrangement Order Item','Create Returns Delivery Item','Create Returns Order Item','Create Sales Order Item','Create Stock Transfer Order Item','Create Transfer Order Item (Rear Storage)','Create Transfer Requirement Item (Procurement)','Create Warehouse Order Item','Delivery Rearrangement Completely Processed','Deny Credit Check','Record Goods Issue','Record Goods Receipt','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Release Production Order",
+                "selected": true,
+                "value": "Release Production Order"
+              },
+              {
+                "formattedValue": "Remove Delivery Block Sales Order",
+                "selected": true,
+                "value": "Remove Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Delivery Block Sales Order",
+                "selected": true,
+                "value": "Set Delivery Block Sales Order"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue','Cancel Reason for Rejection','Change Reason for Rejection','Deny Credit Check','Release Production Order','Remove Delivery Block Sales Order','Set Delivery Block Sales Order','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "A",
+                "selected": true,
+                "value": "A"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'A'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Goods Issue",
+                "selected": true,
+                "value": "Cancel Goods Issue"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Issue'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "'Confirm Transfer Order Item with Difference'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"LIKP\".\"KUNNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LTAP\".\"MATNR\" || \"-\" || \"LTAP\".\"MAKTX\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter7_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "657e5fd4-f74e-4610-8d3d-97f6ef2d60aa",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 35,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f3bea218-48e2-43d1-b0b1-0eaae34df7f5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{settings}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 39,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "35c459b5-b373-4496-a696-e8ba19772840",
+      "maximized": false,
+      "placeholder": "#{currencySymbol}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "currency_symbol",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 41,
+      "zIndex": 3
+    }
+  ],
+  "format": "FULLSCREEN",
+  "id": "fd465d36-ab91-41bf-8d27-299f06bf6ae5",
+  "lines": [],
+  "name": "#{managementView}",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

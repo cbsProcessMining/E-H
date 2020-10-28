@@ -1,0 +1,235 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "e57c6344-61d7-4d56-b6f1-a2ac65585682",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Picking TO (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Check completed"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Production Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Put Away TO (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Download to MES"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Capacity avail.not checked (CANC)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Capacity shortage (MSCP)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Closed (CLSD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Confirmed (CNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Confirmed canceled (CNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Created (CRTD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Deletion Flag (DLFL)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Delivered (DLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Delivered canceled (DLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Error in cost calculation (CSER)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Error in cost calculation canceled (CSER)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Locked (LKD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Locked canceled (LKD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Mat.availability not checked (MANC)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Material committed (MACM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Material shortage (MSPT)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Partially confirmed (PCNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Partially delivered (PDLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Printed (PRT)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Re-Read Master Data"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Release rejected (RELR)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Released (REL)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Reprinted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Technically completed (TECO)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking fully cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking fully confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking partially confirmed with cancellation (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away fully cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away fully confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item created"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item released"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item to be checked"
+      }
+    ],
+    "customActivityColumn": false,
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "id": "THROUGHPUT_AVG",
+        "name": "Throughput Time (AVG)",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "id": "THROUGHPUT_AVG",
+          "name": "Throughput Time (AVG)",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-throughput.svg",
+      "id": "THROUGHPUT_AVG",
+      "supportsParams": true,
+      "title": "throughput_avg"
+    },
+    "nodeSliderState": 4,
+    "preventResize": true,
+    "throughputUnits": "days",
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "Create Production Order"
+      },
+      {
+        "available": true,
+        "id": 4,
+        "selected": true,
+        "value": "First confirmation"
+      },
+      {
+        "available": true,
+        "id": 5,
+        "selected": true,
+        "value": "Last confirmation"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "Order: Created"
+      },
+      {
+        "available": true,
+        "id": 7,
+        "selected": true,
+        "value": "Order: Deletion Flag"
+      },
+      {
+        "available": true,
+        "id": 8,
+        "selected": true,
+        "value": "Order: Delivered"
+      },
+      {
+        "available": true,
+        "id": 9,
+        "selected": true,
+        "value": "Order: Error in cost calculation"
+      },
+      {
+        "available": true,
+        "id": 10,
+        "selected": true,
+        "value": "Order: Locked"
+      },
+      {
+        "available": true,
+        "id": 11,
+        "selected": true,
+        "value": "Order: No material components"
+      },
+      {
+        "available": true,
+        "id": 12,
+        "selected": true,
+        "value": "Order: Released"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Order: Technically completed"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "ActivitiesUsedInAutomationRate",
+    "type": "text_replacement",
+    "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 14,
+        "selected": true,
+        "value": "Scheduled finish time"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "planned_finish",
+    "type": "text_replacement",
+    "value": "'Scheduled finish time'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Actual finish time"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "actual_finish",
+    "type": "text_replacement",
+    "value": "'Actual finish time'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "Actual start time"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "actual_start",
+    "type": "text_replacement",
+    "value": "'Actual start time'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 15,
+        "selected": true,
+        "value": "Scheduled start time"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "planned_start",
+    "type": "text_replacement",
+    "value": "'Scheduled start time'"
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"AUFK\".\"ERDAT\""
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "B",
+        "selected": true,
+        "value": "B"
+      },
+      {
+        "formattedValue": "S",
+        "selected": true,
+        "value": "S"
+      }
+    ],
+    "name": "AutoTypes",
+    "type": "text_replacement",
+    "value": "'B','S'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "Create Production Order"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Create Production Order'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Actual finish time"
+      }
+    ],
+    "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Actual finish time'"
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"AUFK\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"AUFK\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "toleranceBeforeEnd",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": [],
+    "name": "toleranceAfterEnd",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": [],
+    "name": "toleranceBeforeStart",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": [],
+    "name": "toleranceAfterStart",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"AUFK\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "\"AUFK\".\"BUKRS_TEXT\""
+  }
+]

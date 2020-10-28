@@ -1,0 +1,662 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "42a38eb1-b865-4b57-8ee0-368d166664c1",
+        "name": "Repeated Activities",
+        "thresholds": [
+          {
+            "color": "#EF390A",
+            "compare": ">=",
+            "formula": "<%=percentage_color_high_2%>"
+          },
+          {
+            "color": "#FF9D5F",
+            "compare": "<=",
+            "formula": "<%=percentage_color_high_2%>"
+          },
+          {
+            "color": "#5B8401",
+            "compare": "<=",
+            "formula": "<%=percentage_color_low_2%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "b40cc991-31e4-4023-8239-1e695b5080db",
+        "name": "Automation Rate - Manual Color",
+        "thresholds": [
+          {
+            "color": "#EF390A",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#9b9b9b",
+            "compare": "<=",
+            "formula": "0"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "deb2db81-b4cb-47d2-8208-e91d1994bd43",
+        "name": "Automation Rate - Auto Color",
+        "thresholds": [
+          {
+            "color": "#5B8401",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#9b9b9b",
+            "compare": "<=",
+            "formula": "0"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "f3133582-4e32-4261-982f-69a9a775f37d",
+        "name": "Repetition Indicator",
+        "thresholds": [
+          {
+            "color": "#5B8401",
+            "compare": "==",
+            "formula": "Without Repetition"
+          },
+          {
+            "color": "#EF390A",
+            "compare": "==",
+            "formula": "With Repetition"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "8f3cde67-d829-4295-b976-d9587e9b6545",
+        "name": "Rework Rate",
+        "thresholds": [
+          {
+            "color": "#5B8401",
+            "compare": "<=",
+            "formula": "<%=low_color_rework_rate%>"
+          },
+          {
+            "color": "#EF390A",
+            "compare": ">=",
+            "formula": "<%=high_color_rework_rate%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "c4aa6c2c-95f4-4f38-bbe3-fe9a80173d08",
+        "name": "Automation Rate",
+        "thresholds": [
+          {
+            "color": "#EF390A",
+            "compare": "<=",
+            "formula": "<%=percentage_color_low%>"
+          },
+          {
+            "color": "#FF9D5F",
+            "compare": ">=",
+            "formula": "<%=percentage_color_low%>"
+          },
+          {
+            "color": "#5B8401",
+            "compare": ">=",
+            "formula": "<%=percentage_color_high%>"
+          },
+          {
+            "color": "#9b9b9b",
+            "compare": "<=",
+            "formula": "0"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "78cdc5ab-f4e5-47fd-86de-79cdf769ccbf",
+        "name": "Rework Rate",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": ">",
+            "formula": "20"
+          },
+          {
+            "color": "#5B8401",
+            "compare": "<=",
+            "formula": "5"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "1e559010-7888-459c-ad7d-5fe57a777508",
+        "name": "Change Rate",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": ">=",
+            "formula": "<%=high_color_change_rate%>"
+          },
+          {
+            "color": "#5B8401",
+            "compare": "<=",
+            "formula": "<%=low_color_change_rate%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ac1979f4-f96e-45e5-ba78-f68b01a0dcc9",
+        "name": "Undesired Activity Indicator",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "With Undesired Act."
+          },
+          {
+            "color": "#5B8401",
+            "compare": "==",
+            "formula": "Without Undesired Act."
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "dea9f2c9-ccd7-4c77-92a9-65a507008d3c",
+        "name": "Cycle Times",
+        "thresholds": [
+          {
+            "color": "#5B8401",
+            "compare": "<=",
+            "formula": "<%=low_color_CT%>"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": ">=",
+            "formula": "<%=high_color_CT%>"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": false,
+    "id": "aed27445-7604-44eb-9530-f7d6395bf139",
+    "kpiViews": [
+      {
+        "activityKpi": {
+          "id": "30c6fb0c-57e0-42ae-a386-cdf908fae202",
+          "name": "Automation Rate",
+          "text": "AVG(CASE\n   WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%=auto_user_type%>) \n   THEN 1.0 ELSE 0.0 END)",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "30c6fb0c-57e0-42ae-a386-cdf908fae202",
+            "name": "Automation Rate",
+            "text": "KPI(\"Automation Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= AutoActivities %>), VARIABLE(<%= AutoTypes %>))",
+            "units": " %",
+            "valueFormat": ",.1f"
+          }
+        ],
+        "connectionKpis": [],
+        "edgesFormatting": {},
+        "icon": "icons/icon-custom.svg",
+        "id": "d55e36e9-d8a4-49f9-850c-9893c6274a4e",
+        "nodesFormatting": {
+          "colorThresholds": [
+            {
+              "color": "#9b9b9b",
+              "compare": "<=",
+              "formula": "0.000001"
+            },
+            {
+              "color": "#b61608",
+              "compare": "<=",
+              "formula": "<%=percentage_color_low%>"
+            },
+            {
+              "color": "#FF8B00",
+              "compare": ">=",
+              "formula": "<%=percentage_color_low%>"
+            },
+            {
+              "color": "#229a00",
+              "compare": ">=",
+              "formula": "<%=percentage_color_high%>"
+            },
+            {
+              "color": "#9b9b9b",
+              "compare": "<=",
+              "formula": "0.000001"
+            }
+          ]
+        },
+        "title": "Automation Rate"
+      }
+    ],
+    "loadScript": "FILTER \"EKKO\".\"EKORG\" != 'ICP1';\nFILTER \"EKKO\".\"EKORG\" != 'USI1';\nFILTER \"EKKO\".\"EKORG\" != 'GBI1';",
+    "multiselectMode": false,
+    "name": "TEMPLATE_O2C Process Cockpit 2.0",
+    "palettes": [
+      {
+        "colors": [
+          "#640E0A",
+          "#FBBB80"
+        ],
+        "custom": true,
+        "id": "88420343-90c4-4417-a19b-a9896e0eea07",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#640E0A",
+          "#A90A06",
+          "#E74101",
+          "#FF862A",
+          "#FBBB80"
+        ],
+        "custom": true,
+        "id": "16448b7b-d35b-4421-b9e9-5ba16537c504",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#640E0A",
+          "#840705",
+          "#A90A06",
+          "#CB1E08",
+          "#E74101",
+          "#F96401",
+          "#FF862A",
+          "#FEA35E",
+          "#FBBB80"
+        ],
+        "custom": true,
+        "id": "d9fe0591-fb4d-4e28-8932-39eaa17ddfa0",
+        "type": "linear"
+      },
+      {
+        "colors": [
+          "#000D34",
+          "#B5C2F7"
+        ],
+        "custom": true,
+        "id": "232ee9c0-27f5-4e31-84d4-573566258e90",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#000D34",
+          "#233761",
+          "#536290",
+          "#8391C2",
+          "#B5C2F7"
+        ],
+        "custom": true,
+        "id": "6c8c2e5e-316c-4cda-96b3-6d73a49d9b93",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#001C41",
+          "#1D315A",
+          "#374874",
+          "#51608E",
+          "#6C7AAA",
+          "#8794C6",
+          "#A3B0E3",
+          "#E0ECFF"
+        ],
+        "custom": true,
+        "id": "102c69eb-c5e4-47dd-a4c2-08121e12f1a9",
+        "type": "linear"
+      },
+      {
+        "colors": [
+          "#5B8401",
+          "#769529",
+          "#91A645",
+          "#C8C97A",
+          "#E3DB95",
+          "#FFEDB0",
+          "#FFD395",
+          "#FFB97A",
+          "#FF9D5F",
+          "#FC7F43",
+          "#F66029",
+          "#EF390A"
+        ],
+        "custom": true,
+        "id": "a984f8bc-eda8-40e2-8d78-deef71df4772",
+        "type": "linear"
+      },
+      {
+        "colors": [
+          "#52618f",
+          "#863abd",
+          "#eb5d9c",
+          "#ff7000",
+          "#ffb000",
+          "#5e8706",
+          "#c11206"
+        ],
+        "custom": true,
+        "id": "f6c3af03-2357-403e-bdc2-a048332c50f7",
+        "type": "ordinal"
+      }
+    ],
+    "rawDataExportLimit": 200000,
+    "rootCauseColumns": [
+      "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DETAILS_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DETAILS_EN\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE_TEXT_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE_TEXT_EN\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_EN\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FROM\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TO\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGE_NUMBER\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"TRANSACTION_CODE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"EBELN\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"EBELP\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"MANDT\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"SOURCE_SYSTEM\"",
+      "\"EBAN\".\"MANDT\"",
+      "\"EBAN\".\"BANFN\"",
+      "\"EBAN\".\"BNFPO\"",
+      "\"EBAN\".\"BSART\"",
+      "\"EBAN\".\"BSTYP\"",
+      "\"EBAN\".\"BSAKZ\"",
+      "\"EBAN\".\"LOEKZ\"",
+      "\"EBAN\".\"STATU\"",
+      "\"EBAN\".\"ESTKZ\"",
+      "\"EBAN\".\"FRGKZ\"",
+      "\"EBAN\".\"FRGZU\"",
+      "\"EBAN\".\"FRGST\"",
+      "\"EBAN\".\"EKGRP\"",
+      "\"EBAN\".\"ERNAM\"",
+      "\"EBAN\".\"AFNAM\"",
+      "\"EBAN\".\"TXZ01\"",
+      "\"EBAN\".\"MATNR\"",
+      "\"EBAN\".\"EMATN\"",
+      "\"EBAN\".\"WERKS\"",
+      "\"EBAN\".\"LGORT\"",
+      "\"EBAN\".\"BEDNR\"",
+      "\"EBAN\".\"MATKL\"",
+      "\"EBAN\".\"RESWK\"",
+      "\"EBAN\".\"MEINS\"",
+      "\"EBAN\".\"LPEIN\"",
+      "\"EBAN\".\"WAERS\"",
+      "\"EBAN\".\"ESTKZ_TEXT\"",
+      "\"EKBE\".\"VGABE\"",
+      "\"EKBE\".\"WAERS\"",
+      "\"EKBE\".\"SHKZG\"",
+      "\"EKBE\".\"CPUDT\"",
+      "\"EKKO\".\"BSART\"",
+      "\"EKKO\".\"ERNAM\"",
+      "\"EKKO\".\"ZTERM\"",
+      "\"EKKO\".\"EKGRP\"",
+      "\"EKKO\".\"WAERS\"",
+      "\"EKKO\".\"KONNR\"",
+      "\"EKKO\".\"BSART_TEXT\"",
+      "\"EKKO\".\"EKORG_TEXT\"",
+      "\"EKKO\".\"BUKRS_TEXT\"",
+      "\"EKKO\".\"EKGRP_TEXT\"",
+      "\"EKPO\".\"LOEKZ\"",
+      "\"EKPO\".\"STATU\"",
+      "\"EKPO\".\"TXZ01\"",
+      "\"EKPO\".\"EMATN\"",
+      "\"EKPO\".\"BUKRS\"",
+      "\"EKPO\".\"LGORT\"",
+      "\"EKPO\".\"BEDNR\"",
+      "\"EKPO\".\"MATKL\"",
+      "\"EKPO\".\"INFNR\"",
+      "\"EKPO\".\"IDNLF\"",
+      "\"EKPO\".\"MEINS\"",
+      "\"EKPO\".\"BPRME\"",
+      "\"EKPO\".\"MWSKZ\"",
+      "\"EKPO\".\"BONUS\"",
+      "\"EKPO\".\"INSMK\"",
+      "\"EKPO\".\"SPINF\"",
+      "\"EKPO\".\"PRSDR\"",
+      "\"EKPO\".\"SCHPR\"",
+      "\"EKPO\".\"UEBTK\"",
+      "\"EKPO\".\"BWTAR\"",
+      "\"EKPO\".\"BWTTY\"",
+      "\"EKPO\".\"ABSKZ\"",
+      "\"EKPO\".\"AGMEM\"",
+      "\"EKPO\".\"ELIKZ\"",
+      "\"EKPO\".\"EREKZ\"",
+      "\"EKPO\".\"PSTYP\"",
+      "\"EKPO\".\"KNTTP\"",
+      "\"EKPO\".\"KZVBR\"",
+      "\"EKPO\".\"VRTKZ\"",
+      "\"EKPO\".\"TWRKZ\"",
+      "\"EKPO\".\"WEPOS\"",
+      "\"EKPO\".\"WEUNB\"",
+      "\"EKPO\".\"REPOS\"",
+      "\"EKPO\".\"WEBRE\"",
+      "\"EKPO\".\"KZABS\"",
+      "\"EKPO\".\"LABNR\"",
+      "\"EKPO\".\"KONNR\"",
+      "\"EKPO\".\"KTPNR\"",
+      "\"EKPO\".\"KZSTU\"",
+      "\"EKPO\".\"NOTKZ\"",
+      "\"EKPO\".\"LMEIN\"",
+      "\"EKPO\".\"EVERS\"",
+      "\"EKPO\".\"BSTYP\"",
+      "\"EKPO\".\"XOBLR\"",
+      "\"EKPO\".\"KUNNR\"",
+      "\"EKPO\".\"ADRNR\"",
+      "\"EKPO\".\"EKKOL\"",
+      "\"EKPO\".\"SKTOF\"",
+      "\"EKPO\".\"STAFO\"",
+      "\"EKPO\".\"GEWEI\"",
+      "\"EKPO\".\"TXJCD\"",
+      "\"EKPO\".\"ETDRK\"",
+      "\"EKPO\".\"SOBKZ\"",
+      "\"EKPO\".\"ARSNR\"",
+      "\"EKPO\".\"ARSPS\"",
+      "\"EKPO\".\"INSNC\"",
+      "\"EKPO\".\"SSQSS\"",
+      "\"EKPO\".\"ZGTYP\"",
+      "\"EKPO\".\"EAN11\"",
+      "\"EKPO\".\"BSTAE\"",
+      "\"EKPO\".\"REVLV\"",
+      "\"EKPO\".\"GEBER\"",
+      "\"EKPO\".\"FISTL\"",
+      "\"EKPO\".\"FIPOS\"",
+      "\"EKPO\".\"KO_GSBER\"",
+      "\"EKPO\".\"KO_PARGB\"",
+      "\"EKPO\".\"KO_PRCTR\"",
+      "\"EKPO\".\"KO_PPRCTR\"",
+      "\"EKPO\".\"MEPRF\"",
+      "\"EKPO\".\"VOLEH\"",
+      "\"EKPO\".\"INCO1\"",
+      "\"EKPO\".\"INCO2\"",
+      "\"EKPO\".\"VORAB\"",
+      "\"EKPO\".\"KOLIF\"",
+      "\"EKPO\".\"LTSNR\"",
+      "\"EKPO\".\"PACKNO\"",
+      "\"EKPO\".\"FPLNR\"",
+      "\"EKPO\".\"STAPO\"",
+      "\"EKPO\".\"UEBPO\"",
+      "\"EKPO\".\"EMLIF\"",
+      "\"EKPO\".\"LBLKZ\"",
+      "\"EKPO\".\"SATNR\"",
+      "\"EKPO\".\"ATTYP\"",
+      "\"EKPO\".\"KANBA\"",
+      "\"EKPO\".\"ADRN2\"",
+      "\"EKPO\".\"CUOBJ\"",
+      "\"EKPO\".\"XERSY\"",
+      "\"EKPO\".\"DRUHR\"",
+      "\"EKPO\".\"DRUNR\"",
+      "\"EKPO\".\"AKTNR\"",
+      "\"EKPO\".\"ABELN\"",
+      "\"EKPO\".\"ABELP\"",
+      "\"EKPO\".\"PUNEI\"",
+      "\"EKPO\".\"SAISO\"",
+      "\"EKPO\".\"SAISJ\"",
+      "\"EKPO\".\"EBON2\"",
+      "\"EKPO\".\"EBON3\"",
+      "\"EKPO\".\"EBONF\"",
+      "\"EKPO\".\"MLMAA\"",
+      "\"EKPO\".\"ANFNR\"",
+      "\"EKPO\".\"ANFPS\"",
+      "\"EKPO\".\"KZKFG\"",
+      "\"EKPO\".\"USEQU\"",
+      "\"EKPO\".\"UMSOK\"",
+      "\"EKPO\".\"BANFN\"",
+      "\"EKPO\".\"BNFPO\"",
+      "\"EKPO\".\"MTART\"",
+      "\"EKPO\".\"UPTYP\"",
+      "\"EKPO\".\"UPVOR\"",
+      "\"EKPO\".\"SIKGR\"",
+      "\"EKPO\".\"RETPO\"",
+      "\"EKPO\".\"AUREL\"",
+      "\"EKPO\".\"BSGRU\"",
+      "\"EKPO\".\"LFRET\"",
+      "\"EKPO\".\"MFRGR\"",
+      "\"EKPO\".\"NRFHG\"",
+      "\"EKPO\".\"J_1BNBM\"",
+      "\"EKPO\".\"J_1BMATUSE\"",
+      "\"EKPO\".\"J_1BMATORG\"",
+      "\"EKPO\".\"J_1BOWNPRO\"",
+      "\"EKPO\".\"J_1BINDUST\"",
+      "\"EKPO\".\"ABUEB\"",
+      "\"EKPO\".\"KZBWS\"",
+      "\"EKPO\".\"FABKZ\"",
+      "\"EKPO\".\"J_1AINDXP\"",
+      "\"EKPO\".\"MPROF\"",
+      "\"EKPO\".\"EGLKZ\"",
+      "\"EKPO\".\"KZTLF\"",
+      "\"EKPO\".\"KZFME\"",
+      "\"EKPO\".\"RDPRF\"",
+      "\"EKPO\".\"TECHS\"",
+      "\"EKPO\".\"CHG_SRV\"",
+      "\"EKPO\".\"CHG_FPLNR\"",
+      "\"EKPO\".\"MFRPN\"",
+      "\"EKPO\".\"MFRNR\"",
+      "\"EKPO\".\"EMNFR\"",
+      "\"EKPO\".\"NOVET\"",
+      "\"EKPO\".\"AFNAM\"",
+      "\"EKPO\".\"TZONRC\"",
+      "\"EKPO\".\"IPRKZ\"",
+      "\"EKPO\".\"LEBRE\"",
+      "\"EKPO\".\"BERID\"",
+      "\"EKPO\".\"XCONDITIONS\"",
+      "\"EKPO\".\"APOMS\"",
+      "\"EKPO\".\"CCOMP\"",
+      "\"EKPO\".\"GRANT_NBR\"",
+      "\"EKPO\".\"FKBER\"",
+      "\"EKPO\".\"STATUS\"",
+      "\"EKPO\".\"RESLO\"",
+      "\"EKPO\".\"KBLNR\"",
+      "\"EKPO\".\"KBLPOS\"",
+      "\"EKPO\".\"WEORA\"",
+      "\"EKPO\".\"SRV_BAS_COM\"",
+      "\"EKPO\".\"PRIO_URG\"",
+      "\"EKPO\".\"PRIO_REQ\"",
+      "\"EKPO\".\"EMPST\"",
+      "\"EKPO\".\"DIFF_INVOICE\"",
+      "\"EKPO\".\"TRMRISK_RELEVANT\"",
+      "\"EKPO\".\"SPE_ABGRU\"",
+      "\"EKPO\".\"SPE_CRM_SO\"",
+      "\"EKPO\".\"SPE_CRM_SO_ITEM\"",
+      "\"EKPO\".\"SPE_CRM_REF_SO\"",
+      "\"EKPO\".\"SPE_CRM_REF_ITEM\"",
+      "\"EKPO\".\"SPE_CRM_FKREL\"",
+      "\"EKPO\".\"SPE_CHNG_SYS\"",
+      "\"EKPO\".\"SPE_INSMK_SRC\"",
+      "\"EKPO\".\"SPE_CQ_CTRLTYPE\"",
+      "\"EKPO\".\"SPE_CQ_NOCQ\"",
+      "\"EKPO\".\"REASON_CODE\"",
+      "\"EKPO\".\"SPE_EWM_DTC\"",
+      "\"EKPO\".\"EXLIN\"",
+      "\"EKPO\".\"EXSNR\"",
+      "\"EKPO\".\"EHTYP\"",
+      "\"EKPO\".\"DPTYP\"",
+      "\"EKPO\".\"FLS_RSTO\"",
+      "\"EKPO\".\"EXT_RFX_NUMBER\"",
+      "\"EKPO\".\"EXT_RFX_ITEM\"",
+      "\"EKPO\".\"EXT_RFX_SYSTEM\"",
+      "\"EKPO\".\"SRM_CONTRACT_ID\"",
+      "\"EKPO\".\"SRM_CONTRACT_ITM\"",
+      "\"EKPO\".\"BLK_REASON_ID\"",
+      "\"EKPO\".\"BLK_REASON_TXT\"",
+      "\"EKPO\".\"ITCONS\"",
+      "\"EKPO\".\"FIXMG\"",
+      "\"EKPO\".\"WABWE\"",
+      "\"EKPO\".\"TC_AUT_DET\"",
+      "\"EKPO\".\"MANUAL_TC_REASON\"",
+      "\"EKPO\".\"FISCAL_INCENTIVE\"",
+      "\"EKPO\".\"TAX_SUBJECT_ST\"",
+      "\"EKPO\".\"FISCAL_INCENTIVE_ID\"",
+      "\"EKPO\".\"/BEV1/NEGEN_ITEM\"",
+      "\"EKPO\".\"/BEV1/NEDEPFREE\"",
+      "\"EKPO\".\"/BEV1/NESTRUCCAT\"",
+      "\"EKPO\".\"ADVCODE\"",
+      "\"EKPO\".\"BUDGET_PD\"",
+      "\"EKPO\".\"EXCPE\"",
+      "\"EKPO\".\"FMFGUS_KEY\"",
+      "\"EKPO\".\"IUID_RELEVANT\"",
+      "\"EKPO\".\"MRPIND\"",
+      "\"EKPO\".\"REFSITE\"",
+      "\"EKPO\".\"REF_ITEM\"",
+      "\"EKPO\".\"SOURCE_ID\"",
+      "\"EKPO\".\"SOURCE_KEY\"",
+      "\"EKPO\".\"PUT_BACK\"",
+      "\"EKPO\".\"POL_ID\"",
+      "\"EKPO\".\"CONS_ORDER\"",
+      "\"EKPO\".\"MATKL_TEXT\"",
+      "\"EKPO\".\"MATNR_TEXT\"",
+      "\"EKPO\".\"BUKRS_TEXT\"",
+      "\"EKPO\".\"WERKS_TEXT\"",
+      "\"EKPO\".\"LGORT_TEXT\"",
+      "\"EKPO\".\"PSTYP_TEXT\"",
+      "\"EKPO\".\"KNTTP_TEXT\"",
+      "\"EKPO\".\"BBP_PDIGP_CATALOGID\"",
+      "\"EKPO\".\"BBP_PDIGP_CATEGORY_ID\"",
+      "\"LFA1\".\"LAND1\"",
+      "\"LFA1\".\"NAME1\"",
+      "\"LFA1\".\"ORT01\"",
+      "\"LFA1\".\"STRAS\"",
+      "\"LFA1\".\"VBUND\"",
+      "\"MARA\".\"AENAM\"",
+      "\"MARA\".\"ERNAM\"",
+      "\"MARA\".\"ERSDA\"",
+      "\"MARA\".\"LAEDA\"",
+      "\"MARA\".\"MATKL\"",
+      "\"MARA\".\"MEINS\"",
+      "\"MARA\".\"MTART\"",
+      "\"MARA\".\"PSTAT\"",
+      "\"NAST\".\"NACHA\""
+    ],
+    "showFiltersForViewers": true,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "09d616d6-8360-4e8e-883f-edb34160eaec",
+  "lastChangeDate": 1603280190971,
+  "lastChangeUserId": "393e49fc-0b59-4e9d-aca3-02403b4faec1",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher Knaps)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

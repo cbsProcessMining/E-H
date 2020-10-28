@@ -1,0 +1,100 @@
+INSERT INTO "_CEL_O2C_ACTIVITIES" (
+    "SCHEMA", -- global job
+    "PRETTY_NAME", -- global job
+    "SC/PC", -- global job
+	"_CASE_KEY",
+	"ACTIVITY_EN",
+    "ACTIVITY_DE",
+	"EVENTTIME",
+	"_SORTING",
+	"USER_NAME",
+	"USER_TYPE",
+	"CHANGED_TABLE",
+	"CHANGED_FIELD",
+	"CHANGED_FROM",
+	"CHANGED_TO",
+	"CHANGE_NUMBER",
+	"TRANSACTION_CODE",
+	"MANDT",
+	"VBELN",
+	"POSNR",
+    "_ACTIVITY_KEY")
+SELECT
+    "V_ORDERS"."SCHEMA", -- global job
+    "V_ORDERS"."PRETTY_NAME", -- global job
+    "V_ORDERS"."SC/PC", -- global job
+	"V_ORDERS"."_CASE_KEY" AS "_CASE_KEY"
+	,'Change Delivery ' || CASE 
+    	WHEN "CDPOS"."FNAME" = 'ROUTE' THEN 'Route'
+        WHEN "CDPOS"."FNAME" = 'LGORT' THEN 'Storage Location'
+        WHEN "CDPOS"."FNAME" = 'CMGST' THEN 'Credit Management Status'
+        WHEN "CDPOS"."FNAME" = 'VSART' THEN 'Shipping Type'
+        WHEN "CDPOS"."FNAME" = 'FAKSK' THEN 'Billing Block'
+        WHEN "CDPOS"."FNAME" = 'INCO2' THEN 'Inco Terms (Part 2)'
+        WHEN "CDPOS"."FNAME" = 'LIFSK' THEN 'Delivery Block'
+        WHEN "CDPOS"."FNAME" = 'INCO1' THEN 'Inco Terms (Part 1)'
+        WHEN "CDPOS"."FNAME" = 'SPART' THEN 'Division'
+        WHEN "CDPOS"."FNAME" = 'MBDAT' THEN 'Material Staging Date'
+        WHEN "CDPOS"."FNAME" = 'NETPR' THEN 'Net Price'
+        WHEN "CDPOS"."FNAME" = 'MATNR' THEN 'Material'
+        WHEN "CDPOS"."FNAME" = 'SDABW' THEN 'Special Process Indicator'
+        WHEN "CDPOS"."FNAME" = 'WERKS' THEN 'Plant'
+ 	END AS  "ACTIVITY_EN"
+    ,'Ändere Lieferung ' || CASE 
+        WHEN "CDPOS"."FNAME" = 'ROUTE' THEN 'Route'
+        WHEN "CDPOS"."FNAME" = 'LGORT' THEN 'Lagerort'
+        WHEN "CDPOS"."FNAME" = 'CMGST' THEN 'Kreditstatus'
+        WHEN "CDPOS"."FNAME" = 'VSART' THEN 'Versandart'
+        WHEN "CDPOS"."FNAME" = 'FAKSK' THEN 'Fakturasperre'
+        WHEN "CDPOS"."FNAME" = 'INCO2' THEN 'Inco Terms (Teil 2)'
+        WHEN "CDPOS"."FNAME" = 'LIFSK' THEN 'Liefersperre'
+        WHEN "CDPOS"."FNAME" = 'INCO1' THEN 'Inco Terms (Teil 1)'
+        WHEN "CDPOS"."FNAME" = 'SPART' THEN 'Sparte'
+        WHEN "CDPOS"."FNAME" = 'MBDAT' THEN 'Materialbereitstellungsdatum'
+        WHEN "CDPOS"."FNAME" = 'NETPR' THEN 'Nettopreis'
+        WHEN "CDPOS"."FNAME" = 'MATNR' THEN 'Material'
+        WHEN "CDPOS"."FNAME" = 'SDABW' THEN 'Sonderabwicklungskennzeichen'
+        WHEN "CDPOS"."FNAME" = 'WERKS' THEN 'Werk'
+    END AS  "ACTIVITY_DE"
+    ,CAST(CDHDR.UDATE AS DATE) + CAST(ISNULL(CAST(CDHDR.UTIME AS TIME), '23:59:59') AS TIME) AS "EVENTTIME"
+	,750 + row_number() OVER (PARTITION BY V_ORDERS._CASE_KEY) AS "_SORTING"
+	,"CDHDR"."USERNAME" AS "USER_NAME"
+	,CASE
+		WHEN "CDHDR"."USERNAME" = 'WF-BATCH' THEN 'B'
+		ELSE "USR02"."USTYP"
+	END AS "USER_TYPE"
+	,"CDPOS"."TABNAME" AS "CHANGED_TABLE"
+	,"CDPOS"."FNAME" AS "CHANGED_FIELD"
+	,LTRIM(CDPOS.VALUE_OLD) AS "CHANGED_FROM"
+	,LTRIM(CDPOS.VALUE_NEW) AS "CHANGED_TO"
+	,"CDPOS"."CHANGENR" AS "CHANGE_NUMBER"
+	,"CDHDR"."TCODE" AS "TRANSACTION_CODE"
+	,"V_ORDERS"."MANDT" AS "MANDT"
+	,"V_ORDERS"."VBELN" AS "VBELN"
+	,"V_ORDERS"."POSNR" AS "POSNR"
+    , "V_ORDERS"."PRETTY_NAME"||"CDHDR"."MANDANT" || "CDHDR"."OBJECTCLAS" || "CDHDR"."OBJECTID" || "CDHDR"."CHANGENR" AS "_ACTIVITY_KEY" -- global job
+FROM
+	"TMP_O2C_VBAK_VBAP" AS "V_ORDERS"
+    JOIN LIPS AS LIPS ON 
+        LIPS.SCHEMA = V_ORDERS.SCHEMA AND
+        LIPS.MANDT = V_ORDERS.MANDT AND
+        LIPS.VGBEL = V_ORDERS.VBELN AND
+        LIPS.VGPOS = V_ORDERS.POSNR 
+	JOIN CDPOS AS CDPOS ON    
+        CDPOS.SCHEMA = LIPS.SCHEMA AND       
+	    CDPOS.MANDANT = LIPS.MANDT AND
+	    CDPOS.OBJECTID = LIPS.VBELN
+	JOIN CDHDR AS CDHDR ON 
+        CDPOS."SCHEMA" = CDHDR."SCHEMA"
+		AND CDPOS.MANDANT = CDHDR.MANDANT
+		AND CDPOS.OBJECTCLAS = CDHDR.OBJECTCLAS
+		AND CDPOS.OBJECTID = CDHDR.OBJECTID
+		AND CDPOS.CHANGENR = CDHDR.CHANGENR
+	LEFT JOIN USR02 AS USR02 ON
+        USR02."SCHEMA" = CDHDR."SCHEMA" AND
+		USR02.MANDT = CDHDR.MANDANT AND
+		USR02.BNAME = CDHDR.USERNAME
+    WHERE
+	    CDPOS.CHNGIND = '<%=jcdsUpdate%>'
+	    -- AND CDPOS.FNAME IN ('LFIMG', 'MATNR', 'ROUTE', 'KOSTK', 'LGORT')
+	    AND CDPOS.OBJECTCLAS = 'LIEFERUNG'

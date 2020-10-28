@@ -1,0 +1,123 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "60a0448c-3238-426b-af0d-f3c20940d5b2",
+        "name": "Reversals",
+        "thresholds": [
+          {
+            "color": "#cccccc",
+            "compare": "==",
+            "formula": "Reversal"
+          },
+          {
+            "color": "#FFB710",
+            "compare": "==",
+            "formula": "No Reversal"
+          }
+        ],
+        "type": "dimension"
+      },
+      {
+        "id": "b55c1c1d-1e67-424d-a82e-5900a54a31c7",
+        "name": "credit memos",
+        "thresholds": [
+          {
+            "color": "#ec5759",
+            "compare": "==",
+            "formula": "No Credit Memo"
+          },
+          {
+            "color": "#cccccc",
+            "compare": "==",
+            "formula": "Credit Memo"
+          }
+        ],
+        "type": "dimension"
+      },
+      {
+        "id": "10fd788d-b705-48fd-84e0-3a99eeff57d6",
+        "name": "payment status",
+        "thresholds": [
+          {
+            "color": "#68b900",
+            "compare": "==",
+            "formula": "Paid"
+          },
+          {
+            "color": "#cccccc",
+            "compare": "==",
+            "formula": "Not Paid"
+          }
+        ],
+        "type": "dimension"
+      }
+    ],
+    "editMode": true,
+    "id": "84ab4140-de1d-4565-80a8-3049ea30fef5",
+    "kpiViews": [],
+    "name": "AP - Duplicate Payments",
+    "palettes": [
+      {
+        "colors": [
+          "#68b900",
+          "#ec5759",
+          "#FFB710",
+          "#cccccc",
+          "#14A9D5",
+          "#006687"
+        ],
+        "custom": true,
+        "id": "5f8da0ba-f1e9-4fb7-894a-6beadaa714b5",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#6d6d6d",
+          "#<%=main_color3%>"
+        ],
+        "custom": true,
+        "id": "99077132-30b8-4b34-ad0c-3e5fd2eebb1b",
+        "type": "linear"
+      },
+      {
+        "colors": [
+          "#14A9D5",
+          "#0094b7",
+          "#1f77b4",
+          "#006687",
+          "#003b5a"
+        ],
+        "custom": true,
+        "id": "fb97dc03-8e3b-4a21-b3e8-17435792d2a8",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#4ec5e9",
+          "#0094b7",
+          "#006687",
+          "#FFB710",
+          "#FF8B00"
+        ],
+        "custom": true,
+        "id": "a544a779-ad52-41eb-8efe-609979afd0a3",
+        "type": "ordinal"
+      }
+    ],
+    "rawDataExportLimit": 1000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "56a15f49-3ad4-4b26-b82f-cc77f8f5666b",
+  "lastChangeDate": 1602754670057,
+  "lastChangeUserId": "cd4989eb-f553-4e12-aedc-fea490485a25",
+  "lastChangeUserName": "josef.rieger@cbs-consulting.de(josef.rieger@cbs-consulting.de)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

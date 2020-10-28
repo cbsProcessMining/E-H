@@ -1,0 +1,493 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "e57c6344-61d7-4d56-b6f1-a2ac65585682",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Currency"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Clear Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Purchase Requisition Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Remove Payment Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Payment Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Block Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Delete Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Receive Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Dun Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Overdue Notice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Begin Quality Inspection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Approval for Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Confirmed Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Contract"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Final Invoice Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Rejection Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Storage Location"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Vendor"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change requested delivery date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Contract"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Put Away TO (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Net Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Net Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Confirmed (MM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Put Away Confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Accepted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Rejected"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Reactivate Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Receive advanced shipment notice (ASN)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Release Purchase Requisition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: 17 Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: 17 Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New PO for L+P"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Confirmed Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Update Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Vendor Creates Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Payment Terms"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Target Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Contract Target Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Decrease Effective Contract Item Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Target Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Contract Target Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Increase Effective Contract Item Value"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Refuse Purchase Requisition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: 27 Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Bestellung India"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Bestellung YA"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: EDI Notif. to AS4"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: EOI"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Kanban"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Kanban - Abruf"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Kanban card"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Kanbankarte"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Lieferantendirektanb"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Neu (Cernay)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Neu Planzer"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New PO Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New Planzer"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: New SC PT"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Nouveau"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Novo ordem BR"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: P4T - Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: P4T - purchase order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PCC Kanban Bestell."
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PCC Kanban PO"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PO Print Brazil"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PO Print India"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PO Print Suzhou"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PO Print YA"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: PO Supplier EDI"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Purchase Ord Archive"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Purchase ord Archive"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: Purchase order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: \u0417\u0430\u043a\u0430\u0437 \u043d\u0430 \u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0443"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: \u6ce8\u6587\u66f8"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Message: \u91c7\u8d2d\u8ba2\u5355\u6253\u5370 \u82cf\u5dde"
+      }
+    ],
+    "customActivityColumn": false,
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 0,
+    "preventResize": true,
+    "throughputUnits": "days",
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

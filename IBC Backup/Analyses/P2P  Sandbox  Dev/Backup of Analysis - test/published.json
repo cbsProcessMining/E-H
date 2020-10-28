@@ -1,0 +1,23 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [],
+    "editMode": false,
+    "id": "8c0cd2d7-4c8f-4371-a656-d8fe1cfa03c0",
+    "kpiViews": [],
+    "name": "test",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "77b15310-d26e-4f16-80b2-8aee45a035c1",
+  "lastChangeDate": 1603788598467,
+  "lastChangeUserId": "1ed3bd01-1368-4046-9d08-5195a67b9075",
+  "lastChangeUserName": "andreas.maurer@endress.com(Andreas Maurer)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

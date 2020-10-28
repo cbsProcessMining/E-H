@@ -1,0 +1,5511 @@
+{
+  "components": [
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "60a730cf-ca9d-4f91-a389-c6d0717e8bb5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=14][color=#666666]#{Analysis O2C}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 12,
+      "x": 2,
+      "y": 6,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "9f568b91-694b-4b0c-b597-fad2d1695a2a",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{time}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 2,
+      "y": 10,
+      "zIndex": 5
+    },
+    {
+      "alignment": "vertical",
+      "autoAlign": true,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "datepickerSettings": {
+        "formula": {
+          "text": "<%=date_picker%>",
+          "units": " "
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 6,
+      "id": "06daf22a-204d-4433-bde5-9a5921052045",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "#{SO} #{creationDate}",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "small 13px",
+          "value": 13
+        },
+        "fontColor": "#14A9D5",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "width": 12,
+      "x": 2,
+      "y": 12,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "ccc9a272-7853-4123-93c2-fc213575dcc5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7]Filter #{by} #{organization}:[/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 2,
+      "y": 20,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter2%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{<%=filter2_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "4b8cb723-255a-4434-be77-dc788c44933c",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 30,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter3%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "NETPR",
+                "selected": true,
+                "value": "NETPR"
+              },
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'NETPR','VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Change Price','Set Delivery Block','Set Billing Block','Change Delivery Amount'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Record Goods Issue'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{<%=filter3_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "fa2388a6-bdcd-4c65-b93d-2ea5768ceeb5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 26,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter4%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "NETPR",
+                "selected": true,
+                "value": "NETPR"
+              },
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'NETPR','VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Change Price','Set Delivery Block','Set Billing Block','Change Delivery Amount'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Record Goods Issue'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{<%=filter4_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "231f97c7-7514-4e66-b041-56c62691bbd4",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 28,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "cb488334-26a3-4aee-bda6-187a46674571",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7]Filter #{by} #{orderInformation}:[/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 2,
+      "y": 33,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter5%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{<%=filter5_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "075922ce-ffdc-4390-9701-bba946a447f8",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 35,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1ac6e6da-77fd-4339-91c2-ff379190ac82",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7]Filter #{by} #{Customer}:[/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 2,
+      "y": 41,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter10%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "filter10_text",
+            "type": "text_replacement",
+            "value": "InternalOrExternal"
+          },
+          {
+            "name": "filter10",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(KNA1.VBUND)=1 THEN 'External' ELSE 'Internal' END"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"TS_ERDAT\""
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{<%=filter10_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "8afc78a3-14a0-4c60-9248-49c7a55ade6b",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 43,
+      "zIndex": 5
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#14A9D5",
+      "border": false,
+      "buttonTitle": "#{managementView}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "1538ab04-f8c8-45ec-8550-04a4346deec1",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "6e0fe2a3-0301-4b0e-8639-03889ae554af",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 12,
+      "x": 2,
+      "y": 48,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{SalesDocumentType}",
+            "columnType": "string",
+            "expressionLhs": "\"VBAK\".\"AUART\" || '-' || \"VBAK\".\"AUART_TEXT\" AS \"#{SalesDocumentType}\"",
+            "format": ""
+          },
+          "name": "#{SalesDocumentType}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "text": "\"VBAK\".\"AUART\" || '-' || \"VBAK\".\"AUART_TEXT\"",
+          "translatedName": "SalesDocumentType",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#14a9d5",
+          "meta": {
+            "columnName": "#{SOItems}",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "#{SOItems}",
+          "pqlBuilder": true,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "200px"
+          },
+          "text": "COUNT_TABLE(\"VBAP\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Ratio of cases with a certain process flow",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 48,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "dfd56bb7-d0c2-43f3-85b6-c6cf2a2c64be",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "tr",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 25,
+      "maximized": false,
+      "pinScrollbarRight": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{SalesDocumentType}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 19,
+      "x": 17,
+      "y": 2,
+      "zIndex": 5
+    },
+    {
+      "axis0": [
+        {
+          "flex": 3,
+          "name": "<%= ButtonDrilldown1== '\"VBAK\".\"KUNNR\" || \\' - \\' || \"KNA1\".\"NAME1\"'  ? '#{Customer}' : ButtonDrilldown1 == '\"VBAP\".\"MATNR\" || \\' - \\' || \"VBAP\".\"MATNR_TEXT\"'  ? 'Material'  : ButtonDrilldown1 == '\"VBAP\".\"MATKL\" || \\' - \\' || \"VBAP\".\"MATKL_TEXT\"'  ? '#{MaterialGroup}' : ButtonDrilldown1 == '\"VBAK\".\"BUKRS_VF\" || \\' - \\' || \"VBAK\".\"BUKRS_TEXT\"'  ? '#{CompanyCode}' : ButtonDrilldown1 == '\"VBAK\".\"VKORG\" || \\' - \\' || \"VBAK\".\"VKORG_TEXT\"'  ? '#{SalesOrganization}' : ButtonDrilldown1 == '\"VBAK\".\"AUART\" || \\' - \\' || \"VBAK\".\"AUART_TEXT\"'  ? '#{DocumentType}' : ButtonDrilldown1 == '\"VBAP\".\"WERKS\" || \\' - \\' || \"VBAP\".\"WERKS_TEXT\"'  ? '#{Plant}' : ButtonDrilldown1 == '\"VBAK\".\"MANDT\"'  ? 'Client'  :  ButtonDrilldown1 == 'CASE  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN \\'a) 0 - 100\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN \\'b) 100 - 500\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN \\'c) 500 - 1.000\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN \\'d) 1.000 - 10.000\u20ac\\'  ELSE \\'e) > 10.000\u20ac\\' END'  ? '#{SalesOrderAmount}': ''%>",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "<%=ButtonDrilldown1%>",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "<%= ButtonDrilldown1== '\"VBAK\".\"KUNNR\" || \\' - \\' || \"KNA1\".\"NAME1\"'  ? 'Customer' : ButtonDrilldown1 == '\"VBAP\".\"MATNR\" || \\' - \\' || \"VBAP\".\"MATNR_TEXT\"'  ? 'Material'  : ButtonDrilldown1 == '\"VBAP\".\"MATKL\" || \\' - \\' || \"VBAP\".\"MATKL_TEXT\"'  ? 'MaterialGroup' : ButtonDrilldown1 == '\"VBAK\".\"BUKRS_VF\" || \\' - \\' || \"VBAK\".\"BUKRS_TEXT\"'  ? 'CompanyCode' : ButtonDrilldown1 == '\"VBAK\".\"VKORG\" || \\' - \\' || \"VBAK\".\"VKORG_TEXT\"'  ? 'SalesOrganization' : ButtonDrilldown1 == '\"VBAK\".\"AUART\" || \\' - \\' || \"VBAK\".\"AUART_TEXT\"'  ? 'DocumentType' : ButtonDrilldown1 == '\"VBAP\".\"WERKS\" || \\' - \\' || \"VBAP\".\"WERKS_TEXT\"'  ? 'Plant' : ButtonDrilldown1 == '\"VBAK\".\"MANDT\"'  ? 'Client'  :  ButtonDrilldown1 == 'CASE  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN \\'a) 0 - 100\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN \\'b) 100 - 500\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN \\'c) 500 - 1.000\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN \\'d) 1.000 - 10.000\u20ac\\'  ELSE \\'e) > 10.000\u20ac\\' END'  ? 'SalesOrderAmount': ''%>",
+          "type": "dimension",
+          "units": " "
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 2,
+          "ignoreSeriesPalettes": true,
+          "name": "#{SOItems}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#777777",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "COUNT_TABLE(\"VBAP\")",
+          "textColor": "#FFFFFF",
+          "textColorMapping": "",
+          "translatedName": "# SO Items",
+          "units": " ",
+          "valueFormat": ",f",
+          "width": 115
+        },
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 2,
+          "ignoreSeriesPalettes": true,
+          "name": "#{netOrderValue}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#777777",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "SUM(\"VBAP\".\"NETWR_CONVERTED\")",
+          "textColor": "#FFFFFF",
+          "textColorMapping": "",
+          "translatedName": "Net Order Value",
+          "units": " <%=currency_symbol%>",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineStyle": null,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 27,
+      "hidePreview": false,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "72346bc5-d1ee-4741-945b-81d76917f810",
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "maximized": false,
+      "multisort": true,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-xs",
+          "name": "Extra small",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "title": "#{SOItems} #{by} <%= ButtonDrilldown1== '\"VBAK\".\"KUNNR\" || \\' - \\' || \"KNA1\".\"NAME1\"'  ? '#{Customer}' : ButtonDrilldown1 == '\"VBAP\".\"MATNR\" || \\' - \\' || \"VBAP\".\"MATNR_TEXT\"'  ? 'Material'  : ButtonDrilldown1 == '\"VBAP\".\"MATKL\" || \\' - \\' || \"VBAP\".\"MATKL_TEXT\"'  ? '#{MaterialGroup}' : ButtonDrilldown1 == '\"VBAK\".\"BUKRS_VF\" || \\' - \\' || \"VBAK\".\"BUKRS_TEXT\"'  ? '#{CompanyCode}' : ButtonDrilldown1 == '\"VBAK\".\"VKORG\" || \\' - \\' || \"VBAK\".\"VKORG_TEXT\"'  ? '#{SalesOrganization}' : ButtonDrilldown1 == '\"VBAK\".\"AUART\" || \\' - \\' || \"VBAK\".\"AUART_TEXT\"'  ? '#{DocumentType}' : ButtonDrilldown1 == '\"VBAP\".\"WERKS\" || \\' - \\' || \"VBAP\".\"WERKS_TEXT\"'  ? '#{Plant}' : ButtonDrilldown1 == '\"VBAK\".\"MANDT\"'  ? '#{Client}'  :  ButtonDrilldown1 == 'CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN \\'a) 0 - 100\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN \\'b) 100 - 500\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN \\'c) 500 - 1.000\u20ac\\'  WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN \\'d) 1.000 - 10.000\u20ac\\'  ELSE \\'e) > 10.000\u20ac\\' END'  ? '#{SalesOrderAmount}': ''%>",
+      "titleStyle": {
+        "alignment": "left",
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#4f4d4d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "width": 28,
+      "x": 71,
+      "y": 2,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "<%= ButtonDrilldown1== '\"VBAK\".\"KUNNR\" || \\' - \\' || \"KNA1\".\"NAME1\"'  ? '#{Customer}'  : ButtonDrilldown1 == '\"VBAP\".\"MATNR\" || \\' - \\' || \"VBAP\".\"MATNR_TEXT\"'  ? 'Material'   : ButtonDrilldown1 == '\"VBAP\".\"MATKL\" || \\' - \\' || \"VBAP\".\"MATKL_TEXT\"'  ? '#{MaterialGroup}'  : ButtonDrilldown1 == '\"VBAK\".\"BUKRS_VF\" || \\' - \\' || \"VBAK\".\"BUKRS_TEXT\"'  ? '#{CompanyCode}'  : ButtonDrilldown1 == '\"VBAK\".\"VKORG\" || \\' - \\' || \"VBAK\".\"VKORG_TEXT\"'  ? '#{SalesOrganization}'  : ButtonDrilldown1 == '\"VBAK\".\"AUART\" || \\' - \\' || \"VBAK\".\"AUART_TEXT\"'  ? '#{DocumentType}'  : ButtonDrilldown1 == '\"VBAP\".\"WERKS\" || \\' - \\' || \"VBAP\".\"WERKS_TEXT\"'  ? '#{Plant}'  : ButtonDrilldown1 == '\"VBAK\".\"MANDT\"'  ? 'Client'  :  ButtonDrilldown1 == 'CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN \\'a) 0 - 100\u20ac\\' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN \\'b) 100 - 500\u20ac\\' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN \\'c) 500 - 1.000\u20ac\\' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN \\'d) 1.000 - 10.000\u20ac\\' ELSE \\'e) > 10.000\u20ac\\' END'  ? '#{SalesOrderAmount}': ''%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{Customer}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Material",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"VBAP\".\"MATKL\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAP\".\"MATKL\" || ' - ' || \"VBAP\".\"MATKL_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAP\".\"MATKL\" || ' - ' || \"VBAP\".\"MATKL_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"VBAK\".\"BUKRS_VF\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAK\".\"BUKRS_VF\" || ' - ' || \"VBAK\".\"BUKRS_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAK\".\"BUKRS_VF\" || ' - ' || \"VBAK\".\"BUKRS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"VBAK\".\"VKORG\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"VBAK\".\"AUART\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{SalesOrderAmount}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Plant",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Client",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"VBAK\".\"MANDT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"VBAK\".\"MANDT\""
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "6777e979-f69b-484f-b193-1c24a14b7355",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "width": 10,
+      "x": 89,
+      "y": 2,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 0.5
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 49,
+      "id": "da7ede7f-b108-44db-8fb6-98cab8731d63",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 1,
+      "y": 1,
+      "zIndex": 1.5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "SUM(\"VBAP\".\"NETWR_CONVERTED\")",
+        "units": "<%=currency_symbol%>",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "2e21ddc3-3c64-478f-b247-0a0478281ed8",
+      "kpiValue": 7068050776.56149,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 60,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "#{Sales Order Net Value}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 12,
+      "x": 57,
+      "y": 40,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"VBAP\")",
+        "units": "",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "e96d5601-78ee-4be3-9057-240d2fc216fd",
+      "kpiValue": 4533152,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 60,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "#{Sales Order Items}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 12,
+      "x": 57,
+      "y": 30,
+      "zIndex": 3
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 3,
+      "id": "49f2c93b-8d83-444b-a153-9a2158e1540f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 12,
+      "x": 2,
+      "y": 2,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{SalesDocumentItemCategory}",
+            "columnType": "string",
+            "expressionLhs": "\"VBAP\".\"PSTYV\" || '-' || \"VBAP\".\"PSTYV_TEXT\" AS \"#{SalesDocumentItemCategory}\"",
+            "format": ""
+          },
+          "name": "#{SalesDocumentItemCategory}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "text": "\"VBAP\".\"PSTYV\" || '-' || \"VBAP\".\"PSTYV_TEXT\"",
+          "translatedName": "SalesDocumentItemCategory",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": false,
+        "showAxisLabels": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#14a9d5",
+          "meta": {
+            "columnName": "#{SOItems}",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "#{SOItems}",
+          "pqlBuilder": true,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "200px"
+          },
+          "text": "COUNT_TABLE(\"VBAP\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Ratio of cases with a certain process flow",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 48,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "538c9847-7eca-42a6-9f7e-a51133f3d189",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "tr",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 25,
+      "maximized": false,
+      "pinScrollbarRight": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{Item Category}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 19,
+      "x": 37,
+      "y": 2,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter1%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{\"<%=filter1_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "e20bbab4-6fc3-4bbf-9396-e1061ddcf999",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 24,
+      "zIndex": 6
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "flex": 2,
+          "meta": {
+            "columnName": "#{VBAK.SCHEMA}",
+            "columnType": "string",
+            "expressionLhs": "\"KNA1\".\"SCHEMA\" || '-' || \"VBAK\".\"SCHEMA\" AS \"#{VBAK.SCHEMA}\"",
+            "format": ""
+          },
+          "name": "System/Client",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "\"VBAK\".\"PRETTY_NAME\"",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Client",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ",.0f",
+          "width": 350
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 2,
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "ignoreSeriesPalettes": true,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 4,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "Count Table",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ""
+          },
+          "name": "Count Table",
+          "noFunction": true,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": false,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"VBAP\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Count Table",
+          "type": "INTEGER",
+          "valueFormat": ",.0f",
+          "width": 451
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineStyle": null,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "distinct": true,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 27,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "10e4deb7-6423-4c6c-91b0-949a0732cdd6",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontSize": 11
+      },
+      "title": "System/Client",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 12,
+      "x": 57,
+      "y": 2,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"_CEL_O2C_ACTIVITIES\".\"PRETTY_NAME\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "System/Client",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "a878a852-8e24-4754-ba9b-10ea094f42e0",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 22,
+      "zIndex": 6
+    },
+    {
+      "axis0": [
+        {
+          "meta": {
+            "columnName": "#{Month}(#{\"VBAP\".\"TS_ERDAT\"})",
+            "columnType": "date",
+            "expressionLhs": "ROUND_MONTH ( \"VBAP\".\"TS_ERDAT\" ) AS \"#{Month}(#{\\\"VBAP\\\".\\\"TS_ERDAT\\\"})\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "#{Month}(#{\"VBAP\".\"TS_ERDAT\"})",
+          "secondaryAxis": false,
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_MONTH(\"VBAP\".\"TS_ERDAT\")",
+          "translatedName": "Month(Created on)",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gapWidth": 0.433,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesOverlap": 0.48,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#777777",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesPalette": "",
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "alternativeType": "column",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "cssClass": "",
+              "name": "Default Size",
+              "value": 14
+            },
+            "fontColor": "",
+            "fontSize": 14
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineColor": "",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{SOItems}",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "#{SOItems}",
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": false,
+          "text": "COUNT_TABLE(\"VBAP\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Sales Order Items",
+          "units": " ",
+          "valueFormat": ",f"
+        },
+        {
+          "alternativeType": "line",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 0.7080000000000001
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#286782",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineColor": "",
+            "lineOpacity": 1,
+            "lineWidth": 2,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{netOrderValue}",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "#{netOrderValue}",
+          "secondaryAxis": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": true,
+          "spline": true,
+          "text": "SUM(\"VBAP\".\"NETWR_CONVERTED\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Net Order Value",
+          "units": " ",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMax": 1,
+        "boundsMin": 0,
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "fillStyle": {
+        "opacity": 1
+      },
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 20,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "4b13961e-3856-4765-9511-3d576f043fa1",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "newFullscreen": false,
+      "pinScrollbarRight": true,
+      "positionLines": [
+        {
+          "formula": {
+            "text": ""
+          },
+          "isSecondary": false,
+          "labelPosition": 1,
+          "lineConfig": {},
+          "name": "Position Line",
+          "positionLineFormat": {
+            "color": "#6FA7D1",
+            "lineColor": "black",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          }
+        }
+      ],
+      "selection": [],
+      "seriesColor": "",
+      "seriesPalette": "",
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "title": "#{SOItems} - #{CreationTrend}",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#4f4d4d",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 28,
+      "x": 71,
+      "y": 30,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"VBAP\".\"PSTYV\" || '-' || \"VBAP\".\"PSTYV_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Delivery",
+                "selected": true,
+                "value": "Create Delivery"
+              },
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              },
+              {
+                "formattedValue": "Record Goods Issue",
+                "selected": true,
+                "value": "Record Goods Issue"
+              },
+              {
+                "formattedValue": "Pro forma invoice",
+                "selected": true,
+                "value": "Pro forma invoice"
+              },
+              {
+                "formattedValue": "Create Invoice",
+                "selected": true,
+                "value": "Create Invoice"
+              },
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              },
+              {
+                "formattedValue": "Change Scheduled date",
+                "selected": true,
+                "value": "Change Scheduled date"
+              },
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              },
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Shipping Terms",
+                "selected": true,
+                "value": "Change Shipping Terms"
+              },
+              {
+                "formattedValue": "Credit memo",
+                "selected": true,
+                "value": "Credit memo"
+              },
+              {
+                "formattedValue": "Set Reason for Rejection",
+                "selected": true,
+                "value": "Set Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Remove Delivery Block",
+                "selected": true,
+                "value": "Remove Delivery Block"
+              },
+              {
+                "formattedValue": "Create Quotation",
+                "selected": true,
+                "value": "Create Quotation"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Invoice cancellation",
+                "selected": true,
+                "value": "Invoice cancellation"
+              },
+              {
+                "formattedValue": "Debit memo",
+                "selected": true,
+                "value": "Debit memo"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Set Billing Block",
+                "selected": true,
+                "value": "Set Billing Block"
+              },
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              },
+              {
+                "formattedValue": "Remove Billing Block",
+                "selected": true,
+                "value": "Remove Billing Block"
+              },
+              {
+                "formattedValue": "Change Customer",
+                "selected": true,
+                "value": "Change Customer"
+              },
+              {
+                "formattedValue": "Change Delivery Amount",
+                "selected": true,
+                "value": "Change Delivery Amount"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              },
+              {
+                "formattedValue": "Credit memo cancellation",
+                "selected": true,
+                "value": "Credit memo cancellation"
+              }
+            ],
+            "name": "AutomationActivities",
+            "type": "text_replacement",
+            "value": "'Create Delivery','Create Sales Order Item','Record Goods Issue','Pro forma invoice','Create Invoice','Clear Invoice','Change Scheduled date','Approve Credit Check','Cancel Reason for Rejection','Change Price','Change Shipping Terms','Credit memo','Set Reason for Rejection','Set Delivery Block','Remove Delivery Block','Create Quotation','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Invoice cancellation','Debit memo','Change Reason for Rejection','Set Billing Block','Change Billing Block','Remove Billing Block','Change Customer','Change Delivery Amount','Change Plant','Credit memo cancellation'"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "VSBED",
+                "selected": true,
+                "value": "VSBED"
+              },
+              {
+                "formattedValue": "ROUTE",
+                "selected": true,
+                "value": "ROUTE"
+              },
+              {
+                "formattedValue": "MATNR",
+                "selected": true,
+                "value": "MATNR"
+              },
+              {
+                "formattedValue": "LIFSK",
+                "selected": true,
+                "value": "LIFSK"
+              },
+              {
+                "formattedValue": "ABGRU",
+                "selected": true,
+                "value": "ABGRU"
+              },
+              {
+                "formattedValue": "FAKSK",
+                "selected": true,
+                "value": "FAKSK"
+              },
+              {
+                "formattedValue": "KUNNR",
+                "selected": true,
+                "value": "KUNNR"
+              },
+              {
+                "formattedValue": "LFMNG",
+                "selected": true,
+                "value": "LFMNG"
+              },
+              {
+                "formattedValue": "WERKS",
+                "selected": true,
+                "value": "WERKS"
+              }
+            ],
+            "name": "changedFields",
+            "type": "text_replacement",
+            "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Cancel Reason for Rejection",
+                "selected": true,
+                "value": "Cancel Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Set Delivery Block",
+                "selected": true,
+                "value": "Set Delivery Block"
+              },
+              {
+                "formattedValue": "Change Route",
+                "selected": true,
+                "value": "Change Route"
+              },
+              {
+                "formattedValue": "Change Material",
+                "selected": true,
+                "value": "Change Material"
+              },
+              {
+                "formattedValue": "Change Delivery Block",
+                "selected": true,
+                "value": "Change Delivery Block"
+              },
+              {
+                "formattedValue": "Deny Credit Check",
+                "selected": true,
+                "value": "Deny Credit Check"
+              },
+              {
+                "formattedValue": "Change Reason for Rejection",
+                "selected": true,
+                "value": "Change Reason for Rejection"
+              },
+              {
+                "formattedValue": "Change Plant",
+                "selected": true,
+                "value": "Change Plant"
+              }
+            ],
+            "name": "reworkActivities",
+            "type": "text_replacement",
+            "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Sales Order Item",
+                "selected": true,
+                "value": "Create Sales Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Sales Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Approve Credit Check'"
+          },
+          {
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "('Invoice cancellation','Cancel Reason for Rejection')"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "rework_activity",
+            "type": "text_replacement",
+            "value": "Invoice cancellation"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "Item Category",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "4080d1c7-5209-4b9c-ae70-4ab61cc80c0c",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 2,
+      "y": 37,
+      "zIndex": 6
+    }
+  ],
+  "format": "FULLSCREEN",
+  "id": "7f3ca43d-eb59-4477-915c-27e193af3420",
+  "lines": [],
+  "name": "cbs Process Analysis DRAFT",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

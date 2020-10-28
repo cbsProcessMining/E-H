@@ -1,0 +1,1955 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"AFKO\")",
+        "units": " ",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "54ebfbd2-206e-49a4-a00a-976b967d1ce4",
+      "kpiValue": 85023,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{productionOrders}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 21,
+      "x": 54,
+      "y": 1,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"AFPO\")",
+        "units": "",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "e581864b-fa45-4470-9627-f391b9a9e083",
+      "kpiValue": 85023,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{productionOrderItems}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 20,
+      "x": 79,
+      "y": 1,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 3,
+      "id": "0dc8e270-8142-4e79-845d-6b60ff937ebd",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=30][b]#{processCockpit} - #{details}[/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 39,
+      "x": 15,
+      "y": 3,
+      "zIndex": 2
+    },
+    {
+      "axis0": [
+        {
+          "flex": 1,
+          "name": "#{AFPO.MANDT}",
+          "text": "\"AFPO\".\"MANDT\"",
+          "translatedName": "Client",
+          "type": "dimension",
+          "units": " ",
+          "width": 69
+        },
+        {
+          "flex": 1.4058,
+          "name": "#{AFPO.AUFNR}",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "\"AFPO\".\"AUFNR\"",
+          "translatedName": "Order",
+          "type": "dimension",
+          "units": " ",
+          "width": 97
+        },
+        {
+          "flex": 0.942,
+          "name": "#{AFPO.POSNR}",
+          "text": "\"AFPO\".\"POSNR\"",
+          "translatedName": "Item Number",
+          "type": "dimension",
+          "units": " ",
+          "width": 65
+        },
+        {
+          "flex": 1.0725,
+          "name": "#{AFPO.MATNR}",
+          "text": "\"AFPO\".\"MATNR\"",
+          "translatedName": "Material Number",
+          "type": "dimension",
+          "units": " ",
+          "width": 74
+        },
+        {
+          "flex": 1.1,
+          "name": "#{material}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "\"AFPO\".\"MATNR_TEXT\"",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Material",
+          "type": "dimension",
+          "units": " ",
+          "width": 74
+        },
+        {
+          "flex": 1.6,
+          "name": "#{materialGroup}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "\"AFPO\".\"MATKL_TEXT\"",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Material group",
+          "type": "dimension",
+          "units": " ",
+          "width": 117
+        },
+        {
+          "flex": 0.942,
+          "name": "#{AFPO.DWERK}",
+          "text": "\"AFPO\".\"DWERK\"",
+          "translatedName": "Plant",
+          "type": "dimension",
+          "units": " ",
+          "width": 65
+        },
+        {
+          "flex": 2.0609,
+          "name": "#{\"AFPO\".\"DWERK\"} #{name}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "\"AFPO\".\"DWERK_TEXT\"",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Plant Name",
+          "type": "dimension",
+          "units": " ",
+          "width": 156
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1.613,
+          "ignoreSeriesPalettes": true,
+          "name": "#{shortCycleTime} (#{subprocess}) (#{median})",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "MEDIAN(KPI(\"CT Subprocess\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "CT (Subprocess) (Median)",
+          "units": " <%= unit== 'days'  ? '#{days}': unit== 'hours'  ? '#{hours}': unit== 'minutes'  ? '#{minutes}': ''%> ",
+          "valueFormat": ",f",
+          "width": 132
+        },
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1,
+          "ignoreSeriesPalettes": true,
+          "name": "#{shortCycleTime} (#{total})",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "MEDIAN(KPI(\"CT Total\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "CT (total)",
+          "units": " <%= unit== 'days'  ? '#{days}': unit== 'hours'  ? '#{hours}': unit== 'minutes'  ? '#{minutes}': ''%> ",
+          "valueFormat": ",f",
+          "width": 121
+        },
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1.6493,
+          "ignoreSeriesPalettes": true,
+          "name": "#{adherenceSchedules} #{start}",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#e58023",
+          "seriesColorMapping": "2f31aebc-cdae-4ceb-aef9-8252d3b07856",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "CASE \nWHEN KPI(\"Difference Planned Actual Start\") > (<%=toleranceBeforeStart%>+0) THEN 'too early' \nWHEN KPI(\"Difference Planned Actual Start\") < (<%=toleranceAfterStart%>+0)*(-1) THEN 'too late' \nELSE 'on time'\nEND",
+          "textColor": "#ffffff",
+          "textColorMapping": "",
+          "translatedName": "Adherence to schedules Start",
+          "units": " ",
+          "valueFormat": "%",
+          "width": 100
+        },
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1.7536,
+          "ignoreSeriesPalettes": true,
+          "name": "#{adherenceSchedules} #{finish}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#e58023",
+          "seriesColorMapping": "2f31aebc-cdae-4ceb-aef9-8252d3b07856",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "CASE \nWHEN KPI(\"Difference Planned Actual Finish\") > (<%=toleranceBeforeEnd%>+0) THEN 'too early' \nWHEN KPI(\"Difference Planned Actual Finish\") < (<%=toleranceAfterEnd%>+0)*(-1) THEN 'too late' \nELSE 'on time'\nEND",
+          "textColor": "#ffffff",
+          "textColorMapping": "",
+          "translatedName": "Adherence to schedules Finish",
+          "units": " ",
+          "valueFormat": ",f",
+          "width": 121
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 41,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "7179fb11-1ef1-4db6-80ab-67d8f44e6cc8",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 84,
+      "x": 15,
+      "y": 8,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 3,
+      "id": "52dc19e6-bab4-46f8-a8c1-e493dc010b74",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 1,
+      "zIndex": 2
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "id": "08e79938-66f7-4d7c-b8c6-5d562d7eb6d5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "822b35da-6cbf-4fdf-98a3-b5e38155b61c",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{time} (#{\"AUFK\".\"ERDAT\"}):[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 9,
+      "zIndex": 2
+    },
+    {
+      "alignment": "vertical",
+      "autoAlign": true,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "datepickerSettings": {
+        "formula": {
+          "text": "<%=date_picker%>",
+          "units": " "
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 5,
+      "id": "2b801f8e-b0ac-4c6b-89ad-5f0172c54230",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "width": 12,
+      "x": 1,
+      "y": 11,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "66283fe7-baff-4845-b3a5-2a9f93a93dd7",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{organization}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AUFK\".\"BUKRS\" || '-' || \"AUFK\".\"BUKRS_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Actual finish time",
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualStart",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled start time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual start time'),DAYS)"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"BUKRS\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "2662b38e-63e9-4d8b-a7c5-24e417a3eacf",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AFPO\".\"DWERK\" || '-' || \"AFPO\".\"DWERK_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Lege Fertigungsauftrag an",
+                "selected": true,
+                "value": "Lege Fertigungsauftrag an"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Lege Fertigungsauftrag an'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Geplante Fertigstellung",
+                "selected": true,
+                "value": "Geplante Fertigstellung"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Geplante Fertigstellung'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"DWERK_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),<%=unit%>)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),<%=unit%>)"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "name": "differencePlannedActualStart",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled start time'),<%=unit%>)\r\n-REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual start time'),<%=unit%>)"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"DWERK_TEXT\""
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_start",
+            "type": "text_replacement",
+            "value": "0.3"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_start",
+            "type": "text_replacement",
+            "value": "0.5"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_finish",
+            "type": "text_replacement",
+            "value": "0.3"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_finish",
+            "type": "text_replacement",
+            "value": "0.5"
+          }
+        ]
+      },
+      "dropdownText": "#{\"AFPO\".\"DWERK\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "6645be53-0404-472f-a2b7-6c5854e5d602",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 22,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AUFK\".\"GSBER\" || ' - ' || \"AUFK\".\"GSBER_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Last confirmation",
+                "selected": true,
+                "value": "Last confirmation"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Last confirmation'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualStart",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled start time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual start time'),DAYS)"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"GSBER\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "14a6c449-a3dd-4984-84f0-0ebc1ccd9745",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "CASE WHEN ISNULL(\"AUFK\".\"PRCTR_TEXT\")=1 THEN \"AUFK\".\"PRCTR\" \nELSE \"AUFK\".\"PRCTR\" || ' - ' || \"AUFK\".\"PRCTR_TEXT\" \nEND ",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Actual finish time",
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"DWERK_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "static_value",
+            "value": "7"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "7"
+          },
+          {
+            "name": "differencePlannedActualStart",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled start time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual start time'),DAYS)"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"PRCTR\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "63c47fb6-de56-4520-820b-b658b156a9b6",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 28,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "e750deac-f4fc-4bb1-946e-b2e18fac5894",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{orderInformation}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 32,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"CRHD\".\"ARBPL\" || ' ' || \"CRHD\".\"ARBPL_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "4"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "50"
+          },
+          {
+            "name": "scrapRate",
+            "type": "text_replacement",
+            "value": "\"AFRU\".\"XMNGA\"/(\"AFRU\".\"XMNGA\"+\"AFRU\".\"GMNGA\")"
+          },
+          {
+            "name": "scrapValue",
+            "type": "text_replacement",
+            "value": "\"AFRU\".\"XMNGA\" * \"MBEW\".\"STPRS_CONVERTED\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          }
+        ]
+      },
+      "dropdownText": "#{\"CRHD\".\"ARBPL\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "a82abbfa-c33c-4eaa-99e6-eb9393b9aeb5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 34,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AFPO\".\"MATKL_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "4"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "50"
+          },
+          {
+            "name": "scrapRate",
+            "type": "text_replacement",
+            "value": "\"AFRU\".\"XMNGA\"/(\"AFRU\".\"XMNGA\"+\"AFRU\".\"GMNGA\")"
+          },
+          {
+            "name": "scrapValue",
+            "type": "text_replacement",
+            "value": "\"AFRU\".\"XMNGA\" * \"MBEW\".\"STPRS_CONVERTED\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          }
+        ]
+      },
+      "dropdownText": "#{\"materialGroup\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "700a114f-476e-4c33-aa04-baab853a9aa5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 37,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "CASE \n    WHEN ISNULL(\"AFPO\".\"XLOEK\") = 1 THEN 'not deleted'\n     WHEN \"AFPO\".\"XLOEK\" = 'X' THEN 'deleted'\n     ELSE \"AFPO\".\"XLOEK\"\nEND",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Production Order",
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Actual finish time",
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualFinish",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled finish time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual finish time'),DAYS)"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "differencePlannedActualStart",
+            "type": "text_replacement",
+            "value": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Scheduled start time'),DAYS)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = 'Actual start time'),DAYS)"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AFPO\".\"MATNR_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AFPO\".\"XLOEK\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "8b0154a3-7fe4-41f2-8c55-e19dd8c09fd1",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 40,
+      "zIndex": 2
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#14A9D5",
+      "border": false,
+      "buttonTitle": "#{managementView}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "83201caa-b8db-4060-b469-41cda7ff71cf",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "28b08d04-a704-4b3b-ad0c-4d397e354d64",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 47,
+      "zIndex": 2
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "120c5313-95e3-450a-be43-966f45ae6dc6",
+  "lines": [],
+  "name": "#{details}",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

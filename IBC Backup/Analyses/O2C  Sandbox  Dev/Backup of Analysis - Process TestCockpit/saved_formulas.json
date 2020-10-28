@@ -1,0 +1,66 @@
+[
+  {
+    "description": "This KPI calculates the number of cases where the process includes a predefined rework activity divided by the total number of cases.",
+    "id": "1974350f-2905-4756-8676-35b219d574c9",
+    "name": "Rework Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n \nCASE WHEN PU_COUNT(\"VBAP\",\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%=language%>\",\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%=language%>\" IN (<%=reworkActivities%>)) > 0 \nTHEN 1.0 ELSE 0.0 END\n \n)"
+  },
+  {
+    "description": "",
+    "id": "3e7bec57-2f4e-404a-bb76-3f5120df2eff",
+    "name": "Sales Requirement Types",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN COALESCE(VBAP.BEDAE, '') <> '' THEN\r\n\r\n\tCASE \r\n\t\tWHEN T459K.KNTTP = 'E' AND T459K.ATPPR = '' AND T459K.BEDSD = '' AND T459K.MNTGA = '2' THEN 'Service / Maintenance'\r\n\r\n\t\tWHEN T459K.KNTTP = 'M' THEN \r\n\t\t\tCONCAT('MTO W/O Sales Order Accounting',\r\n\t\t\tCONCAT(CASE WHEN ISNULL(T459K.KONFI) = 0 OR ISNULL(TVAP.STRAT) = 0 THEN ' VC Material' ELSE '' END, \r\n\t\t\tCONCAT(CASE WHEN T459K.MNTGA <> '0' THEN ' Direct Assembly'  ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KZBWS, '') <> '' THEN ' with special stock valuation' ELSE '' END,\r\n\t\t\tCASE WHEN COALESCE(T459K.KALSM_K, '') <> '' THEN ' with Costing' ELSE '' END\r\n\t\t\t))))\r\n\r\n\t\tWHEN T459K.KNTTP = 'E' THEN\r\n\t\t\tCONCAT('MTO Sales Order Accounting ',\r\n\t\t\tCONCAT(CASE WHEN ISNULL(T459K.KONFI) = 0 OR ISNULL(TVAP.STRAT) = 0 THEN ' VC Material' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KALSM_K, '') <> '' THEN ' with Costing' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KZBWS, '') <> '' THEN ' with special stock valuation' ELSE '' END,\r\n\t\t\tCASE WHEN T459K.MNTGA <> '0' THEN ' Direct Assembly / Project' ELSE '' END\r\n\t\t\t))))\r\n\t\t\r\n\t\tWHEN T459K.KNTTP = '' THEN \r\n\t\t\tCONCAT('MTS',\r\n\t\t\tCONCAT(CASE WHEN T459K.ATPPR = '' THEN ' W/O ATP' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN T459K.BEDSD = '' THEN ' W/O Requirement' ELSE '' END,\r\n\t\t\tCASE WHEN T459K.QUOTA = 'X' THEN ' Allocation' ELSE '' END\r\n\t\t\t)))\r\n\r\n\t\tELSE 'Other Strategy'\r\n\t\t\r\n\tEND\r\n\r\nELSE 'No Requirement SO Line'\r\n\r\nEND"
+  },
+  {
+    "description": "",
+    "id": "671c25c3-3266-4a41-9204-702ee17720ac",
+    "name": "E+H_Processes",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \r\n    WHEN LEFT (VBAP.PRODH, 1) = 'B' THEN \r\n        CONCAT ('Service - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'No direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\r\n\t\t\t\r\n\tWHEN LEFT (VBAP.PRODH, 1) = 'C' THEN \r\n        CONCAT('Analyses - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'No direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\r\n\tWHEN LEFT (VBAP.PRODH, 1) = 'D' THEN \r\n        CONCAT('Flow - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'No direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n    ELSE 'Other Strategy'\r\n    \r\nEND"
+  },
+  {
+    "description": "",
+    "id": "9b6dcdb6-2968-4eb8-bbcb-61f73e2a88fb",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\r\n CASE\r\n  WHEN  \"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN (<%= white_listed_activities %>) \r\n  THEN NULL\r\n\r\n  WHEN ISNULL(\"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\") = 1\r\n  THEN NULL\r\n\r\n  WHEN  \"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\" IN (<%= AutoTypes %>)\r\n  THEN 1.0\r\n\r\n  ELSE 0.0\r\n\r\nEND)"
+  },
+  {
+    "description": "This KPI calculates the number of cases where the process includes a change activity divided by the total number of cases.",
+    "id": "ade0ddc7-325a-4a15-ac72-0d96c9a56527",
+    "name": "Change Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n \nCASE WHEN PU_COUNT(\"VBAP\",\"_CEL_O2C_ACTIVITIES\".\"CHANGED_FIELD\",\"_CEL_O2C_ACTIVITIES\".\"CHANGED_FIELD\" IN (<%=changedFields%>)) > 0 \nTHEN 1.0 ELSE 0.0 END\n \n)"
+  },
+  {
+    "description": "This KPI calculates the number of cases where the process includes at least one of predefined rework activities divided by the total number of cases.",
+    "id": "b9f011dd-1b24-46ad-924f-0ffdc4ff3b7e",
+    "name": "Total Rework Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "1.0*COUNT(DISTINCT \r\n    CASE\r\n        WHEN \"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%=language%>\" IN (<%=reworkActivities%>)\r\n            THEN \"_CEL_O2C_ACTIVITIES\".\"_CASE_KEY\"\r\n        ELSE NULL\r\n    END\r\n)\r\n/\r\nCOUNT_TABLE(\"VBAP\")"
+  },
+  {
+    "description": "This KPI calculates the median time from the process start until the process end in days.",
+    "id": "c474eca0-7e21-46c0-b669-19d6b45babcc",
+    "name": "Total Cycle Time",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_O2C_ACTIVITIES\".\"EVENTTIME\", DAYS)))\n"
+  },
+  {
+    "description": "This KPI calculates the median time from the first occurrence of the defined first activity to the last occurrence of the defined second activity in days.",
+    "id": "e3a4617c-7872-4858-a358-27785e33b11f",
+    "name": "Cycle Time Subprocess",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(CALC_THROUGHPUT(FIRST_OCCURRENCE[<%=From%>] TO LAST_OCCURRENCE[<%=To%>], REMAP_TIMESTAMPS(\"_CEL_O2C_ACTIVITIES\".\"EVENTTIME\", DAYS)))"
+  }
+]

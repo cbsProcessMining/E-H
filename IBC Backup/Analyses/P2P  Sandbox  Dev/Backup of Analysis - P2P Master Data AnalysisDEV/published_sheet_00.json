@@ -1,0 +1,2327 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"<%= CASE_TABLE %>\")",
+        "units": "",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "cc7af357-9e9a-4fe5-852d-fd937447b054",
+      "kpiValue": 3240468,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%= colorschema_kpi %>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%= colorschema_kpi %>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# <%= CASE_ITEM %>s",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 11,
+      "x": 23,
+      "y": 0,
+      "zIndex": 9
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "SUM(KPI(\"Case Value\"))",
+        "units": "<%=currency_symbol%>",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "022d6269-6f83-43ff-afeb-3f8f533718e6",
+      "kpiValue": 4690333121.036486,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%= colorschema_kpi %>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%= colorschema_kpi %>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "<%= CASE_VALUE %>",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 11,
+      "x": 23,
+      "y": 6,
+      "zIndex": 11
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "id": "3e8194c8-6d65-4e0c-8373-ce5feee1cfdc",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=19][color=#<%= colorschema_sidebar_header %>]Overview \nPurchase-to-Pay\nMaster Data Analysis[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 10,
+      "x": 0,
+      "y": 4,
+      "zIndex": 6
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "Timeframe",
+            "columnType": "date",
+            "expressionLhs": "ROUND_MONTH ( \"EKPO\".\"AEDAT\" ) AS \"Timeframe\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "Timeframe",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_MONTH(<%= TIMETABLE %>)",
+          "translatedName": "Timeframe",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "alternativeType": "line",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "function": {
+            "FLOAT": true,
+            "INTEGER": true,
+            "displayName": "Sum",
+            "name": "Sum"
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#00597A",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineOpacity": 1,
+            "lineWidth": 2,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "Net order value",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "<%= CASE_VALUE %>",
+          "ratioFormula": {},
+          "secondaryAxis": true,
+          "seriesColor": "#<%= colorschema_diagram_s %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showMarkers": true,
+          "spline": true,
+          "text": "SUM(KPI(\"Case Value\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "<%= CASE_VALUE %>",
+          "units": " <%=currency_symbol%>",
+          "valueFormat": ".3s"
+        },
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "bottom",
+          "fillStyle": {
+            "opacity": 0.7999999999999998
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#AFD3E8",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# PO item",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "# <%= CASE_ITEM %>",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_diagram_p %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "spline": true,
+          "text": "COUNT_TABLE(\"<%=CASE_TABLE%>\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# Purchase Order Items",
+          "units": " ",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 12,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "b0cb06e1-5b88-4f51-a935-479574b4464d",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 24,
+      "maximized": false,
+      "pinScrollbarRight": true,
+      "positionLines": [],
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} <%= CASE_ITEM %>s",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 66,
+      "x": 34,
+      "y": 0,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER \"_CEL_<%=PROCESS%>_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN (<%=AutoActivities%>);",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "AVG(CASE WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'B' THEN 1.0 ELSE 0.0 END)\n",
+        "units": "",
+        "valueFormat": ".1%"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 13,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "9acc55f5-6cff-4f0a-9459-38274aac5377",
+      "kpiValue": 0.3699937001558261,
+      "maximized": false,
+      "minHeight": 5,
+      "minWidth": 5,
+      "segmentsInput": [
+        {
+          "color": "#d62728",
+          "formula": {
+            "text": "0.0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#e8580f",
+          "formula": {
+            "text": "0.50"
+          },
+          "value": 0.5
+        },
+        {
+          "color": "#f7b516",
+          "formula": {
+            "text": "0.80"
+          },
+          "value": 0.8
+        },
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "1"
+          },
+          "value": 1
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#15a7d1",
+        "singleColorEnabled": false,
+        "subtitlePosition": "left",
+        "viewType": "radial"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#d62728",
+          "formula": {
+            "text": "0.0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#e8580f",
+          "formula": {
+            "text": "0.50"
+          },
+          "value": 0.5
+        },
+        {
+          "color": "#f7b516",
+          "formula": {
+            "text": "0.80"
+          },
+          "value": 0.8
+        },
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "1"
+          },
+          "value": 1
+        }
+      ],
+      "title": "Automation Rate",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 37,
+      "zIndex": 12
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 4,
+      "id": "66fed145-68d7-4e12-93c9-0021d5cdf2ba",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 20,
+      "x": 0,
+      "y": 0,
+      "zIndex": 9
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=colorschema_sidebar_b%>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 12,
+      "id": "2f1040a8-2192-43ae-b662-82e8be399479",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 100,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "colorThresholds": [
+        {
+          "color": "#fee187",
+          "formula": {
+            "text": "1000000"
+          },
+          "value": 1000000
+        },
+        {
+          "color": "#feab49",
+          "formula": {
+            "text": "5000000"
+          },
+          "value": 5000000
+        },
+        {
+          "color": "#fc5b2e",
+          "formula": {
+            "text": "10000000"
+          },
+          "value": 10000000
+        },
+        {
+          "color": "#d41020",
+          "formula": {
+            "text": "20000000"
+          },
+          "value": 20000000
+        },
+        {
+          "color": "#800026",
+          "formula": {
+            "text": "50000000"
+          },
+          "value": 50000000
+        }
+      ],
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "location",
+        "text": "LFA1.LAND1"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 25,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "1688f0c1-c39a-4b60-a068-7595b2022537",
+      "kpiFormula": {
+        "name": "KPI",
+        "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")"
+      },
+      "legendShow": true,
+      "limitNumber": 1000,
+      "mapOptions": {
+        "baseLayer": {
+          "jsonUrl": "worldMap/ne_50m_admin_0_countries.geojson",
+          "name": "default"
+        },
+        "enableClustering": true,
+        "enableTooltips": true,
+        "focusArea": {
+          "bounds": [
+            [
+              -50,
+              -170
+            ],
+            [
+              90,
+              180
+            ]
+          ],
+          "title": "world"
+        },
+        "withBaseData": false
+      },
+      "maximized": false,
+      "minHeight": 10,
+      "minWidth": 20,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltipFormula": {
+        "text": ""
+      },
+      "type": "world-map",
+      "vertical": false,
+      "width": 27,
+      "x": 23,
+      "y": 12,
+      "zIndex": 20
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "AVG(CALC_THROUGHPUT(ALL_OCCURRENCE['Sende Bestellung'] TO ALL_OCCURRENCE['Process End'], \nREMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", DAYS, MONDAY 06:00 - 19:00 TUESDAY 06:00 - 19:00 WEDNESDAY 06:00 - 19:00 THURSDAY 06:00 - 20:00 FRIDAY 06:00 - 19:00)))",
+        "units": "<%= unit== 'days'  ? '#{Days}': unit== 'hours'  ? '#{Hours}': unit== 'minutes'  ? '#{Minutes}': ''%>",
+        "valueFormat": ",.1f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 13,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "7b565e1c-e365-446d-b046-a908f1d1f06f",
+      "kpiValue": 40.57351850970203,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "3"
+          },
+          "value": 3
+        },
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "4"
+          },
+          "value": 4
+        },
+        {
+          "color": "#f7b516",
+          "formula": {
+            "text": "6"
+          },
+          "value": 6
+        },
+        {
+          "color": "#e8580f",
+          "formula": {
+            "text": "KPI(\"CT Total\")"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#15a7d1",
+        "singleColorEnabled": false,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "3"
+          },
+          "value": 3
+        },
+        {
+          "color": "#2ca02c",
+          "formula": {
+            "text": "4"
+          },
+          "value": 4
+        },
+        {
+          "color": "#f7b516",
+          "formula": {
+            "text": "6"
+          },
+          "value": 6
+        },
+        {
+          "color": "#e8580f",
+          "formula": {
+            "text": "KPI(\"CT Total\")"
+          }
+        }
+      ],
+      "title": "Total Cycle Time (Send PO -> End)",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 13,
+      "x": 23,
+      "y": 37,
+      "zIndex": 14
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{PO Types}",
+            "columnType": "string",
+            "expressionLhs": "( CASE WHEN \"EKKO\".\"BSTYP\" = 'K' THEN 'Contracts' WHEN \"EKKO\".\"BSTYP\" = 'A' THEN 'RfQ' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Standard - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Standard - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Standard - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Standard - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Standard - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Standard - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Standard - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Standard - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Standard - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Standard - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Standard - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Standard - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Standard - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Standard - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Standard - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Standard - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Standard - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Limit - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Limit - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Limit - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Limit - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Limit - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Limit - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Limit - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Limit - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Limit - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Limit - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Limit - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Limit - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Limit - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Limit - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Limit - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Limit - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Limit - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Consignment - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Consignment - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Consignment - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Consignment - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Consignment - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Consignment - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Consignment - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Consignment - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Consignment - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Consignment - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Consignment - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Consignment - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Consignment - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Consignment - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Consignment - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Consignment - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Consignment - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Subcontracting - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Subcontracting - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Subcontracting - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Subcontracting - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Subcontracting - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Subcontracting - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Subcontracting - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Subcontracting - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Subcontracting - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Subcontracting - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Subcontracting - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Subcontracting - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Subcontracting - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Subcontracting - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Subcontracting - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Subcontracting - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Subcontracting - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Material unknown - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Material unknown - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Material unknown - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Material unknown - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Material unknown - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Material unknown - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Material unknown - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Material unknown - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Material unknown - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Material unknown - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Material unknown - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Material unknown - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Material unknown - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Material unknown - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Material unknown - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Material unknown - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Material unknown - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Third-party - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Third-party - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Third-party - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Third-party - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Third-party - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Third-party - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Third-party - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Third-party - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Third-party - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Third-party - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Third-party - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Third-party - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Third-party - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Third-party - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Third-party - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Third-party - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Third-party - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Text - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Text - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Text - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Text - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Text - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Text - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Text - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Text - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Text - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Text - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Text - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Text - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Text - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Text - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Text - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Text - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Text - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Stock transfer - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Stock transfer - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Stock transfer - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Stock transfer - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Stock transfer - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Stock transfer - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Stock transfer - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Stock transfer - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Stock transfer - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Stock transfer - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Stock transfer - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Stock transfer - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Stock transfer - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Stock transfer - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Stock transfer - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Stock transfer - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Stock transfer - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Material group - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Material group - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Material group - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Material group - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Material group - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Material group - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Material group - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Material group - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Material group - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Material group - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Material group - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Material group - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Material group - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Material group - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Material group - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Material group - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Material group - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'PO - Service - Asset' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'PO - Service - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'PO - Service - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'PO - Service - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'PO - Service - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'PO - Service - Order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'PO - Service - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'PO - Service - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'PO - Service - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'PO - Service - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'PO - Service - Network' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'PO - Service - Project' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'PO - Service - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'PO - Service - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'PO - Service - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'PO - Service - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'PO - Service - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Standard - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Standard - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Standard - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Standard - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Standard - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Standard - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Standard - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Standard - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Standard - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Standard - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Standard - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Standard - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Standard - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Standard - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Standard - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Standard - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Standard - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Limit - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Limit - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Limit - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Limit - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Limit - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Limit - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Limit - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Limit - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Limit - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Limit - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Limit - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Limit - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Limit - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Limit - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Limit - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Limit - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Limit - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Consignment - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Consignment - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Consignment - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Consignment - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Consignment - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Consignment - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Consignment - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Consignment - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Consignment - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Consignment - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Consignment - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Consignment - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Consignment - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Consignment - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Consignment - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Consignment - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Consignment - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Subcontracting - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Subcontracting - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Subcontracting - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Subcontracting - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Subcontracting - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Subcontracting - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Subcontracting - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Subcontracting - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Subcontracting - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Subcontracting - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Subcontracting - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Subcontracting - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Subcontracting - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Subcontracting - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Subcontracting - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Subcontracting - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Subcontracting - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Material unknown - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Material unknown - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Material unknown - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Material unknown - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Material unknown - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Material unknown - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Material unknown - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Material unknown - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Material unknown - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Material unknown - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Material unknown - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Material unknown - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Material unknown - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Material unknown - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Material unknown - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Material unknown - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Material unknown - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Third-party - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Third-party - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Third-party - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Third-party - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Third-party - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Third-party - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Third-party - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Third-party - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Third-party - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Third-party - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Third-party - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Third-party - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Third-party - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Third-party - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Third-party - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Third-party - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Third-party - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Text - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Text - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Text - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Text - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Text - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Text - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Text - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Text - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Text - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Text - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Text - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Text - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Text - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Text - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Text - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Text - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Text - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Stock transfer - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Stock transfer - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Stock transfer - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Stock transfer - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Stock transfer - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Stock transfer - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Stock transfer - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Stock transfer - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Stock transfer - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Stock transfer - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Stock transfer - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Stock transfer - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Stock transfer - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Stock transfer - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Stock transfer - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Stock transfer - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Stock transfer - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Material group - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Material group - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Material group - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Material group - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Material group - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Material group - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Material group - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Material group - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Material group - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Material group - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Material group - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Material group - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Material group - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Material group - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Material group - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Material group - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Material group - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'A' THEN 'Scheduling Agreement - Service - Asset' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'B' THEN 'Scheduling Agreement - Service - MTS prod./sales ord.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'C' THEN 'Scheduling Agreement - Service - Sales order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'D' THEN 'Scheduling Agreement - Service - Indiv.cust./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'E' THEN 'Scheduling Agreement - Service - Ind. cust. w. KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'F' THEN 'Scheduling Agreement - Service - Order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'G' THEN 'Scheduling Agreement - Service - MTS prod./project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'I' THEN 'Scheduling Agreement - Service - Investment Order FHP' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'K' THEN 'Scheduling Agreement - Service - Cost center' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'M' THEN 'Scheduling Agreement - Service - Ind. cust. w/o KD-CO' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'N' THEN 'Scheduling Agreement - Service - Network' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'P' THEN 'Scheduling Agreement - Service - Project' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'Q' THEN 'Scheduling Agreement - Service - Proj. make-to-order' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'T' THEN 'Scheduling Agreement - Service - All new aux.acc.ass.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'U' THEN 'Scheduling Agreement - Service - Unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'X' THEN 'Scheduling Agreement - Service - All aux.acct.assgts.' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND \"EKPO\".\"KNTTP\" = 'Z' THEN 'Scheduling Agreement - Service - Ind. cust. (M w/o IR' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '0' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Standard' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '1' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Limit' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '2' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Consignment' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '3' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Subcontracting' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '4' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Material unknown' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '5' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Third-party' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '6' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Text' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '7' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Stock transfer' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '8' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Material group' WHEN \"EKKO\".\"BSTYP\" = 'F' AND \"EKPO\".\"PSTYP\" = '9' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'PO - Service' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '0' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Standard' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '1' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Limit' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '2' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Consignment' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '3' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Subcontracting' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '4' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Material unknown' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '5' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Third-party' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '6' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Text' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '7' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Stock transfer' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '8' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Material group' WHEN \"EKKO\".\"BSTYP\" = 'L' AND \"EKPO\".\"PSTYP\" = '9' AND COALESCE ( \"EKPO\".\"KNTTP\" , '' ) = '' THEN 'Scheduling Agreement - Service' ELSE 'Others' END ) AS \"#{PO Types}\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "#{PO Types}",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "text": "KPI(\"PO Types\")",
+          "translatedName": "Timeframe",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "bold": false,
+          "borderColor": "",
+          "currentFont": {
+            "cssClass": "",
+            "name": "default_font",
+            "value": "Arial"
+          },
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "font": "Arial",
+          "fontColor": "",
+          "fontRotation": -90,
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.343,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 0.7999999999999998
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#AFD3E8",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# PO item",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "# <%= CASE_ITEM %>",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_diagram_p %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": true,
+          "text": "COUNT_TABLE(\"<%=CASE_TABLE%>\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# Purchase Order Items",
+          "units": " ",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 38,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "b06c23cb-c1dc-479f-897c-edf04fca2355",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 7,
+      "maximized": false,
+      "pinScrollbarRight": false,
+      "positionLines": [],
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "PO Types",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 23,
+      "x": 0,
+      "y": 12,
+      "zIndex": 3
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{Vendor}",
+            "columnType": "string",
+            "expressionLhs": "\"LFA1\".\"NAME1\" AS \"#{Vendor}\"",
+            "format": ""
+          },
+          "name": "#{Vendor}",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "text": "\"LFA1\".\"NAME1\"",
+          "translatedName": "Vendor",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "bold": false,
+          "borderColor": "",
+          "currentFont": {
+            "cssClass": "",
+            "name": "default_font",
+            "value": "Arial"
+          },
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "font": "Arial",
+          "fontColor": "",
+          "fontRotation": -90,
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.1,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesOverlap": 0,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": false,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true,
+        "tickInterval": 5
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 0.7999999999999998
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#AFD3E8",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# PO item",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "# <%= CASE_ITEM %>",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_diagram_p %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "spline": true,
+          "text": "COUNT_TABLE(\"<%=CASE_TABLE%>\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# <%= CASE_ITEM %>",
+          "units": " ",
+          "valueFormat": ".3s"
+        },
+        {
+          "alternativeType": "line",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#286782",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{# Net order value}",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "#{# <%= CASE_VALUE %>}",
+          "pqlBuilder": true,
+          "ratioFormula": {},
+          "secondaryAxis": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": false,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "200px"
+          },
+          "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# <%= CASE_VALUE %>",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": false,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMax": 398,
+        "boundsMin": 0,
+        "boundsMode": "AUTO",
+        "fillStyle": {
+          "opacity": 1
+        },
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesPalette": "",
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true,
+        "tickInterval": 4
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 38,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "f862ec59-6c6b-451a-8686-31326ddf2a88",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 10,
+      "maximized": false,
+      "pinScrollbarRight": false,
+      "positionLines": [],
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Vendors",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 25,
+      "x": 50,
+      "y": 12,
+      "zIndex": 4
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{Material Group}",
+            "columnType": "string",
+            "expressionLhs": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\" AS \"#{Material Group}\"",
+            "format": ""
+          },
+          "name": "#{Material Group}",
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "text": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\"",
+          "translatedName": "Vendor",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "bold": false,
+          "borderColor": "",
+          "currentFont": {
+            "cssClass": "",
+            "name": "default_font",
+            "value": "Arial"
+          },
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "font": "Arial",
+          "fontColor": "",
+          "fontRotation": -90,
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.1,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesOverlap": 0,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": false,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true,
+        "tickInterval": 4
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 0.7999999999999998
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#AFD3E8",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# PO item",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "# <%= CASE_ITEM %>",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_diagram_p %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": true,
+          "text": "COUNT_TABLE(\"<%=CASE_TABLE%>\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# <%= CASE_ITEM %>",
+          "units": " ",
+          "valueFormat": ".3s"
+        },
+        {
+          "alternativeType": "line",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#286782",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "#{# Net order value}",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ".3s"
+          },
+          "name": "#{# <%= CASE_VALUE %>}",
+          "pqlBuilder": true,
+          "ratioFormula": {},
+          "secondaryAxis": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": true,
+          "spline": false,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "200px"
+          },
+          "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# <%= CASE_VALUE %>",
+          "valueFormat": ".3s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": false,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMax": 398,
+        "boundsMin": 0,
+        "boundsMode": "AUTO",
+        "fillStyle": {
+          "opacity": 1
+        },
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesPalette": "",
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true,
+        "tickInterval": 5
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#<%= colorschema_boarders %>",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 38,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "2123dfbe-720d-4e0c-b6b8-1c8a0b8a86ab",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 10,
+      "maximized": false,
+      "pinScrollbarRight": false,
+      "positionLines": [],
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Material Groups",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "#<%= colorschema_header_background %>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%= colorschema_header_text %>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 25,
+      "x": 75,
+      "y": 12,
+      "zIndex": 5
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "38010bb7-6031-4e64-a99d-5cb2f39cfff3",
+  "lines": [],
+  "name": "Overview",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

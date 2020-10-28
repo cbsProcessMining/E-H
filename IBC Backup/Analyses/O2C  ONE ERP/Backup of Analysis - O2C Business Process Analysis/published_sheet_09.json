@@ -1,0 +1,5461 @@
+{
+  "components": [
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "a4fb02fb-9e68-4130-a3a5-e55796b5cb8b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][color=#ffffff][size=17] <%=benchmarking1%>[/size][/color][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 25,
+      "x": 14,
+      "y": 1,
+      "zIndex": 10
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e4e4e4",
+        "lineOpacity": 1,
+        "lineWidth": 3,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 50,
+      "id": "4c7c5bcc-f55b-4ca2-bf35-46bc727b2d1f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 40,
+      "x": 0,
+      "y": 0,
+      "zIndex": 7
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#<%= colorschema_benchmarking_button_b %>",
+      "border": false,
+      "buttonTitle": "3. Select <%=benchmarking_dimension_t%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9d0182df-08fa-4b1e-81e7-0e72f2477edc",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=benchmarking_dimension%>"
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "separator": ",",
+        "variableName": "benchmarking1",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 13,
+      "x": 1,
+      "y": 1,
+      "zIndex": 33
+    },
+    {
+      "activityColumnRef": "\"_CEL_<%=process%>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Clear Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Delivery Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Goods Issue"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Goods Issue Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Inco Terms (Part 1)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Inco Terms (Part 2)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Material Availability Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Payment Terms"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Delivery Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Goods Issue Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Shipping Type"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Clear Credit Memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Credit memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Credit memo canceled"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Debit memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Delivery"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Invoice canceled"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Picking TO (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Pro forma invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Returns delivery for order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Sales Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Sales Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Shipment"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Confirmed (MM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Goods Issue"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Return Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Billing Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Credit Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Update Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Division"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Material"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Plant"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Route"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Pass Credit"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Remove Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Credit Hold"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Cancelled (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Confirmed (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Configuration"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Credit Management Status"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Division"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Inco Terms (Part 1)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Inco Terms (Part 2)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Material Staging Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Route"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Shipping Type"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Special Process Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Direct Delivery Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Freight Terms"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change PO Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change PO Number"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Quotation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quotation Released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Changes Confirmation Type"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 36,
+      "hiddenActivities": {
+        "IE-Status: 0400 - Estimated Time of Pickup": true,
+        "IE-Status: 1201 - ETD at Origin port": true,
+        "IE-Status: 8800 - ETA at Destination port": true,
+        "IE-Status: 8850 - Estimated Delivery Date": true,
+        "IE-Status: Estimated Arrival Intermediate": true,
+        "IE-Status: Estimated Arrival at destination Port/Airport": true,
+        "IE-Status: Estimated Arrival to Pickup Location": true,
+        "IE-Status: Estimated Delivery": true,
+        "IE-Status: Estimated Delivery at Market Warehouse": true,
+        "IE-Status: Estimated Departure Intermediate": true,
+        "IE-Status: Estimated Departure from origin Port/Airport": true,
+        "IE-Status: Estimated Pick Up Date": true,
+        "IE-Status: Estimated to Depart Terminal Location": true,
+        "IE-Status: Expected Arrival Destination Port": true,
+        "IE-Status: Expected Arrival Place of Delivery": true,
+        "IE-Status: Expected Arrival at Place of Delivery": true,
+        "IE-Status: Expected Arrival to Pickup Location": true,
+        "IE-Status: Expected Arrival to Port of Destination": true,
+        "IE-Status: Expected Ship Date": true,
+        "IE-Status: Expected Ship Date from Port of Origin": true,
+        "IE-Status: Expected ship date": true,
+        "IE-Status: Planned Pick Up": true,
+        "IE-Status: Planned Pick-up": true,
+        "IE-Status: Planned pickup": true,
+        "IE-Status: Revised Planned Pickup Date": true,
+        "ORDER MOVEMENT - MODIFIED: ORDER RELEASE - MOD - EDIT SHIPMENT (AGENT)": true,
+        "ORDER MOVEMENT - MODIFIED: RERATE AND REDRIVE (AGENT)": true,
+        "Order - Modified": true,
+        "Order - Modified: Build Shipment (Agent)": true,
+        "Order - Modified: Copy Refnums From": true,
+        "Order - Modified: Copy Refnums From - Create": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Destlocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Earlypickupdate)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Flexcommoditycode)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Initialitemgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Iscountsplittable)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Ishazardous)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Issplittable)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Itempackagecount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Latedeliverydate)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigsetupgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Netvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Netweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Orderreleaselinegid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Packageditemgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Packagingunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Planfromlocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Plantolocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Secondarytvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Secondarytweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Shipunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Shipunitorigin)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Sourcelocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Timewindowemphasisgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalgrossvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalgrossweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalitempackagecount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalpackagingunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalshipunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Transporthandlingunitgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitdiameter)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitheight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitlength)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitnetvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitnetweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitwidth)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Volume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Volumepershipunit)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Weight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Weightpershipunit)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Create": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Delete": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Update": true,
+        "Order - Modified: Set User Defined Image (Agent)": true,
+        "Order - Modified: Set User Defined Image (Agent) (Userdefined1icongid)": true,
+        "Order - Modified: Set User Defined Image (Agent) - Update": true,
+        "Order - Modified: Unassign Order (Agent)": true,
+        "Order - Status Changed: Create Order Movement (Agent)": true,
+        "Order - Status Changed: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Order - Status Changed: Process Transmission (Agent)": true,
+        "Order - Status Changed: Set Internal Status (Agent)": true,
+        "Order - Status Changed: Set Status (Agent)": true,
+        "Order - Status Changed: Unassign Order (Agent)": true,
+        "Order Status: All Shipments Moved To Execution": true,
+        "Order Status: Certificate Of Analysis  Expected": true,
+        "Order Status: Certificate Of Origin  Expected": true,
+        "Order Status: Export Notification  Expected": true,
+        "Order Status: Insurance Certificate  Expected": true,
+        "Order Status: Order Planning Finalized": true,
+        "Order Status: Shipments Partially Moved To Execution": true,
+        "Shipment - Cost Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Cost Modified: Unassign Order (Agent)": true,
+        "Shipment - Dates Modified: Process Transmission (Agent)": true,
+        "Shipment - Dates Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Dates Modified: Unassign Order (Agent)": true,
+        "Shipment - Modified": true,
+        "Shipment - Modified: Alternate Servprov (Estimatedarrival)": true,
+        "Shipment - Modified: Alternate Servprov (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Order To Ship Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Assign Order To Ship Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Rate (Agent)": true,
+        "Shipment - Modified: Assign Service Provider (Agent)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Contactgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Currencygid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Distfromprevstop)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Drivetime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Earlieststarttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Endtime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Estimatedarrival)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Exchangerategid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Feasibilitycodegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Iscostfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isrategeofixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Israteofferingfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isservicetimefixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isservprovfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadeddistance)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedarrival)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Planneddeparture)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedrategeogid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedrateofferinggid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedservprovgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rategeogid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rateofferinggid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Resttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rushhourtime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Servprovgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Starttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Transportmodegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Waittime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Create": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Delete": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Update": true,
+        "Shipment - Modified: Bulk Plan (Estimatedarrival)": true,
+        "Shipment - Modified: Bulk Plan (Estimateddeparture)": true,
+        "Shipment - Modified: Change Equipgroup (Estimatedarrival)": true,
+        "Shipment - Modified: Change Equipgroup (Estimateddeparture)": true,
+        "Shipment - Modified: Change Mode (Estimatedarrival)": true,
+        "Shipment - Modified: Change Mode (Estimateddeparture)": true,
+        "Shipment - Modified: Change Start Time (Estimatedarrival)": true,
+        "Shipment - Modified: Change Start Time (Estimateddeparture)": true,
+        "Shipment - Modified: Change Stop Time (Estimatedarrival)": true,
+        "Shipment - Modified: Change Stop Time (Estimateddeparture)": true,
+        "Shipment - Modified: Copy Involved Parties From Order (Agent)": true,
+        "Shipment - Modified: Copy Involved Parties From Order (Agent) - Create": true,
+        "Shipment - Modified: Copy Refnums To": true,
+        "Shipment - Modified: Copy Remarks To": true,
+        "Shipment - Modified: Divert Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Divert Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Edit Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Edit Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Edit Shipment Stop (Estimatedarrival)": true,
+        "Shipment - Modified: Edit Shipment Stop (Estimateddeparture)": true,
+        "Shipment - Modified: Merge Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Merge Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Move Order To Buy Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Move Order To Buy Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Move Order To Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Move Order To Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Contactgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Currencygid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Distancetype)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Dropoffstopnum)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Endtime)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Feasibilitycodegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Firstequipmentgroupgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Numorderreleases)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Pickupstopnum)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Rateofferinggid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Servprovgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Starttime)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totaldeclaredvalue)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalitempackagecount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalpackagingunitcount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalshipunitcount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Transportmodegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Create": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Delete": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Update": true,
+        "Shipment - Modified: Process Transmission (Agent)": true,
+        "Shipment - Modified: Recalc Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Recalc Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Contactgid)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Endtime)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadeddistance)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Starttime)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Create": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Delete": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Update": true,
+        "Shipment - Modified: Rerate And Redrive (Agent)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Contactgid)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Rategeogid)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) - Create": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) - Delete": true,
+        "Shipment - Modified: Rerate Redrive Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Rerate Redrive Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Set Reference Number (Agent)": true,
+        "Shipment - Modified: Set User Defined Image (Agent)": true,
+        "Shipment - Modified: Set User Defined Image (Agent) (Userdefined1icongid)": true,
+        "Shipment - Modified: Set User Defined Image (Agent) - Update": true,
+        "Shipment - Modified: Split Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Split Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign And Delete Order - Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign And Delete Order - Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign Order (Agent)": true,
+        "Shipment - Modified: Unassign Order Movement (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign Order Movement (Estimateddeparture)": true,
+        "Shipment - Modified: Update - Estimatedarrival": true,
+        "Shipment - Modified: Update - Estimateddeparture": true,
+        "Shipment - Status Changed: Accept Tender (Agent)": true,
+        "Shipment - Status Changed: Allocate Shipment (Agent)": true,
+        "Shipment - Status Changed: Broadcast Tender (Agent)": true,
+        "Shipment - Status Changed: Decline Tender (Agent)": true,
+        "Shipment - Status Changed: Generate Invoice (Agent)": true,
+        "Shipment - Status Changed: Invoice - Auto Approve (Agent)": true,
+        "Shipment - Status Changed: Recalc Shipment (Agent)": true,
+        "Shipment - Status Changed: Secure Resources (Agent)": true,
+        "Shipment - Status Changed: Set Internal Status (Agent)": true,
+        "Shipment - Status Changed: Set Status (Agent)": true,
+        "Shipment - Status Changed: Tender Shipment (Agent)": true,
+        "Shipment - Status Changed: Unassign Order (Agent)": true,
+        "Shipment - Status Changed: Withdraw Broadcast Tender (Agent)": true,
+        "Shipment - Status Changed: Withdraw Tender (Agent)": true,
+        "Shipment Status: Payment Matched": true,
+        "Shipment Status: Payment Vouchered": true,
+        "Shipment Status: Tendering Completed": true
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "75ee8288-68d7-48a4-b19c-46be1f5c4299",
+      "kpiView": {
+        "id": "FREQUENCY"
+      },
+      "maximized": false,
+      "nodeIcon": {
+        "dark": "icons/icon-plant.svg",
+        "light": "icons/icon-plant-white.svg"
+      },
+      "nodeSliderState": 8,
+      "selection": [],
+      "showHeader": true,
+      "title": "Process Explorer",
+      "titleStyle": {
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%=Company_Color2%>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "useNodeIcon": false,
+      "version": 2,
+      "vertical": false,
+      "width": 38,
+      "x": 1,
+      "y": 3,
+      "zIndex": 32
+    },
+    {
+      "backgroundColor": "#<%= colorschema_benchmarking_button_b %>",
+      "border": false,
+      "buttonTitle": "4. Select KPI: <%=kpi_shown_t%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "# SOs",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "# of SOs",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "# of SOs"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "COUNT_TABLE(\"VBAK\")"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "# PO items",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "# SO items",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "# SO items"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "COUNT_TABLE(\"VBAP\")"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Avg. # Cases per Variant",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Avg. # Cases per Variant",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Avg. # Cases per Variant"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "AVG(PU_COUNT(\"<%= CASE_TABLE %>\", \"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Automation Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Automation Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Automation Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Automation Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= AutoActivities %>), VARIABLE(<%= AutoTypes %>))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Undesired Activity Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Undesired Activity Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Undesired Activity Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Undesired Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Undesired %>))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Repeated Activity Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Repeated Activity Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Repeated Activity Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Repeated Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Repeated %>), VARIABLE(<%= CASE_TABLE %>))"
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "74a7c1c9-3ddc-4ed1-b385-27a0091b7012",
+      "inputType": "Manual Input",
+      "isBackground": false,
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=KPI_shown%>",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "variableName": "KPI_shown",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 17,
+      "x": 1,
+      "y": 39,
+      "zIndex": 28
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "Time",
+            "columnType": "string",
+            "expressionLhs": "CASE WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 10 , 11 , 12 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q1' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 1 , 2 , 3 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q2' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 4 , 5 , 6 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q3' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 7 , 8 , 9 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q4' ELSE NULL END AS \"Time\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "Time",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "<%=TIMEFRAME%>",
+          "translatedName": "Time",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gapWidth": 0.433,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesOverlap": 0.48,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#777777",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesPalette": "",
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "alternativeType": "column",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "cssClass": "",
+              "name": "Default Size",
+              "value": 14
+            },
+            "fontColor": "",
+            "fontSize": 14
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#506671",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineColor": "",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# of SOs",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",.2f"
+          },
+          "name": "<%=kpi_shown_t%>",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_benchmarking1 %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": false,
+          "sorting": null,
+          "sortingIndex": null,
+          "text": "<%=kpi_shown%>",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "<%=kpi_shown_t%>",
+          "units": " ",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMax": 1,
+        "boundsMin": 0,
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "fillStyle": {
+        "opacity": 1
+      },
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 8,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "59420004-b8b1-4126-9b82-8ccc8e530512",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 24,
+      "maximized": false,
+      "newFullscreen": false,
+      "pinScrollbarRight": true,
+      "positionLines": [
+        {
+          "formula": {
+            "text": ""
+          },
+          "isSecondary": false,
+          "labelPosition": 1,
+          "lineConfig": {},
+          "name": "Position Line",
+          "positionLineFormat": {
+            "color": "#6FA7D1",
+            "lineColor": "black",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          }
+        }
+      ],
+      "selection": [],
+      "seriesColor": "",
+      "seriesPalette": "",
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%=Company_Color2%>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 38,
+      "x": 1,
+      "y": 41,
+      "zIndex": 30
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "04864369-0203-46bf-9758-244fccf7b058",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]# <%= CASE_HEADER%>s[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 7,
+      "x": 47,
+      "y": 15,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# POs",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_HEADER_TABLE %>\")",
+          "textColorMapping": "",
+          "translatedName": "# POs",
+          "type": "INTEGER",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "d67cf088-ed34-4415-8ce7-ad5647d322fe",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${# POs}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 17,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# POs",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_HEADER_TABLE %>\")",
+          "textColorMapping": "",
+          "translatedName": "# POs",
+          "type": "INTEGER",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "0f9227bf-b608-498d-8f85-a50eebb0eb83",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${# POs}[/color][/size][/b][color=#<%=colorschema_kpi%>]\n[/color][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 17,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# PO items",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_TABLE %>\")",
+          "textColorMapping": "",
+          "translatedName": "# PO items",
+          "type": "INTEGER",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "1fa7c3e2-dfb6-4ee7-8353-f3d94d35e06c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${# PO items}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 22,
+      "zIndex": 16
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# PO items",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_TABLE %>\")",
+          "textColorMapping": "",
+          "translatedName": "# PO items",
+          "type": "INTEGER",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "eff3467f-104a-496b-aeed-188cec64480d",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${# PO items}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 22,
+      "zIndex": 16
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "02e9f785-ee85-4f72-bdd3-ad70a56fc4bb",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#1b1b1b]Avg # <%= CASE_ITEM %>s per Variant[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 30,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# Avg Cases per Variant",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_TABLE %>\") * 1.0\n/\nKPI(\"Number of process variants\")*1.0\n",
+          "textColorMapping": "",
+          "translatedName": "# Avg Invoice Positions",
+          "type": "INTEGER",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "e5f4da6b-04ce-4a79-a29b-49ebf756d992",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${# Avg Cases per Variant}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 32,
+      "zIndex": 18
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "# Avg Cases per Variant",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"<%= CASE_TABLE %>\") * 1.0\n/\nKPI(\"Number of process variants\")*1.0\n",
+          "textColorMapping": "",
+          "translatedName": "# Avg Invoice Positions",
+          "type": "INTEGER",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "c9a8bec0-17be-4f48-916c-a6a30bf6a753",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${# Avg Cases per Variant}[/color][/size][/b][color=#<%=colorschema_kpi%>]\n[/color][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 32,
+      "zIndex": 18
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "7fbdbdf8-3f1c-4732-b423-292a531ab6e3",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]Automation Rate\n[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 35,
+      "zIndex": 2
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Automation Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "80px"
+          },
+          "text": "KPI(\"Automation Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= AutoActivities %>), VARIABLE(<%= AutoTypes %>))",
+          "textColorMapping": "",
+          "translatedName": "Automation Rate",
+          "valueFormat": ".2%"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "51c05d29-7c59-406b-b0f0-66768444e5e2",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${Automation Rate}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 37,
+      "zIndex": 19
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Automation Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "80px"
+          },
+          "text": "KPI(\"Automation Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= AutoActivities %>), VARIABLE(<%= AutoTypes %>))",
+          "textColorMapping": "",
+          "translatedName": "Automation Rate",
+          "valueFormat": ".2%"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "1bc9c0b6-9d04-43a0-ad22-14e9e706ba9c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${Automation Rate}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 37,
+      "zIndex": 19
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "f558d8a1-a190-49ba-980f-6d83be983de5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]Average Throughput Time [/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 40,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "fc26a212-857e-4146-a4a3-967e20e7cd7b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#1b1b1b]Repeated Activity Rate[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 45,
+      "zIndex": 16
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Repeated Activity Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "KPI(\"Repeated Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Repeated %>), VARIABLE(<%= CASE_TABLE %>))",
+          "textColorMapping": "",
+          "translatedName": "Repeated Activity Rate",
+          "valueFormat": ".2%"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "bb853351-22e7-41c3-835a-aad614051b06",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${Repeated Activity Rate}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 47,
+      "zIndex": 21
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Repeated Activity Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "KPI(\"Repeated Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Repeated %>), VARIABLE(<%= CASE_TABLE %>))",
+          "textColorMapping": "",
+          "translatedName": "Repeated Activity Rate",
+          "valueFormat": ".2%"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "749c6a6d-c875-4214-af4f-30310f55c233",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${Repeated Activity Rate}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 47,
+      "zIndex": 21
+    },
+    {
+      "activityColumnRef": "\"_CEL_<%=process%>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Clear Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Delivery Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Goods Issue"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Goods Issue Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Confirmed Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Inco Terms (Part 1)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Inco Terms (Part 2)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Material Availability Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Payment Terms"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Delivery Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Goods Issue Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Requested Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Shipping Type"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Clear Credit Memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Credit memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Credit memo canceled"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Debit memo"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Delivery"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Invoice canceled"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Picking TO (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Pro forma invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Returns delivery for order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Sales Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Sales Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Shipment"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Confirmed (MM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Goods Issue"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Return Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Billing Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Credit Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Initial Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Update Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Division"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Material"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Plant"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Route"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Pass Credit"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Remove Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Credit Hold"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Reason for Rejection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Cancelled (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Picking Confirmed (WM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Configuration"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Credit Management Status"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Delivery Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Division"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Inco Terms (Part 1)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Inco Terms (Part 2)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Material Staging Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Route"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Shipping Type"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Special Process Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Direct Delivery Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Freight Terms"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change PO Date"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change PO Number"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Quotation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quotation Released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Changes Confirmation Type"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 36,
+      "hiddenActivities": {
+        "IE-Status: 0400 - Estimated Time of Pickup": true,
+        "IE-Status: 1201 - ETD at Origin port": true,
+        "IE-Status: 8800 - ETA at Destination port": true,
+        "IE-Status: 8850 - Estimated Delivery Date": true,
+        "IE-Status: Estimated Arrival Intermediate": true,
+        "IE-Status: Estimated Arrival at destination Port/Airport": true,
+        "IE-Status: Estimated Arrival to Pickup Location": true,
+        "IE-Status: Estimated Delivery": true,
+        "IE-Status: Estimated Delivery at Market Warehouse": true,
+        "IE-Status: Estimated Departure Intermediate": true,
+        "IE-Status: Estimated Departure from origin Port/Airport": true,
+        "IE-Status: Estimated Pick Up Date": true,
+        "IE-Status: Estimated to Depart Terminal Location": true,
+        "IE-Status: Expected Arrival Destination Port": true,
+        "IE-Status: Expected Arrival Place of Delivery": true,
+        "IE-Status: Expected Arrival at Place of Delivery": true,
+        "IE-Status: Expected Arrival to Pickup Location": true,
+        "IE-Status: Expected Arrival to Port of Destination": true,
+        "IE-Status: Expected Ship Date": true,
+        "IE-Status: Expected Ship Date from Port of Origin": true,
+        "IE-Status: Expected ship date": true,
+        "IE-Status: Planned Pick Up": true,
+        "IE-Status: Planned Pick-up": true,
+        "IE-Status: Planned pickup": true,
+        "IE-Status: Revised Planned Pickup Date": true,
+        "ORDER MOVEMENT - MODIFIED: ORDER RELEASE - MOD - EDIT SHIPMENT (AGENT)": true,
+        "ORDER MOVEMENT - MODIFIED: RERATE AND REDRIVE (AGENT)": true,
+        "Order - Modified": true,
+        "Order - Modified: Build Shipment (Agent)": true,
+        "Order - Modified: Copy Refnums From": true,
+        "Order - Modified: Copy Refnums From - Create": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Destlocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Earlypickupdate)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Flexcommoditycode)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Initialitemgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Iscountsplittable)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Ishazardous)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Issplittable)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Itempackagecount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Latedeliverydate)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigsetupgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Netvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Netweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Orderreleaselinegid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Packageditemgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Packagingunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Planfromlocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Plantolocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Secondarytvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Secondarytweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Shipunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Shipunitorigin)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Sourcelocationgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Timewindowemphasisgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalgrossvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalgrossweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalitempackagecount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalpackagingunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalshipunitcount)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Transporthandlingunitgid)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitdiameter)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitheight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitlength)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitnetvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitnetweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitvolume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitweight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Unitwidth)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Volume)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Volumepershipunit)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Weight)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) (Weightpershipunit)": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Create": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Delete": true,
+        "Order - Modified: Order Release - Mod - Edit Shipment (Agent) - Update": true,
+        "Order - Modified: Set User Defined Image (Agent)": true,
+        "Order - Modified: Set User Defined Image (Agent) (Userdefined1icongid)": true,
+        "Order - Modified: Set User Defined Image (Agent) - Update": true,
+        "Order - Modified: Unassign Order (Agent)": true,
+        "Order - Status Changed: Create Order Movement (Agent)": true,
+        "Order - Status Changed: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Order - Status Changed: Process Transmission (Agent)": true,
+        "Order - Status Changed: Set Internal Status (Agent)": true,
+        "Order - Status Changed: Set Status (Agent)": true,
+        "Order - Status Changed: Unassign Order (Agent)": true,
+        "Order Status: All Shipments Moved To Execution": true,
+        "Order Status: Certificate Of Analysis  Expected": true,
+        "Order Status: Certificate Of Origin  Expected": true,
+        "Order Status: Export Notification  Expected": true,
+        "Order Status: Insurance Certificate  Expected": true,
+        "Order Status: Order Planning Finalized": true,
+        "Order Status: Shipments Partially Moved To Execution": true,
+        "Shipment - Cost Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Cost Modified: Unassign Order (Agent)": true,
+        "Shipment - Dates Modified: Process Transmission (Agent)": true,
+        "Shipment - Dates Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Dates Modified: Unassign Order (Agent)": true,
+        "Shipment - Modified": true,
+        "Shipment - Modified: Alternate Servprov (Estimatedarrival)": true,
+        "Shipment - Modified: Alternate Servprov (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Order To Ship Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Assign Order To Ship Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Rate (Agent)": true,
+        "Shipment - Modified: Assign Service Provider (Agent)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Contactgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Currencygid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Distfromprevstop)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Drivetime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Earlieststarttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Endtime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Estimatedarrival)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Estimateddeparture)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Exchangerategid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Feasibilitycodegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Iscostfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isrategeofixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Israteofferingfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isservicetimefixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Isservprovfixed)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Loadeddistance)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedarrival)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Planneddeparture)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedrategeogid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedrateofferinggid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Plannedservprovgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rategeogid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rateofferinggid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Resttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Rushhourtime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Servprovgid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Starttime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Transportmodegid)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Waittime)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Create": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Delete": true,
+        "Shipment - Modified: Assign Service Provider (Agent) - Update": true,
+        "Shipment - Modified: Bulk Plan (Estimatedarrival)": true,
+        "Shipment - Modified: Bulk Plan (Estimateddeparture)": true,
+        "Shipment - Modified: Change Equipgroup (Estimatedarrival)": true,
+        "Shipment - Modified: Change Equipgroup (Estimateddeparture)": true,
+        "Shipment - Modified: Change Mode (Estimatedarrival)": true,
+        "Shipment - Modified: Change Mode (Estimateddeparture)": true,
+        "Shipment - Modified: Change Start Time (Estimatedarrival)": true,
+        "Shipment - Modified: Change Start Time (Estimateddeparture)": true,
+        "Shipment - Modified: Change Stop Time (Estimatedarrival)": true,
+        "Shipment - Modified: Change Stop Time (Estimateddeparture)": true,
+        "Shipment - Modified: Copy Involved Parties From Order (Agent)": true,
+        "Shipment - Modified: Copy Involved Parties From Order (Agent) - Create": true,
+        "Shipment - Modified: Copy Refnums To": true,
+        "Shipment - Modified: Copy Remarks To": true,
+        "Shipment - Modified: Divert Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Divert Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Edit Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Edit Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Edit Shipment Stop (Estimatedarrival)": true,
+        "Shipment - Modified: Edit Shipment Stop (Estimateddeparture)": true,
+        "Shipment - Modified: Merge Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Merge Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Move Order To Buy Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Move Order To Buy Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Move Order To Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Move Order To Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Contactgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Currencygid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Distancetype)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Dropoffstopnum)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Endtime)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Feasibilitycodegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Firstequipmentgroupgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Numorderreleases)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Pickupstopnum)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Rateofferinggid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Servprovgid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Starttime)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totaldeclaredvalue)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalitempackagecount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalnetweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalpackagingunitcount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalshipunitcount)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalvolume)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweight)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Transportmodegid)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Create": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Delete": true,
+        "Shipment - Modified: Order Release - Mod - Edit Shipment (Agent) - Update": true,
+        "Shipment - Modified: Process Transmission (Agent)": true,
+        "Shipment - Modified: Recalc Ship (Estimatedarrival)": true,
+        "Shipment - Modified: Recalc Ship (Estimateddeparture)": true,
+        "Shipment - Modified: Recalc Shipment (Agent)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Contactgid)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Endtime)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Ishazardous)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadconfigenginetypegid)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Loadeddistance)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Starttime)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Create": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Delete": true,
+        "Shipment - Modified: Recalc Shipment (Agent) - Update": true,
+        "Shipment - Modified: Rerate And Redrive (Agent)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Chargeablevolume)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Chargeableweight)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Checkcapacityconstraint)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Contactgid)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Istemperaturecontrol)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Loadconfigvolume)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Rategeogid)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Totalactualcost)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Totalweightedcost)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Volumeutilization)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) (Weightutilization)": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) - Create": true,
+        "Shipment - Modified: Rerate And Redrive (Agent) - Delete": true,
+        "Shipment - Modified: Rerate Redrive Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Rerate Redrive Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Set Reference Number (Agent)": true,
+        "Shipment - Modified: Set User Defined Image (Agent)": true,
+        "Shipment - Modified: Set User Defined Image (Agent) (Userdefined1icongid)": true,
+        "Shipment - Modified: Set User Defined Image (Agent) - Update": true,
+        "Shipment - Modified: Split Shipment (Estimatedarrival)": true,
+        "Shipment - Modified: Split Shipment (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign And Delete Order - Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign And Delete Order - Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign Buy (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign Buy (Estimateddeparture)": true,
+        "Shipment - Modified: Unassign Order (Agent)": true,
+        "Shipment - Modified: Unassign Order Movement (Estimatedarrival)": true,
+        "Shipment - Modified: Unassign Order Movement (Estimateddeparture)": true,
+        "Shipment - Modified: Update - Estimatedarrival": true,
+        "Shipment - Modified: Update - Estimateddeparture": true,
+        "Shipment - Status Changed: Accept Tender (Agent)": true,
+        "Shipment - Status Changed: Allocate Shipment (Agent)": true,
+        "Shipment - Status Changed: Broadcast Tender (Agent)": true,
+        "Shipment - Status Changed: Decline Tender (Agent)": true,
+        "Shipment - Status Changed: Generate Invoice (Agent)": true,
+        "Shipment - Status Changed: Invoice - Auto Approve (Agent)": true,
+        "Shipment - Status Changed: Recalc Shipment (Agent)": true,
+        "Shipment - Status Changed: Secure Resources (Agent)": true,
+        "Shipment - Status Changed: Set Internal Status (Agent)": true,
+        "Shipment - Status Changed: Set Status (Agent)": true,
+        "Shipment - Status Changed: Tender Shipment (Agent)": true,
+        "Shipment - Status Changed: Unassign Order (Agent)": true,
+        "Shipment - Status Changed: Withdraw Broadcast Tender (Agent)": true,
+        "Shipment - Status Changed: Withdraw Tender (Agent)": true,
+        "Shipment Status: Payment Matched": true,
+        "Shipment Status: Payment Vouchered": true,
+        "Shipment Status: Tendering Completed": true
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "f4160f2c-e95d-4554-8e1a-e2bdfe0eb2b3",
+      "kpiView": {
+        "id": "THROUGHPUT_AVG"
+      },
+      "maximized": false,
+      "nodeIcon": {
+        "dark": "icons/icon-plant.svg",
+        "light": "icons/icon-plant-white.svg"
+      },
+      "nodeSliderState": 8,
+      "selection": [],
+      "showHeader": true,
+      "throughputUnits": "days",
+      "title": "Process Explorer",
+      "titleStyle": {
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%=Company_Color2%>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "useNodeIcon": false,
+      "version": 2,
+      "vertical": false,
+      "width": 36,
+      "x": 63,
+      "y": 3,
+      "zIndex": 33
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#<%= colorschema_benchmarking_button_b %>",
+      "border": false,
+      "buttonTitle": "3. Select <%=benchmarking_dimension_t%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "769a094f-df76-48f4-95ee-9244d35dac0e",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=benchmarking_dimension%>"
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "separator": ",",
+        "variableName": "benchmarking2",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 13,
+      "x": 63,
+      "y": 1,
+      "zIndex": 34
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e4e4e4",
+        "lineOpacity": 1,
+        "lineWidth": 3,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 50,
+      "id": "1b59080e-87c0-45b4-82fb-e9758fc0d149",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 38,
+      "x": 62,
+      "y": 0,
+      "zIndex": 8
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "b4718fac-b35f-40af-91d9-1e68a2161b7b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][color=#ffffff][size=17] <%=benchmarking2%>\n[/size][/color][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 24,
+      "x": 75,
+      "y": 1,
+      "zIndex": 9
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking_button_b %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 9,
+      "id": "b3e2e48d-0fad-413d-9c13-4bd2edeb74c1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center]2. Select Additional Filters:\n[/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 20,
+      "x": 41,
+      "y": 6,
+      "zIndex": 5
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter4%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "edi",
+            "type": "text_replacement",
+            "value": "'6'"
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "#{CompanyCode}"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "2200 - IDES France",
+                "selected": true,
+                "value": "2200 - IDES France"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'2200 - IDES France'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "2200 - IDES France",
+                "selected": true,
+                "value": "2200 - IDES France"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'2200 - IDES France'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || ' - ' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Change Billing Block"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Approve Credit Check"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "Due_Date_Text",
+            "type": "text_replacement",
+            "value": "#{confirmedDeliveryDate}"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "#{Material}"
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKBUR_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{Material}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{SalesOffice}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{Customer}"
+          },
+          {
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "eeeeee"
+          },
+          {
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": null,
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": null,
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "'Change Price', 'Change Currency', 'Change Quantity','Deny Credit Check','Create Returns deliver for order','Create Invoice cancellation','Create Debit memo cancellation','Change Route','Change Reason for Rejection','Change Price','Change Plant','Change Material','Change Delivery Block','Change Delivery Amount','Cancel Reason for Rejection','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": null,
+            "name": "GI_DATE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"VBAP\",ROUND_DAY(\"_CEL_O2C_ACTIVITIES\".\"EVENTTIME\"),\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Issue')"
+          },
+          {
+            "linkedEntries": null,
+            "name": "Due_Date",
+            "type": "text_replacement",
+            "value": "PU_MAX(\"VBAP\",\"VBEP\".\"EDATU\",\"VBEP\".\"BMENG\" > 0)"
+          },
+          {
+            "linkedEntries": null,
+            "name": "ROUTE",
+            "type": "text_replacement",
+            "value": "1"
+          }
+        ]
+      },
+      "dropdownText": "#{\"<%=filter4_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "09423232-13dc-465b-a6a0-56b1eca301c6",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 45,
+      "y": 8,
+      "zIndex": 6
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "<%=filter2%>"
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "edi",
+            "type": "text_replacement",
+            "value": "'6'"
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "#{CompanyCode}"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "2200 - IDES France",
+                "selected": true,
+                "value": "2200 - IDES France"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'2200 - IDES France'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "2200 - IDES France",
+                "selected": true,
+                "value": "2200 - IDES France"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'2200 - IDES France'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"BUKRS_VF\" || ' - ' || \"VBAK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Billing Block",
+                "selected": true,
+                "value": "Change Billing Block"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Change Billing Block"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Approve Credit Check",
+                "selected": true,
+                "value": "Approve Credit Check"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Approve Credit Check"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "Due_Date_Text",
+            "type": "text_replacement",
+            "value": "#{confirmedDeliveryDate}"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "#{Material}"
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"VKBUR_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"VBAK\".\"KUNNR\" || ' - ' || \"KNA1\".\"NAME1\""
+          },
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{Material}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{SalesOffice}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{Customer}"
+          },
+          {
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "eeeeee"
+          },
+          {
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": null,
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": null,
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "'Change Price', 'Change Currency', 'Change Quantity','Deny Credit Check','Create Returns deliver for order','Create Invoice cancellation','Create Debit memo cancellation','Change Route','Change Reason for Rejection','Change Price','Change Plant','Change Material','Change Delivery Block','Change Delivery Amount','Cancel Reason for Rejection','Set Reason for Rejection'"
+          },
+          {
+            "linkedEntries": null,
+            "name": "GI_DATE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"VBAP\",ROUND_DAY(\"_CEL_O2C_ACTIVITIES\".\"EVENTTIME\"),\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Issue')"
+          },
+          {
+            "linkedEntries": null,
+            "name": "Due_Date",
+            "type": "text_replacement",
+            "value": "PU_MAX(\"VBAP\",\"VBEP\".\"EDATU\",\"VBEP\".\"BMENG\" > 0)"
+          },
+          {
+            "linkedEntries": null,
+            "name": "ROUTE",
+            "type": "text_replacement",
+            "value": "1"
+          }
+        ]
+      },
+      "dropdownText": "#{\"<%=filter2_text%>}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "423d3a91-93e1-41da-ba27-4d7f49e821e0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 12,
+      "x": 45,
+      "y": 10,
+      "zIndex": 6
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "Net order value",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "SUM(KPI(\"Case Value\"))",
+          "textColorMapping": "",
+          "translatedName": "Net order value",
+          "type": "INTEGER",
+          "units": " \u20ac",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "08b86ab1-05a9-45bc-a890-91093b94acd8",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${Net order value}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 27,
+      "zIndex": 17
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "name": "COUNT_TABLE"
+          },
+          "name": "Net order value",
+          "noFunction": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "SUM(KPI(\"Case Value\"))",
+          "textColorMapping": "",
+          "translatedName": "Net order value",
+          "type": "INTEGER",
+          "units": " \u20ac",
+          "valueFormat": ".3s"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "e38e22e1-5753-4472-ace9-5c11d76d95d2",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17][color=#ffffff]${Net order value}[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 27,
+      "zIndex": 17
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "88e81f9e-f715-436b-ad7a-f83c85caca0e",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]# <%= CASE_ITEM %>s[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 20,
+      "zIndex": 16
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "Time",
+            "columnType": "string",
+            "expressionLhs": "CASE WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 10 , 11 , 12 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q1' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 1 , 2 , 3 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q2' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 4 , 5 , 6 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q3' WHEN MONTH ( \"VBAK\".\"ERDAT\" ) IN ( 7 , 8 , 9 ) THEN YEAR ( \"VBAK\".\"ERDAT\" ) || ' - Q4' ELSE NULL END AS \"Time\" FORMAT \"%Y-%m\"",
+            "format": "%Y-%m"
+          },
+          "name": "Time",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "<%=TIMEFRAME%>",
+          "translatedName": "Time",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gapWidth": 0.433,
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesOverlap": 0.48,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#777777",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "seriesPalette": "",
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showGridlines": false,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "alternativeType": "column",
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "cssClass": "",
+              "name": "Default Size",
+              "value": 14
+            },
+            "fontColor": "",
+            "fontSize": 14
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#007CAA",
+          "lineStyle": {
+            "color": "#6FA7D1",
+            "lineColor": "",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# of SOs",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",.2f"
+          },
+          "name": "<%=kpi_shown_t%>",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%= colorschema_benchmarking2 %>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showMarkers": false,
+          "sorting": null,
+          "sortingIndex": null,
+          "text": "<%=kpi_shown%>",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "<%=kpi_shown_t%>",
+          "units": " ",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMax": 1,
+        "boundsMin": 0,
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "fillStyle": {
+        "opacity": 1
+      },
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 8,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "d5838c89-f4e6-4477-b2bb-c817a73bb572",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 24,
+      "maximized": false,
+      "newFullscreen": false,
+      "pinScrollbarRight": true,
+      "positionLines": [
+        {
+          "formula": {
+            "text": ""
+          },
+          "isSecondary": false,
+          "labelPosition": 1,
+          "lineConfig": {},
+          "name": "Position Line",
+          "positionLineFormat": {
+            "color": "#6FA7D1",
+            "lineColor": "black",
+            "lineOpacity": 1,
+            "lineWidth": 1,
+            "opacityInDec": 100
+          }
+        }
+      ],
+      "selection": [],
+      "seriesColor": "",
+      "seriesPalette": "",
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%=Company_Color2%>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 36,
+      "x": 63,
+      "y": 41,
+      "zIndex": 31
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#<%= colorschema_benchmarking_button_b %>",
+      "border": false,
+      "buttonTitle": "1. Select Benchmark Criterion: <%=benchmarking_dimension_t%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"LFA1\".\"LIFNR\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Vendor",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Vendor"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"MATNR\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Material",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Material"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"MATKL\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Material Group",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Material Group"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"BUKRS\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Company Code",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Company Code"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"BUKRS\" || ' - ' || \"EKPO\".\"BUKRS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKKO\".\"EKORG\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Purch. Organization",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Purch. Organization"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKKO\".\"BSART\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Purchasing Doc. Type",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Purchasing Doc. Type"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{PurchaseAmount}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Purchase Order Amount",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Purchase Order Amount"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "CASE WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Client",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Client",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Client"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"MANDT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Purchasing Document",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Purchasing Document",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Purchasing Document"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"EBELN\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Item Number",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Item Number",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Item Number"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"EKPO\".\"EBELP\""
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "cab4c30e-92a5-4c73-9852-f5f3592249f3",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 20,
+      "x": 41,
+      "y": 4,
+      "zIndex": 17
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "f6a2ddce-641c-434d-84ec-66a44bc4abc6",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]# <%= CASE_VALUE %>[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 18,
+      "x": 42,
+      "y": 25,
+      "zIndex": 17
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Display: <%=TIMEFRAME_TEXT%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Year",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Year",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Year"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "YEAR(\"VBAK\".\"ERDAT\") || ''"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Quarter",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Quarter",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Quarter"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (10,11,12) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q1'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (1,2,3) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q2'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (4,5,6) THEN YEAR(\"VBAK\".\"ERDAT\" ) || ' - Q3'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (7,8,9) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q4'\nELSE NULL\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Month",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Month",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Month"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE -- 2 digit Month\nWHEN MONTH(\"VBAK\".\"ERDAT\") >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\") ||'-' || MONTH(\"VBAK\".\"ERDAT\")\nELSE YEAR(\"VBAK\".\"ERDAT\") ||'-0' || MONTH(\"VBAK\".\"ERDAT\")\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Week",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Week",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Week"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE\nWHEN CALENDAR_WEEK(\"VBAK\".\"ERDAT\") >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\")\n--- ADD one Year if we are already in CW 1 at the end of December\n+ CASE WHEN MONTH(\"VBAK\".\"ERDAT\") = 12 AND CALENDAR_WEEK(\"VBAK\".\"ERDAT\") = 1 THEN 1 ELSE 0 END\n|| '-CW-' ||CALENDAR_WEEK(\"VBAK\".\"ERDAT\")\nELSE YEAR(\"VBAK\".\"ERDAT\") || '-CW-0' ||CALENDAR_WEEK(\"VBAK\".\"ERDAT\")\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Day",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Day",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Day"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE -- 2 digit Month\nWHEN MONTH( \"VBAK\".\"ERDAT\" ) >= 10\nTHEN CASE\nWHEN DAY(\"VBAK\".\"ERDAT\" ) >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\" ) ||'-'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-' || DAY(\"VBAK\".\"ERDAT\" )\nELSE YEAR(\"VBAK\".\"ERDAT\" ) ||'-'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-0' || DAY(\"VBAK\".\"ERDAT\" )\nEND\nELSE CASE\nWHEN DAY(\"VBAK\".\"ERDAT\" ) >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\" ) ||'-0'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-' || DAY(\"VBAK\".\"ERDAT\" )\nELSE YEAR(\"VBAK\".\"ERDAT\" ) ||'-0'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-0' || DAY(\"VBAK\".\"ERDAT\" )\nEND\nEND"
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9eb32479-39c0-462d-a43c-5435e31a999a",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 12,
+      "x": 27,
+      "y": 39,
+      "zIndex": 35
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Display: <%=TIMEFRAME_TEXT%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Year",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Year",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Year"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "YEAR(\"VBAK\".\"ERDAT\") || ''"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Quarter",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Quarter",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Quarter"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (10,11,12) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q1'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (1,2,3) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q2'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (4,5,6) THEN YEAR(\"VBAK\".\"ERDAT\" ) || ' - Q3'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (7,8,9) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q4'\nELSE NULL\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Month",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Month",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Month"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE -- 2 digit Month\nWHEN MONTH(\"VBAK\".\"ERDAT\") >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\") ||'-' || MONTH(\"VBAK\".\"ERDAT\")\nELSE YEAR(\"VBAK\".\"ERDAT\") ||'-0' || MONTH(\"VBAK\".\"ERDAT\")\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Week",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Week",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Week"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE\nWHEN CALENDAR_WEEK(\"VBAK\".\"ERDAT\") >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\")\n--- ADD one Year if we are already in CW 1 at the end of December\n+ CASE WHEN MONTH(\"VBAK\".\"ERDAT\") = 12 AND CALENDAR_WEEK(\"VBAK\".\"ERDAT\") = 1 THEN 1 ELSE 0 END\n|| '-CW-' ||CALENDAR_WEEK(\"VBAK\".\"ERDAT\")\nELSE YEAR(\"VBAK\".\"ERDAT\") || '-CW-0' ||CALENDAR_WEEK(\"VBAK\".\"ERDAT\")\nEND"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Day",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "TIMEFRAME_TEXT",
+          "variableValue": "Day",
+          "variables": [
+            {
+              "title": "TIMEFRAME_TEXT",
+              "variableName": "TIMEFRAME_TEXT",
+              "variableValue": "Day"
+            },
+            {
+              "title": "TIMEFRAME",
+              "variableName": "TIMEFRAME",
+              "variableValue": "CASE -- 2 digit Month\nWHEN MONTH( \"VBAK\".\"ERDAT\" ) >= 10\nTHEN CASE\nWHEN DAY(\"VBAK\".\"ERDAT\" ) >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\" ) ||'-'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-' || DAY(\"VBAK\".\"ERDAT\" )\nELSE YEAR(\"VBAK\".\"ERDAT\" ) ||'-'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-0' || DAY(\"VBAK\".\"ERDAT\" )\nEND\nELSE CASE\nWHEN DAY(\"VBAK\".\"ERDAT\" ) >= 10\nTHEN YEAR(\"VBAK\".\"ERDAT\" ) ||'-0'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-' || DAY(\"VBAK\".\"ERDAT\" )\nELSE YEAR(\"VBAK\".\"ERDAT\" ) ||'-0'|| MONTH(\"VBAK\".\"ERDAT\" ) ||'-0' || DAY(\"VBAK\".\"ERDAT\" )\nEND\nEND"
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9a1c7920-799a-401d-81b9-1f78a1a2ba1c",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 12,
+      "x": 87,
+      "y": 39,
+      "zIndex": 36
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#<%=colorschema_button_color%>",
+      "border": false,
+      "buttonTitle": "1. Select Benchmark Criterion: <%=benchmarking_dimension_t%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Customer Name",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Customer Name",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Customer Name"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"KNA1\".\"NAME1\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Material",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Material",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Material"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Material Group",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Material Group",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Material Group"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAP\".\"MATKL\" || ' - ' || \"VBAP\".\"MATKL_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Company Code",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Company Code",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Company Code"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Sales Organization",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Sales Organization",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Sales Organization"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Sales Document Type",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Sales Document Type",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Sales Document Type"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Sales Order Amount",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Sales Order Amount",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Sales Order Amount"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Client",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Client",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Client"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAP\".\"MANDT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Sales Document",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Sales Document",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Sales Document"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAP\".\"VBELN\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Item Number",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmarking_dimension_t",
+          "variableValue": "Item Number",
+          "variables": [
+            {
+              "title": "benchmarking_dimension_t",
+              "variableName": "benchmarking_dimension_t",
+              "variableValue": "Item Number"
+            },
+            {
+              "title": "benchmarking_dimension",
+              "variableName": "benchmarking_dimension",
+              "variableValue": "\"VBAP\".\"POSNR\""
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "622ef42c-757e-488a-8968-f2339e80e132",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 20,
+      "x": 41,
+      "y": 1,
+      "zIndex": 17
+    },
+    {
+      "backgroundColor": "#<%= colorschema_benchmarking_button_b %>",
+      "border": false,
+      "buttonTitle": "4. Select KPI: <%=kpi_shown_t%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "# SOs",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "# of SOs",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "# of SOs"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "COUNT_TABLE(\"VBAK\")"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "# PO items",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "# SO items",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "# SO items"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "COUNT_TABLE(\"VBAP\")"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Avg. # Cases per Variant",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Avg. # Cases per Variant",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Avg. # Cases per Variant"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "AVG(PU_COUNT(\"<%= CASE_TABLE %>\", \"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Automation Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Automation Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Automation Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Automation Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= AutoActivities %>), VARIABLE(<%= AutoTypes %>))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Undesired Activity Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Undesired Activity Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Undesired Activity Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Undesired Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Undesired %>))"
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "Repeated Activity Rate",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "kpi_shown_t",
+          "variableValue": "Repeated Activity Rate",
+          "variables": [
+            {
+              "title": "kpi_shown_t",
+              "variableName": "kpi_shown_t",
+              "variableValue": "Repeated Activity Rate"
+            },
+            {
+              "title": "kpi_shown",
+              "variableName": "kpi_shown",
+              "variableValue": "KPI(\"Repeated Activity Rate\", VARIABLE(<%= process %>), VARIABLE(<%= language %>), VARIABLE(<%= Repeated %>), VARIABLE(<%= CASE_TABLE %>))"
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "75f6baff-6926-49f8-a11a-07438dd81053",
+      "inputType": "Manual Input",
+      "isBackground": false,
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=KPI_shown%>",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "variableName": "KPI_shown",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 17,
+      "x": 63,
+      "y": 39,
+      "zIndex": 29
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking2%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking2 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Undesired Activity Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "KPI(\"CT Total\", VARIABLE(<%= unit %>), VARIABLE(<%= process %>))",
+          "textColorMapping": "",
+          "translatedName": "Undesired Activity Rate",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "3c54be1c-ee3a-42ae-b525-eca40e6b67ce",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${Undesired Activity Rate}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 52,
+      "y": 42,
+      "zIndex": 21
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmarking_dimension%> = <%=benchmarking1%>;",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%= colorschema_benchmarking1 %>",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Undesired Activity Rate",
+          "pqlBuilder": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "KPI(\"CT Total\", VARIABLE(<%= unit %>), VARIABLE(<%= process %>))",
+          "textColorMapping": "",
+          "translatedName": "Undesired Activity Rate",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "cbcfb11d-f9fa-4efd-bc65-6334f1be02c1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=17][b][color=#ffffff]${Undesired Activity Rate}[/color][/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 8,
+      "x": 42,
+      "y": 42,
+      "zIndex": 21
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "92756796-f917-4947-a8a9-ece7fa836161",
+  "name": "Benchmarking",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

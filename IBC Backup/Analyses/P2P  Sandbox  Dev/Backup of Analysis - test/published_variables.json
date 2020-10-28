@@ -1,0 +1,20 @@
+[
+  {
+    "name": "PC_GROUP",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN \"RBKP\".\"BUKRS\" = '0001' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0013' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0015' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0021' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0025' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0091' THEN 'LP'\n    WHEN \"RBKP\".\"BUKRS\" = '0002' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0003' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0016' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0018' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0019' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0029' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0092' THEN 'FL'\n    WHEN \"RBKP\".\"BUKRS\" = '0004' THEN 'TS'\n    WHEN \"RBKP\".\"BUKRS\" = '0014' THEN 'TS'  \n    WHEN \"RBKP\".\"BUKRS\" = '0023' THEN 'TS'  \n    WHEN \"RBKP\".\"BUKRS\" = '0026' THEN 'TS'\n    WHEN \"RBKP\".\"BUKRS\" = '0094' THEN 'TS'  \n    WHEN \"RBKP\".\"BUKRS\" = '0097' THEN 'TS'  \n    WHEN \"RBKP\".\"BUKRS\" = '0005' THEN 'LA' \n    WHEN \"RBKP\".\"BUKRS\" = '0017' THEN 'LA' \n    WHEN \"RBKP\".\"BUKRS\" = '0027' THEN 'LA' \n    WHEN \"RBKP\".\"BUKRS\" = '0024' THEN 'DS' \n    ELSE 'OTHERS'\nEND"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "External"
+      }
+    ],
+    "linkedFormula": "<%= VAR_VBUND %>",
+    "name": "VAR_VBUND",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  }
+]

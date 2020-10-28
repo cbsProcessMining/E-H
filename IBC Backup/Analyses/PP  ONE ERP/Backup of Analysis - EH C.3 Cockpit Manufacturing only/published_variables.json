@@ -1,0 +1,12 @@
+[
+  {
+    "name": "PP_Activity_Filterlist",
+    "type": "text_replacement",
+    "value": "'First confirmation', 'Last confirmation'"
+  },
+  {
+    "name": "WM_Activity_Filterlist",
+    "type": "text_replacement",
+    "value": "'Create Picking TO (WM)', \n'Create Put Away TO (WM)',  \n'Picking fully cancelled (WM)', \n'Picking fully confirmed (WM)', \n'Picking partially confirmed with cancellation (WM)', \n'Put Away fully cancelled (WM)', \n'Put Away fully confirmed (WM)'"
+  }
+]

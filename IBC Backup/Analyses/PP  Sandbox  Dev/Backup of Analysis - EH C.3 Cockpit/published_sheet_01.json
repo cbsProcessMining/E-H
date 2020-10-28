@@ -1,0 +1,234 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "8cc886b7-a191-4a43-9483-69ca7def36b8",
+  "name": "Baseline Prozess-Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Download to MES"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Capacity avail.not checked (CANC)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Capacity shortage (MSCP)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Closed (CLSD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Confirmed (CNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Created (CRTD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Deletion Flag (DLFL)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Delivered (DLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Error in cost calculation (CSER)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Locked (LKD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Mat.availability not checked (MANC)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Material committed (MACM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Material shortage (MSPT)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Partially confirmed (PCNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Partially delivered (PDLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Printed (PRT)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Release rejected (RELR)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Released (REL)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Technically completed (TECO)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item created"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item released"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Check completed"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Production Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Confirmed canceled (CNF)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Delivered canceled (DLV)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Error in cost calculation canceled (CSER)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Locked canceled (LKD)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Reprinted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Order Re-Read Master Data"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Item to be checked"
+      }
+    ],
+    "customActivityColumn": false,
+    "edgeSliderState": 4,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {
+      "Create Picking TO (WM)": true,
+      "Create Put Away TO (WM)": true,
+      "First confirmation": true,
+      "GI for order": true,
+      "GI order fm. sls.or.": true,
+      "GR f. sls.or.st. rev": true,
+      "GR for acct. assgt.": true,
+      "GR for sales ord.st.": true,
+      "Last confirmation": true,
+      "Order Capacity avail.not checked (CANC)": true,
+      "Order Capacity shortage (MSCP)": true,
+      "Order Error in cost calculation (CSER)": true,
+      "Order Error in cost calculation canceled (CSER)": true,
+      "Order Mat.availability not checked (MANC)": true,
+      "Order Material committed (MACM)": true,
+      "Order Material shortage (MSPT)": true,
+      "Order Technically completed (TECO)": true,
+      "Picking fully cancelled (WM)": true,
+      "Picking fully confirmed (WM)": true,
+      "Picking partially confirmed with cancellation (WM)": true,
+      "Put Away fully cancelled (WM)": true,
+      "Put Away fully confirmed (WM)": true,
+      "Rev. GR f. acc.assgt": true,
+      "Reversal of GR": true,
+      "null": true
+    },
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 4,
+    "preventResize": true,
+    "type": "simple_process",
+    "useNodeIcon": false,
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

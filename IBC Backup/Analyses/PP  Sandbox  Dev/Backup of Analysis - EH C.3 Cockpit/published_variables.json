@@ -1,0 +1,64 @@
+[
+  {
+    "name": "WM_activity_only",
+    "type": "text_replacement",
+    "value": "NOT IN ('Create Picking TO (WM)', \n'Create Put Away TO (WM)',  \n'Picking fully cancelled (WM)', \n'Picking fully confirmed (WM)', \n'Picking partially confirmed with cancellation (WM)', \n'Put Away fully cancelled (WM)', \n'Put Away fully confirmed (WM)')"
+  },
+  {
+    "name": "PP_Activity_Filterlist",
+    "type": "text_replacement",
+    "value": "IN ('')"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "0500-Endress+Hauser Conducta GmbH +"
+      }
+    ],
+    "linkedFormula": "\"T001W\".\"WERKS\" ||'-'|| \"T001W\".\"NAME1\"",
+    "name": "production_plant_2",
+    "type": "text_replacement",
+    "value": "'0500-Endress+Hauser Conducta GmbH +'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "0400-Endress+Hauser Wetzer GmbH+Co."
+      }
+    ],
+    "linkedFormula": "\"T001W\".\"WERKS\" ||'-'|| \"T001W\".\"NAME1\"",
+    "name": "production_plant_1",
+    "type": "text_replacement",
+    "value": "'0400-Endress+Hauser Wetzer GmbH+Co.'"
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "DE"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "DAYS"
+  },
+  {
+    "name": "Dynamic_OLAP_Dimension_2",
+    "type": "text_replacement",
+    "value": "null"
+  },
+  {
+    "name": "Dynamic_OLAP_Dimension",
+    "type": "text_replacement",
+    "value": "\"MARA\".\"MTART\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "WM_Activity_Filterlist",
+    "type": "text_replacement",
+    "value": "IN (\n'Create Picking TO (WM)', \n'Create Put Away TO (WM)',  \n'Picking fully cancelled (WM)', \n'Picking fully confirmed (WM)', \n'Picking partially confirmed with cancellation (WM)', \n'Put Away fully cancelled (WM)', \n'Put Away fully confirmed (WM)'\n)"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [],
+    "editMode": true,
+    "id": "ea9bb4d9-bc16-47fd-a209-1db67efb16e4",
+    "kpiViews": [],
+    "name": "E+H C.3 Cockpit",
+    "palettes": [],
+    "publishedSelections": [
+      {
+        "configuration": {
+          "dateSearchEnd": 1593561599999,
+          "dateSelection": true,
+          "formula": "\"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"",
+          "name": "",
+          "timeSelectionMode": "dateRange",
+          "type": "ATTRIBUTE"
+        },
+        "expression": "\"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"",
+        "format": "",
+        "hashed": false,
+        "hashedValues": [],
+        "id": "\"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"_date_picker",
+        "kind": "SELECTION",
+        "name": "",
+        "revertSelection": false,
+        "type": "DATE_FILTER",
+        "values": []
+      }
+    ],
+    "rawDataExportLimit": 200000,
+    "showFiltersForViewers": true,
+    "statelessLoadScript": "FILTER \"AUFK\".\"AUTYP\" = '10'",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "24a77a72-539a-4a42-87d6-bd2a15df3f67",
+  "lastChangeDate": 1602683157279,
+  "lastChangeUserId": "898e285c-979b-469d-892d-4ecd1586348a",
+  "lastChangeUserName": "philipp.gembe@endress.com(Philipp Gembe)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

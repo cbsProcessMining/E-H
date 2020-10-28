@@ -1,0 +1,660 @@
+[
+  {
+    "description": "This KPI calculates the median time from the process start until the process end in days.",
+    "id": "064371d1-d6a5-4b37-92c0-a64eceaa76cc",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "<%= ct_type %>(CALC_THROUGHPUT(ALL_OCCURRENCE['Process Start'] TO ALL_OCCURRENCE['Process End'], REMAP_TIMESTAMPS(\"_CEL_{p2}_ACTIVITIES\".\"EVENTTIME\", {p1} )))"
+  },
+  {
+    "description": "Number of Undesired Activities (User defined)",
+    "id": "0feea7ea-6916-4e4a-b6aa-3e6df135aa96",
+    "name": "Undesired Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Undesired Activity",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Undesired",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM(PU_COUNT(\"{p1}\", \"_CEL_{p2}_ACTIVITIES\".\"ACTIVITY_{p3}\", \"_CEL_{p2}_ACTIVITIES\".\"ACTIVITY_{p3}\" IN ({p4})))"
+  },
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type. (ACTIVITY LEVEL)",
+    "id": "33f231db-b855-4aeb-aadd-2b7503614471",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "-- # Automated Activities\r\nSUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n\r\n/ \r\n\r\n(\r\n-- # Automated Activities\r\nSUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n+\r\n-- # Manual Activities\r\nSUM( CASE \r\n    WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n)"
+  },
+  {
+    "description": "",
+    "id": "351cc839-29e8-4e38-99e9-331aee9916a4",
+    "name": "CT Subprocess_1",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "From",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "From",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "To",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "To",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "{p1}_BETWEEN(\r\n    PU_<%= from_occ %>(\"{p2}\", \"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", \"_CEL_{p3}_ACTIVITIES\".\"ACTIVITY_{p4}\" = {p5}),\r\n    PU_<%= to_occ %>(\"{p2}\", \"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", \"_CEL_{p3}_ACTIVITIES\".\"ACTIVITY_{p4}\" = {p6})\r\n)\r\nCALC_THROUGHPUT(FIRST_OCCURRENCE[<%= from_occ %>] TO FIRST_OCCURRENCE[<%= to_occ %>], REMAP_TIMESTAMPS(\"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", {p1}))\r\n"
+  },
+  {
+    "description": "",
+    "id": "3dd5cae7-ae16-4983-98fc-65ac29273cbd",
+    "name": "Sales Requirement Types",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN COALESCE(VBAP.BEDAE, '') <> '' THEN\r\n\r\n\tCASE \r\n\t\tWHEN T459K.KNTTP = 'E' AND T459K.ATPPR = '' AND T459K.BEDSD = '' AND T459K.MNTGA = '2' THEN 'Service / Maintenance'\r\n\r\n\t\tWHEN T459K.KNTTP = 'M' THEN \r\n\t\t\tCONCAT('MTO W/O Sales Order Accounting',\r\n\t\t\tCONCAT(CASE WHEN ISNULL(T459K.KONFI) = 0 OR ISNULL(TVAP.STRAT) = 0 THEN ' VC Material' ELSE '' END, \r\n\t\t\tCONCAT(CASE WHEN T459K.MNTGA <> '0' THEN ' Direct Assembly'  ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KZBWS, '') <> '' THEN ' with special stock valuation' ELSE '' END,\r\n\t\t\tCASE WHEN COALESCE(T459K.KALSM_K, '') <> '' THEN ' with Costing' ELSE '' END\r\n\t\t\t))))\r\n\r\n\t\tWHEN T459K.KNTTP = 'E' THEN\r\n\t\t\tCONCAT('MTO Sales Order Accounting ',\r\n\t\t\tCONCAT(CASE WHEN ISNULL(T459K.KONFI) = 0 OR ISNULL(TVAP.STRAT) = 0 THEN ' VC Material' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KALSM_K, '') <> '' THEN ' with Costing' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN COALESCE(T459K.KZBWS, '') <> '' THEN ' with special stock valuation' ELSE '' END,\r\n\t\t\tCASE WHEN T459K.MNTGA <> '0' THEN ' Direct Assembly / Project' ELSE '' END\r\n\t\t\t))))\r\n\t\t\r\n\t\tWHEN T459K.KNTTP = '' THEN \r\n\t\t\tCONCAT('MTS',\r\n\t\t\tCONCAT(CASE WHEN T459K.ATPPR = '' THEN ' W/O ATP' ELSE '' END,\r\n\t\t\tCONCAT(CASE WHEN T459K.BEDSD = '' THEN ' W/O Requirement' ELSE '' END,\r\n\t\t\tCASE WHEN T459K.QUOTA = 'X' THEN ' Allocation' ELSE '' END\r\n\t\t\t)))\r\n\r\n\t\tELSE 'Other Strategy'\r\n\t\t\r\n\tEND\r\n\r\nELSE 'No Requirement SO Line'\r\n\r\nEND"
+  },
+  {
+    "description": "Case Value w/ Currency Conversion",
+    "id": "6cd75348-cbc5-4247-81c7-f161cad43f17",
+    "name": "Case Value",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\"<%= CASE_TABLE %>\".<%=CASE_VALUE_COLUMN%>"
+  },
+  {
+    "description": "",
+    "id": "6fd1b159-7df1-438c-b429-7305eb043123",
+    "name": "Missing Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Missing Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Missing",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "100.0*(COUNT(DISTINCT CASE WHEN PROCESS NOT EQUALS {p2} THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)\n/ \nCOUNT(DISTINCT \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\"))"
+  },
+  {
+    "description": "",
+    "id": "70768e62-9314-41ec-bce8-7f3b15f32d30",
+    "name": "Missing Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Missing Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Missing",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT CASE WHEN PROCESS NOT EQUALS {p2} THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)"
+  },
+  {
+    "description": "",
+    "id": "988aeba7-8694-48dd-80e2-d1df8c23adf5",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "From",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "From",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "To",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "To",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "CALC_THROUGHPUT(<%= from_occ %>_OCCURRENCE[{p3}] TO <%= to_occ %>_OCCURRENCE[{p4}], REMAP_TIMESTAMPS(\"_CEL_{p2}_ACTIVITIES\".\"EVENTTIME\", {p1}))"
+  },
+  {
+    "description": "Share of Purchase Order Items, in which at least one Undesired Activity (user defined) has happened.",
+    "id": "a9c7c603-a9ed-4dd0-a4cc-e36170224092",
+    "name": "Undesired Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Undesired Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Undesired",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT CASE WHEN \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\" IN ({p3}) THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)\n/\nCOUNT(DISTINCT \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\")"
+  },
+  {
+    "description": "",
+    "id": "af606d52-e1d3-4723-8aca-02bf88e08468",
+    "name": "Repeated Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Repeated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Repeated",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM(CASE \n    WHEN \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3}) \n    AND ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") >= 2 \n    THEN ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") -1 \n    ELSE 0 \nEND)"
+  },
+  {
+    "description": "Share of Purchase Order Items in which Activities (user defined) have happened more than once.",
+    "id": "ba10d86a-0fa0-4c82-bf9f-1e4a9668d8de",
+    "name": "Repeated Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Repeated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Repeated",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT \r\n      CASE WHEN ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") >= 2 \r\n      AND \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\" IN ({p3})\r\n      THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END\r\n)\r\n/\r\nCOUNT_TABLE(\"{p4}\")"
+  },
+  {
+    "description": "Counts the number of automated activities (user defined)",
+    "id": "c8541f9b-dff0-4174-b684-d40f798abea0",
+    "name": "Automated Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE NULL \r\nEND )"
+  },
+  {
+    "description": "",
+    "id": "c86c9a7b-1919-4278-9d91-88c9bb5d3c5f",
+    "name": "E+H_Processes",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \r\n    WHEN LEFT (VBAP.PRODH, 1) = 'B' THEN \r\n        CONCAT ('Service - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\r\n\t\t\t\r\n\tWHEN LEFT (VBAP.PRODH, 1) = 'C' THEN \r\n        CONCAT('Analyses - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\r\n\tWHEN LEFT (VBAP.PRODH, 1) = 'D' THEN \r\n        CONCAT('Flow - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\tWHEN LEFT (VBAP.PRODH, 1) = 'E' THEN \r\n        CONCAT('Advanced Analysis - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'F' THEN \r\n        CONCAT('Level - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'G' THEN \r\n        CONCAT('***bulk flow - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'H' THEN \r\n        CONCAT('Moisture - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'M' THEN \r\n        CONCAT('Metso Product - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'N' THEN \r\n        CONCAT('Tank Gauging - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'P' THEN \r\n        CONCAT('Pressure - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'R' THEN \r\n        CONCAT('Registration - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'S' THEN \r\n        CONCAT('System Product - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'T' THEN \r\n        CONCAT('Temperature - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'U' THEN \r\n        CONCAT('Engineering - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'W' THEN \r\n        CONCAT('Documentation - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'X' THEN \r\n        CONCAT('Service General - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\tWHEN LEFT (VBAP.PRODH, 1) = 'Y' THEN \r\n        CONCAT('General - ',\r\n        CASE \r\n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN 'Delivery from SC stock'\r\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN 'Direct delivery'\r\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN 'Delivery via SC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN 'Delivery via LC'\r\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN 'Direct dispatch from master plant via 3rd party order div.'\r\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN 'Direct dispatch from master plant with division'\r\n\t\t\tEND)\t\t\r\n\t\t\t\r\n    ELSE 'Other Strategy'\r\n    \r\nEND"
+  },
+  {
+    "description": "Counts the number of manual activities (out of the considered activities)",
+    "id": "d3f728a5-b391-4e5f-9928-44a68eec371b",
+    "name": "Manual Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM( CASE \r\n    WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p4})\r\n    THEN 1 ELSE NULL \r\nEND )*1.0"
+  },
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type. (CASE LEVEL)",
+    "id": "e5001238-e5cf-4776-a725-b0e204bd0589",
+    "name": "Automation Rate PU",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "-- # Automated Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p5})\n))\n\n/ \n\n(\n-- # Automated Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p5})\n))\n\n+\n-- # Manual Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p5})\n))\n)"
+  }
+]

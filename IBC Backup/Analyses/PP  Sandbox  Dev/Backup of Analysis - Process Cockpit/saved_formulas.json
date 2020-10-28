@@ -1,0 +1,50 @@
+[
+  {
+    "description": "days/hours/minutes between planned and actual production start",
+    "id": "40e4f30f-bcd8-42c6-a8a3-0158b899a99a",
+    "name": "Difference Planned Actual Start",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=planned_start%>),<%=unit%>)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=actual_start%>),<%=unit%>)"
+  },
+  {
+    "description": "automation rate based on the activities",
+    "id": "7662f34d-2447-4250-bcaf-5e495e4daccb",
+    "name": "Automation Rate Activity",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(CASE WHEN \"_CEL_PP_ACTIVITIES\".\"USER_TYPE\" IN (<%=AutoTypes%>) AND \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" IN (<%= ActivitiesUsedInAutomationRate %>) THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": "days/hours/minutes between planned and actual production finish",
+    "id": "82ffaadc-1576-4630-a9ac-0b7c5a063964",
+    "name": "Difference Planned Actual Finish",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=planned_finish%>),<%=unit%>)-\r\nREMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=actual_finish%>),<%=unit%>)"
+  },
+  {
+    "description": "cycle time from process start till end",
+    "id": "8ca98b5d-22b8-43e7-acad-863723b4014a",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"), <%=unit%>) - REMAP_TIMESTAMPS(PU_FIRST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"), <%=unit%>)"
+  },
+  {
+    "description": "automation rate based on the dispute case",
+    "id": "8cddfa0b-8e4c-4a35-a8e7-6a330f146b26",
+    "name": "Automation Rate Case",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*(SUM(PU_COUNT(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\", ISNULL( \"_CEL_PP_ACTIVITIES\".\"USER_TYPE\")=0 \nAND \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" IN (<%= ActivitiesUsedInAutomationRate %>)\nAND \"_CEL_PP_ACTIVITIES\".\"USER_TYPE\" IN (<%=AutoTypes%>))*1.0)/\nSUM(PU_COUNT(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\")))\n"
+  },
+  {
+    "description": "cycle time from subprocess start till end",
+    "id": "f00339ac-cb20-4827-aef7-059b18003bc3",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "<%=unit%>_BETWEEN(\nPU_FIRST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=From%>),\nPU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\" = <%=To%>)\t\n)"
+  }
+]

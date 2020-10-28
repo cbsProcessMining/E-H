@@ -1,0 +1,879 @@
+{
+  "components": [
+    {
+      "activityColumnRef": "CASE \nWHEN \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\" in (<%=WM_Activity_Filterlist%>) OR \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\" in (<%=PP_Activity_Filterlist%>)\nTHEN NULL\nELSE \"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\"\nEND",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Download to MES"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity avail.not checked (CANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity shortage (MSCP)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Closed (CLSD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Created (CRTD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Deletion Flag (DLFL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Mat.availability not checked (MANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material committed (MACM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material shortage (MSPT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially confirmed (PCNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially delivered (PDLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Printed (PRT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Release rejected (RELR)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Released (REL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Technically completed (TECO)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item created"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Check completed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Production Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed canceled (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered canceled (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation canceled (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked canceled (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Reprinted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Reread Master Data"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "hiddenActivities": {
+        "Create Put Away TO (WM)": true,
+        "GI for order": true,
+        "GI order fm. sls.or.": true,
+        "GR f. sls.or.st. rev": true,
+        "GR for acct. assgt.": true,
+        "GR for sales ord.st.": true,
+        "Order Capacity avail.not checked (CANC)": true,
+        "Order Capacity shortage (MSCP)": true,
+        "Order Error in cost calculation (CSER)": true,
+        "Order Error in cost calculation canceled (CSER)": true,
+        "Order Locked (LKD)": true,
+        "Order Locked canceled (LKD)": true,
+        "Order Mat.availability not checked (MANC)": true,
+        "Order Material committed (MACM)": true,
+        "Order Material shortage (MSPT)": true,
+        "Picking fully cancelled (WM)": true,
+        "Picking fully confirmed (WM)": true,
+        "Picking partially confirmed with cancellation (WM)": true,
+        "Put Away fully cancelled (WM)": true,
+        "Put Away fully confirmed (WM)": true,
+        "Rev. GR f. acc.assgt": true,
+        "Reversal of GR": true,
+        "Status: Capacity avail.not checked (CANC)": true,
+        "Status: Capacity shortage (MSCP)": true,
+        "Status: Mat.availability not checked (MANC)": true,
+        "Status: Material committed (MACM)": true,
+        "Status: Technically completed (TECO)": true,
+        "null": true
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "7e2c62a0-3051-4d73-afad-56c055d05e56",
+      "kpiView": {
+        "connectionKpi": {
+          "id": "THROUGHPUT_AVG",
+          "name": "Throughput Time (AVG)",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "id": "THROUGHPUT_AVG",
+            "name": "Throughput Time (AVG)",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-throughput.svg",
+        "id": "THROUGHPUT_AVG",
+        "supportsParams": true,
+        "title": "throughput_avg"
+      },
+      "maximized": false,
+      "selection": [],
+      "selectionIndexes": [
+        0
+      ],
+      "showHeader": true,
+      "throughputUnits": "hours",
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variant_explorer",
+      "variantSorting": {
+        "kpiIndex": 0,
+        "name": "most_common_variant",
+        "orderType": "DESC"
+      },
+      "vertical": false,
+      "width": 76,
+      "x": 24,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"T399X\".\"AUART\""
+        },
+        "isMultiSelect": true
+      },
+      "dropdownText": "#{Auftragsart}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9f6d44d2-69ae-4259-a5e4-0b455bb7724b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 10,
+      "x": 10,
+      "y": 2,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"T001W\".\"WERKS\" || ' - ' || \"T001W\".\"NAME1\""
+        },
+        "isMultiSelect": true
+      },
+      "dropdownText": "#{Werk}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "b60d4074-4b22-422d-bd53-58db70c4a588",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 10,
+      "x": 10,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"AUFK\".\"AUTYP\""
+        },
+        "isMultiSelect": true
+      },
+      "dropdownText": "#{Auftragstyp}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "b831ef35-2730-451e-81e0-1533f63c027a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 10,
+      "x": 0,
+      "y": 2,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"AFPO\".\"PRETTY_NAME\""
+        },
+        "isMultiSelect": true
+      },
+      "dropdownText": "System/Mandant",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "993cf628-1c72-4f7b-a109-d045944b392e",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 10,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 20,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "e10b5447-1dd0-4fae-b0e0-034f7131ff12",
+      "maximized": false,
+      "minHeight": 10,
+      "minWidth": 15,
+      "selectedActivity": {
+        "id": 1,
+        "name": "Create Picking TO (WM)"
+      },
+      "selectedFilter": {
+        "title": "flow through",
+        "value": "flowThrough"
+      },
+      "selection": [],
+      "settings": {
+        "maxValue": 1500,
+        "metric": "case_count",
+        "minValue": 0,
+        "seriesColor": "",
+        "showMaxValue": true,
+        "textColor": "",
+        "viewType": "radial"
+      },
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "activity-explorer",
+      "vertical": false,
+      "width": 24,
+      "x": 0,
+      "y": 30,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "SYSTEM",
+          "text": "\"AUFK\".\"PRETTY_NAME\"",
+          "translatedName": "PRETTY_NAME",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "MTART",
+          "text": "\"MARA\".\"MTART\"",
+          "translatedName": "E",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "AUART",
+          "text": "\"AUFK\".\"AUART\"",
+          "translatedName": "E",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Case count",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"AFPO\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 23,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "21c528e6-21c4-49d2-ab04-cc5736e9a1f4",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Case count / Auftragsart",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 24,
+      "x": 0,
+      "y": 7,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"AUFK\".\"BUKRS_TEXT\""
+        },
+        "isMultiSelect": true
+      },
+      "dropdownText": "Buchungskreis",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "4e000775-91c8-413c-a631-0de163d7f779",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 10,
+      "x": 0,
+      "y": 4,
+      "zIndex": 1
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "e14b9d55-d97d-4e14-ba2b-3aefc6a3eb27",
+  "name": "Variant-Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

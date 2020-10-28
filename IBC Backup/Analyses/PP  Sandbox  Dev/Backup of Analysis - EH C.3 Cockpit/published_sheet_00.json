@@ -1,0 +1,18 @@
+{
+  "aggregateFunction": "avg",
+  "components": [],
+  "contentType": "process-overview",
+  "format": "FULLSCREEN",
+  "id": "c50e94ba-b463-43b7-8447-4561b270118d",
+  "name": "Prozess-\u00dcbersicht",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  },
+  "timeUnits": "DAYS"
+}

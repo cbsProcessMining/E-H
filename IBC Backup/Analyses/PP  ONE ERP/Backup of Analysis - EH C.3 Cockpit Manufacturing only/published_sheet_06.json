@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "contentType": "happy-path-scanner",
+  "format": "FULLSCREEN",
+  "id": "d56bbb1e-15b3-47fe-b382-1af83162a28b",
+  "kpis": [
+    {
+      "compareMode": "none",
+      "name": "Case count",
+      "text": "COUNT_TABLE(\"AFPO\")",
+      "valueFormat": ",f"
+    },
+    {
+      "compareMode": "none",
+      "name": "Activities count",
+      "text": "COUNT(\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\")",
+      "valueFormat": ",f"
+    }
+  ],
+  "name": "Process AI",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  },
+  "subtitle": null
+}

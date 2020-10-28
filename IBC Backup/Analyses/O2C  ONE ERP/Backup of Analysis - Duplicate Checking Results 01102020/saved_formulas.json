@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Number of invoices with payment blocks",
+    "id": "e9782dad-cfd9-4bf1-9532-f3f1ac0ce74d",
+    "name": "Payment Blocks",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE \nWHEN PU_COUNT(\"BSEG\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_<%= language %>\",\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN ('<%= payment_block_activity %>', '<%= rm_payment_block_activity %>')) > 0\nTHEN 1.0\nELSE 0.0\nEND\n)"
+  },
+  {
+    "description": "Relative amount of invoices with payment blocks",
+    "id": "f296a26f-b05d-4b0d-b37c-73c52fd554a1",
+    "name": "Payment Block Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*AVG(CASE \nWHEN PU_COUNT(\"BSEG\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_<%= language %>\",\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN ('<%= payment_block_activity %>', '<%=rm_payment_block_activity%>')) > 0\nTHEN 1.0\nELSE 0.0\nEND\n)\n\n\n"
+  }
+]

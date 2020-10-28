@@ -1,0 +1,207 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "activeSection": "KPI_ABSTRACTIONS",
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "edbf000d-6e1f-4574-92aa-7cf6f990eda1",
+        "name": "Rework Flag",
+        "thresholds": [
+          {
+            "color": "#229a00",
+            "compare": "==",
+            "formula": "Without Rework"
+          },
+          {
+            "color": "#b61608",
+            "compare": "==",
+            "formula": "With Rework"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "0c5440cb-15d3-4e40-bc54-69b147e38724",
+        "name": "Rework Rate %",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "0.3"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<",
+            "formula": "0.1"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "c4aa6c2c-95f4-4f38-bbe3-fe9a80173d08",
+        "name": "Automation Rate",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "<",
+            "formula": "<%=percentage_color_low%>"
+          },
+          {
+            "color": "#229a00",
+            "compare": ">=",
+            "formula": "<%=percentage_color_high%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "78cdc5ab-f4e5-47fd-86de-79cdf769ccbf",
+        "name": "Rework Rate",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "30"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<=",
+            "formula": "10"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "1e559010-7888-459c-ad7d-5fe57a777508",
+        "name": "% Changes",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "30"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<",
+            "formula": "16"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ac1979f4-f96e-45e5-ba78-f68b01a0dcc9",
+        "name": "Change Flag",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "==",
+            "formula": "With Change"
+          },
+          {
+            "color": "#229a00",
+            "compare": "==",
+            "formula": "Without Change"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "dea9f2c9-ccd7-4c77-92a9-65a507008d3c",
+        "name": "CT total",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "20"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<=",
+            "formula": "10"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "4ef4046e-e376-421c-83d2-630979c2e380",
+        "name": "New Expression SeriesThresholds",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "0.5"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<",
+            "formula": "0.1"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "80365afc-1fc9-46c7-b2f9-588c8c1fe43c",
+    "kpiViews": [
+      {
+        "activityKpi": {
+          "id": "abcf0f7a-a09a-48d2-8074-30c97cfdd337",
+          "name": "Automation Rate",
+          "text": "AVG(CASE\n   WHEN \"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_EN\" NOT IN (<%=AutomationActivities%>) THEN NULL\n   WHEN \"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\" IN (<%=AutoTypes%>) THEN 1.0 ELSE 0.0 END)",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "abcf0f7a-a09a-48d2-8074-30c97cfdd337",
+            "name": "Automation Rate",
+            "text": "AVG(CASE\n   WHEN \"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_EN\" NOT IN (<%=AutomationActivities%>) THEN NULL\n   WHEN \"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\" IN (<%=AutoTypes%>) THEN 1.0 ELSE 0.0 END)",
+            "valueFormat": "%"
+          }
+        ],
+        "connectionKpis": [],
+        "edgesFormatting": {},
+        "icon": "app/icons/icon-custom.jade",
+        "id": "d3648332-e6df-4ab5-b80d-9ebd41c57fe0",
+        "nodesFormatting": {
+          "colorThresholds": [
+            {
+              "color": "#e58023",
+              "compare": "<",
+              "formula": "0.2"
+            },
+            {
+              "color": "#229a00",
+              "compare": ">=",
+              "formula": "0.2"
+            },
+            {
+              "color": "#b61608",
+              "compare": "<",
+              "formula": "0.05"
+            }
+          ]
+        },
+        "title": "Automation Rate"
+      }
+    ],
+    "loadScript": "CLEAR SELECTIONS;",
+    "multiselectMode": false,
+    "name": "Process (Test-)Cockpit",
+    "palettes": [],
+    "publishedSelections": [],
+    "rawDataExportLimit": 2000000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "736fdbe2-5e33-4f51-a88f-a954f2d32767",
+  "lastChangeDate": 1602664826407,
+  "lastChangeUserId": "393e49fc-0b59-4e9d-aca3-02403b4faec1",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher Knaps)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

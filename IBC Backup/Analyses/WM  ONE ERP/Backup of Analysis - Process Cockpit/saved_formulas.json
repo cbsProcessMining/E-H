@@ -1,0 +1,42 @@
+[
+  {
+    "description": null,
+    "id": "1f2e1874-e6b9-4c97-a2a2-ceee6375c910",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(CALC_THROUGHPUT(FIRST_OCCURRENCE[<%=From%>] TO FIRST_OCCURRENCE[<%=To%>], REMAP_TIMESTAMPS(\"_CEL_WM_ACTIVITIES\".\"EVENTTIME\", DAYS)))"
+  },
+  {
+    "description": null,
+    "id": "33e5d874-0370-440b-81a1-45246e688bf1",
+    "name": "Total Rework Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*(1.0*COUNT(DISTINCT \n    CASE\n        WHEN \"_CEL_WM_ACTIVITIES\".\"ACTIVITY_EN\" IN (<%= reworkActivities%>)\n            THEN \"_CEL_WM_ACTIVITIES\".\"_CASE_KEY\"\n        ELSE NULL\n    END\n)\n/\nCOUNT_TABLE(\"LTAP\"))"
+  },
+  {
+    "description": null,
+    "id": "3f0ad9df-3f36-488d-80c7-47a6c88c8f7c",
+    "name": "Rework Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100 * SUM(CASE WHEN PU_COUNT(\"LTAP\",\"_CEL_WM_ACTIVITIES\".\"ACTIVITY_EN\",\"_CEL_WM_ACTIVITIES\".\"ACTIVITY_EN\" IN (<%=reworkActivities%>)) > 0 THEN 1.0 ELSE 0.0 END) / COUNT_TABLE(\"LTAP\")"
+  },
+  {
+    "description": null,
+    "id": "61062e37-3161-440f-ba54-5bb93294656e",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE\n   WHEN \"_CEL_WM_ACTIVITIES\".\"ACTIVITY_EN\" NOT IN (<%=AutomationActivities%>) THEN NULL\n   WHEN \"_CEL_WM_ACTIVITIES\".\"USER_TYPE\" IN (<%=AutoTypes%>) THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": null,
+    "id": "9a8995e3-2293-4d89-8c25-1c09aa19e8b4",
+    "name": "Total Cycle Time",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(REMAP_TIMESTAMPS(PU_LAST(\"LTAP\", \"_CEL_WM_ACTIVITIES\".\"EVENTTIME\"), DAYS) - REMAP_TIMESTAMPS(PU_FIRST(\"LTAP\", \"_CEL_WM_ACTIVITIES\".\"EVENTTIME\"), DAYS))"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "description": null,
+    "id": "85b3b05e-dca5-4635-97a7-11bf1affbf3c",
+    "name": "test",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(MATCH_ACTIVITIES(EXCLUDING['Clear Invoice'] ))"
+  }
+]

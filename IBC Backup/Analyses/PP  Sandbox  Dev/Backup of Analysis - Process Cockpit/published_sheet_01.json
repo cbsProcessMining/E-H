@@ -1,0 +1,3757 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 3,
+      "id": "95e5f447-02b4-4a80-859c-5b29ddac0e06",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=30][b]#{processCockpit} - #{overview}[/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 39,
+      "x": 15,
+      "y": 3,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"AFKO\")",
+        "units": " ",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "54ebfbd2-206e-49a4-a00a-976b967d1ce4",
+      "kpiValue": 85023,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{productionOrders}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 20,
+      "x": 54,
+      "y": 1,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"AFPO\")",
+        "units": "",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "e581864b-fa45-4470-9627-f391b9a9e083",
+      "kpiValue": 85023,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{productionOrderItems}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 20,
+      "x": 79,
+      "y": 1,
+      "zIndex": 6
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "<%= ButtonDrilldown1 == '\"AUFK\".\"BUKRS_TEXT\"'?'#{\"AUFK\".\"BUKRS\"}': ButtonDrilldown1 == '\"AFPO\".\"DWERK_TEXT\"'?'#{\"AFPO\".\"DWERK\"}': ButtonDrilldown1 == '\"AUFK\".\"GSBER_TEXT\"'?'#{\"AUFK\".\"GSBER\"}': ButtonDrilldown1 == '\"AUFK\".\"PRCTR_TEXT\"'?'#{\"AUFK\".\"PRCTR\"}': ButtonDrilldown1 == '\"AFPO\".\"MATNR_TEXT\"'?'#{\"material\"}': ButtonDrilldown1 == '\"AFPO\".\"MATKL_TEXT\"'?'#{\"materialGroup\"}': ButtonDrilldown1 == '\"CRHD\".\"MATYP\"'?'#{\"CRHD\".\"MATYP\"}': ''%>",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"AUFK\".\"BUKRS\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AUFK\".\"BUKRS_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AUFK\".\"BUKRS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"AFPO\".\"DWERK\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AFPO\".\"DWERK_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AFPO\".\"DWERK_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"AUFK\".\"GSBER\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AUFK\".\"GSBER_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AUFK\".\"GSBER_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"AUFK\".\"PRCTR\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AUFK\".\"PRCTR_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AUFK\".\"PRCTR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"material\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AFPO\".\"MATNR_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AFPO\".\"MATNR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"materialGroup\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"AFPO\".\"MATKL_TEXT\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"AFPO\".\"MATKL_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"CRHD\".\"MATYP\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "ButtonDrilldown1",
+          "variableValue": "\"CRHD\".\"MATYP\"",
+          "variables": [
+            {
+              "title": "ButtonDrilldown1",
+              "variableName": "ButtonDrilldown1",
+              "variableValue": "\"CRHD\".\"MATYP\""
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "fae4dfd0-7299-494f-9dc5-5f1bfeeee66b",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true,
+        "preview": "Value1 Value2"
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "width": 11,
+      "x": 88,
+      "y": 29,
+      "zIndex": 7
+    },
+    {
+      "axis0": [
+        {
+          "flex": 1,
+          "meta": {
+            "columnName": "#{\"AUFK\".\"BUKRS\"}",
+            "columnType": "string",
+            "expressionColumn": null,
+            "expressionLhs": "\"AUFK\".\"BUKRS_TEXT\" AS \"#{\\\"AUFK\\\".\\\"BUKRS\\\"}\"",
+            "filterLhs": null,
+            "format": "",
+            "hidden": null
+          },
+          "name": "<%= ButtonDrilldown1 == '\"AUFK\".\"BUKRS_TEXT\"'?'#{\"AUFK\".\"BUKRS\"}': ButtonDrilldown1 == '\"AFPO\".\"DWERK_TEXT\"'?'#{\"AFPO\".\"DWERK\"}': ButtonDrilldown1 == '\"AUFK\".\"GSBER_TEXT\"'?'#{\"AUFK\".\"GSBER\"}': ButtonDrilldown1 == '\"AUFK\".\"PRCTR_TEXT\"'?'#{\"AUFK\".\"PRCTR\"}': ButtonDrilldown1 == '\"AFPO\".\"MATNR_TEXT\"'?'#{\"material\"}': ButtonDrilldown1 == '\"AFPO\".\"MATKL_TEXT\"'?'#{\"materialGroup\"}': ButtonDrilldown1 == '\"CRHD\".\"MATYP\"'?'#{\"CRHD\".\"MATYP\"}': ''%>",
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "text": "<%=ButtonDrilldown1%>",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "<%= ButtonDrilldown1== '\"AUFK\".\"BUKRS_TEXT\"'  ? 'Company Code': ButtonDrilldown1 == '\"AFPO\".\"DWERK_TEXT\"'  ? 'Plant' : ButtonDrilldown1 == '\"AUFK\".\"GSBER_TEXT\"'  ? 'Business Area': ButtonDrilldown1 == '\"AUFK\".\"PRCTR_TEXT\"'  ? 'Profit Center': ButtonDrilldown1 == '\"AFPO\".\"MATNR_TEXT\"'  ? 'Material': ButtonDrilldown1 == '\"AFPO\".\"MATKL_TEXT\"'  ? 'Material group':''%>",
+          "type": "dimension",
+          "units": " ",
+          "width": 197
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gapWidth": 0.1,
+        "gridlineStyle": {},
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "seriesColor": "",
+        "showAxis": false,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsOffsetX": "3",
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 0.7766,
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#15a7d1",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# #{productionOrders}",
+            "columnType": "int",
+            "expressionColumn": null,
+            "expressionLhs": null,
+            "filterLhs": null,
+            "format": ",f",
+            "hidden": null
+          },
+          "name": "# #{productionOrders}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#15a7d1",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": true,
+          "text": "COUNT_TABLE(\"AFKO\")",
+          "textColor": "#FFFFFF",
+          "textColorMapping": "",
+          "translatedName": "# Fertigungsauftr\u00e4ge",
+          "units": " ",
+          "valueFormat": ",f",
+          "width": 153
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 20,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "152ff749-01af-4acd-bcef-3b3096f05475",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 10,
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "seriesColor": "",
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "title": "# #{productionOrders} #{by} <%= ButtonDrilldown1 == '\"AUFK\".\"BUKRS_TEXT\"'?'#{\"AUFK\".\"BUKRS\"}': ButtonDrilldown1 == '\"AFPO\".\"DWERK_TEXT\"'?'#{\"AFPO\".\"DWERK\"}': ButtonDrilldown1 == '\"AUFK\".\"GSBER_TEXT\"'?'#{\"AUFK\".\"GSBER\"}': ButtonDrilldown1 == '\"AUFK\".\"PRCTR_TEXT\"'?'#{\"AUFK\".\"PRCTR\"}': ButtonDrilldown1 == '\"AFPO\".\"MATNR_TEXT\"'?'#{\"material\"}': ButtonDrilldown1 == '\"AFPO\".\"MATKL_TEXT\"'?'#{\"materialGroup\"}': ButtonDrilldown1 == '\"CRHD\".\"MATYP\"'?'#{\"CRHD\".\"MATYP\"}': ''%>",
+      "titleStyle": {
+        "alignment": "left",
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#4f4d4d",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 29,
+      "x": 70,
+      "y": 29,
+      "zIndex": 1
+    },
+    {
+      "axis0": [
+        {
+          "meta": {
+            "columnName": "#{Round_Month}(#{AUFK.ERDAT})",
+            "columnType": "date",
+            "expressionColumn": null,
+            "expressionLhs": "ROUND_MONTH ( \"AUFK\".\"ERDAT\" ) AS \"#{Round_Month}(#{AUFK.ERDAT})\" FORMAT \"%Y-%m\"",
+            "filterLhs": null,
+            "format": "",
+            "hidden": null
+          },
+          "name": "#{Round_Month}(#{AUFK.ERDAT})",
+          "sorting": "ASC",
+          "sortingIndex": 0,
+          "text": "ROUND_MONTH(\"AUFK\".\"ERDAT\")",
+          "translatedName": "Round_Month(Created on)",
+          "type": "dimension",
+          "units": " ",
+          "valueFormat": "%Y-%m"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": false,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "x-small 11px",
+              "value": 11
+            },
+            "fontColor": "",
+            "fontSize": 11
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "# #{productionOrders}",
+            "columnType": "int",
+            "expressionColumn": null,
+            "expressionLhs": null,
+            "filterLhs": null,
+            "format": ",f",
+            "hidden": null
+          },
+          "name": "# #{productionOrders}",
+          "noFunction": true,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "spline": true,
+          "text": "COUNT_TABLE(\"AUFK\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "# Production Orders",
+          "type": "INTEGER",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 20,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "853187c9-8b65-47ca-85d3-f71d9dace829",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 12,
+      "maximized": false,
+      "newFullscreen": false,
+      "pinScrollbarRight": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{development} #{of} # #{productionOrders}",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 46,
+      "x": 53,
+      "y": 8,
+      "zIndex": 3
+    },
+    {
+      "activityColumnRef": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Actual finish time"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Actual start time"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Production Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "First confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Last confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Created"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Deletion Flag"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Delivered"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Error in cost calculation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Locked"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: No material components"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order: Technically completed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Scheduled finish time"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Scheduled start time"
+        }
+      ],
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "#e4e4e4",
+        "opacity": 0
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "fullscreen": false,
+      "groupsConfigurations": [
+        {
+          "children": [
+            "Send Purchase Order (eOrder)",
+            "Send Purchase Order (eMail)"
+          ],
+          "collapsed": true,
+          "name": "Send Purchase Order (electronic)",
+          "shapeType": "Hexagon"
+        }
+      ],
+      "hasBackground": true,
+      "height": 41,
+      "hiddenActivities": {},
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "12c3b438-a430-4a9b-a4b3-f4f73b3a80f5",
+      "kpiView": {
+        "connectionKpi": {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "colorEnd": "#1190b6",
+            "colorStart": "#40c6ed",
+            "id": "FREQUENCY",
+            "name": "frequency",
+            "text": "",
+            "units": "",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-frequency.svg",
+        "id": "FREQUENCY",
+        "inlineKpi": "caseCount",
+        "title": "frequency"
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "nodeSliderState": 0,
+      "selection": [],
+      "shapeType": "Hexagon",
+      "showHeader": true,
+      "throughputUnits": "days",
+      "title": "#{processExplorer}",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#4f4d4d",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "width": 37,
+      "x": 15,
+      "y": 8,
+      "zIndex": 6
+    },
+    {
+      "action": "openTab",
+      "backgroundColor": "#14A9D5",
+      "border": false,
+      "buttonTitle": "#{managementView}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "a3e57a0f-79b1-4319-8ff6-96dff2d19319",
+      "isBackground": true,
+      "maximized": false,
+      "selection": [],
+      "sheetId": "28b08d04-a704-4b3b-ad0c-4d397e354d64",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 47,
+      "zIndex": 7
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "meta": {
+            "columnName": "#{with}/#{without} #{plannedOrder}",
+            "columnType": "string",
+            "expressionColumn": null,
+            "expressionLhs": "CASE WHEN ISNULL ( \"AFPO\".\"PLNUM\" ) = 0 THEN 'Created from Planned Order' ELSE 'Created manually' END AS \"#{with}/#{without} #{plannedOrder}\"",
+            "filterLhs": null,
+            "format": "",
+            "hidden": null
+          },
+          "name": "#{with}/#{without} #{plannedOrder}",
+          "text": "CASE \nWHEN ISNULL(\"AFPO\".\"PLNUM\")=0 THEN 'Created from Planned Order' \nELSE 'Created manually' \nEND ",
+          "translatedName": "With/Without Planned Order",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "font": "Proxima Nova",
+            "fontColor": "",
+            "fontSize": 12
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "meta": {
+            "columnName": "Case count",
+            "columnType": "int",
+            "expressionColumn": null,
+            "expressionLhs": null,
+            "filterLhs": null,
+            "format": ",f",
+            "hidden": null
+          },
+          "name": "Case count",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "showPercentages": true,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"AFPO\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Case count",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "pie",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 20,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "c3f10a60-46b1-44f0-930a-9c20b1cd43b8",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 4,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "#{createdFromPlannedOrder}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "large 15px",
+          "value": 15
+        },
+        "fontColor": "",
+        "fontSize": 15
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 16,
+      "x": 53,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 3,
+      "id": "3b95b1e0-d20d-4d39-857e-7256b8899177",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 1,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "8e7707a7-0e1a-40b1-88ca-956dabe1195d",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{time} (#{\"AUFK\".\"ERDAT\"}):[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 9,
+      "zIndex": 7
+    },
+    {
+      "alignment": "vertical",
+      "autoAlign": true,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "datepickerSettings": {
+        "formula": {
+          "text": "<%=date_picker%>",
+          "units": " "
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 5,
+      "id": "568fd4b8-5bc8-4393-8a2e-1df734f2752a",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "transparent",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "width": 12,
+      "x": 1,
+      "y": 11,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "76c201f1-59b0-491f-985c-0f91dc2477d0",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{organization}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 17,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AUFK\".\"BUKRS\" || '-' || \"AUFK\".\"BUKRS_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"BUKRS\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "e210b9f4-4629-4995-a949-c6f6cfbde719",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 19,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AFPO\".\"DWERK\" || '-' || \"AFPO\".\"DWERK_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AFPO\".\"DWERK\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "4ebd53fc-9547-4a54-9476-10f87892ce2d",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 22,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AUFK\".\"GSBER\" || ' - ' || \"AUFK\".\"GSBER_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"GSBER\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "78449443-8616-4ad7-a124-b8c75cd655ef",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 25,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "CASE WHEN ISNULL(\"AUFK\".\"PRCTR_TEXT\")=1 THEN \"AUFK\".\"PRCTR\" \nELSE \"AUFK\".\"PRCTR\" || ' - ' || \"AUFK\".\"PRCTR_TEXT\" \nEND ",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AUFK\".\"PRCTR\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "44b80ba2-64a2-476f-b6d3-b8f0d45e41f1",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 28,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "b5fddb02-172f-4bf3-84a1-61a5746fbfa8",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{filter} #{by} #{orderInformation}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 32,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"CRHD\".\"ARBPL\" || ' ' || \"CRHD\".\"ARBPL_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"CRHD\".\"ARBPL\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "ebc5e6b0-4016-4b40-991d-0f95d7d6047c",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 34,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "\"AFPO\".\"MATKL_TEXT\"",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"materialGroup\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "d02169b2-cba5-4d96-b33f-1d41d655c147",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 37,
+      "zIndex": 7
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "CASE \n    WHEN ISNULL(\"AFPO\".\"XLOEK\") = 1 THEN 'not deleted'\n     WHEN \"AFPO\".\"XLOEK\" = 'X' THEN 'deleted'\n     ELSE \"AFPO\".\"XLOEK\"\nEND",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "First confirmation"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Last confirmation"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Order: Created"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Order: Deletion Flag"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Order: Delivered"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Order: Error in cost calculation"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Order: Locked"
+              },
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Order: No material components"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Order: Released"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Order: Technically completed"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "ActivitiesUsedInAutomationRate",
+            "type": "text_replacement",
+            "value": "'Create Production Order','First confirmation','Last confirmation','Order: Created','Order: Deletion Flag','Order: Delivered','Order: Error in cost calculation','Order: Locked','Order: No material components','Order: Released','Order: Technically completed'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Scheduled finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_finish",
+            "type": "text_replacement",
+            "value": "'Scheduled finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_finish",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Actual start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "actual_start",
+            "type": "text_replacement",
+            "value": "'Actual start time'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Scheduled start time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "planned_start",
+            "type": "text_replacement",
+            "value": "'Scheduled start time'"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"ERDAT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              },
+              {
+                "formattedValue": "S",
+                "selected": true,
+                "value": "S"
+              }
+            ],
+            "name": "AutoTypes",
+            "type": "text_replacement",
+            "value": "'B','S'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Create Production Order"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Production Order'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Actual finish time"
+              }
+            ],
+            "linkedFormula": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Actual finish time'"
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterEnd",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceBeforeStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "toleranceAfterStart",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"AUFK\".\"BUKRS_TEXT\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"AFPO\".\"XLOEK\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "8703e211-5079-435d-a21d-b6732cfcac59",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 40,
+      "zIndex": 7
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "id": "94160d0c-00c9-41dc-9611-548af456c19f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 0,
+      "y": 0,
+      "zIndex": 4
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "8bd67449-60f5-47d5-978f-e137493e1475",
+  "lines": [],
+  "name": "#{overview}",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

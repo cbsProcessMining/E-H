@@ -1,0 +1,24 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [],
+    "editMode": true,
+    "id": "ea9bb4d9-bc16-47fd-a209-1db67efb16e4",
+    "kpiViews": [],
+    "name": "E+H C.3 Cockpit (Manufacturing only!)",
+    "rawDataExportLimit": 200000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "FILTER \"AUFK\".\"AUART\" != 'PQ04';",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "0c650575-dec8-4a9c-96ec-dffa5172ad7e",
+  "lastChangeDate": 1601471530135,
+  "lastChangeUserId": "898e285c-979b-469d-892d-4ecd1586348a",
+  "lastChangeUserName": "philipp.gembe@endress.com(Philipp Gembe)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

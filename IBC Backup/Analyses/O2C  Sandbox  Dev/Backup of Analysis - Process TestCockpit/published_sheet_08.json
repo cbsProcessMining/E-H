@@ -1,0 +1,389 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "c4354d73-0772-43db-9ca3-5cd8f9f44ea0",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Goods Issue"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Confirmed Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Confirmed Goods Issue Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Confirmed Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Inco Terms (Part 1)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Inco Terms (Part 2)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Material Availability Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Payment Terms"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Requested Delivery Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Requested Goods Issue Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Requested Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Shipping Type"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Clear Credit Memo"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Clear Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Credit memo"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Credit memo canceled"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Debit memo"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Delivery"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Invoice canceled"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Pro forma invoice"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Returns delivery for order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Sales Order"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Sales Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Shipment"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Pass Credit"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Goods Issue"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Record Return Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Remove Delivery Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sales Order Released"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Send Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Credit Hold"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Delivery Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Initial Billing Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Initial Credit Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Initial Delivery Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Update Order Confirmation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Cancel Reason for Rejection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Division"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Material"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Plant"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Price"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Reason for Rejection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Route"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking Cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking Confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Set Reason for Rejection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Picking TO (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking Confirmed (MM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Configuration"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Credit Management Status"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Delivery Block"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Division"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Inco Terms (Part 1)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Inco Terms (Part 2)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Material Staging Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Route"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Shipping Type"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Delivery Special Process Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Direct Delivery Indicator"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Freight Terms"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change PO Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change PO Number"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Quotation"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quotation Released"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Changes Confirmation Type"
+      }
+    ],
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "id": "THROUGHPUT",
+        "name": "Throughput Time (Median)",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "id": "THROUGHPUT",
+          "name": "Throughput Time (Median)",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-throughput.svg",
+      "id": "THROUGHPUT",
+      "supportsParams": true,
+      "title": "throughput_median"
+    },
+    "nodeSliderState": 13,
+    "preventResize": true,
+    "throughputUnits": "minutes",
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

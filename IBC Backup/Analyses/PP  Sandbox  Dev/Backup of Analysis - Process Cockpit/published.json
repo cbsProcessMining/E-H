@@ -1,0 +1,73 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "2f31aebc-cdae-4ceb-aef9-8252d3b07856",
+        "name": "#{adherenceSchedules}",
+        "thresholds": [
+          {
+            "color": "#229a00",
+            "compare": "==",
+            "formula": "on time"
+          },
+          {
+            "color": "#b61608",
+            "compare": "==",
+            "formula": "too late"
+          },
+          {
+            "color": "#b61608",
+            "compare": "==",
+            "formula": "too early"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "102999333",
+    "kpiViews": [
+      {
+        "activityKpi": {
+          "id": "0d1a3ffd-49dc-42b8-a09e-fc2745acc50a",
+          "name": "Formula 1",
+          "text": "KPI(\"Automation Rate\")",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "0d1a3ffd-49dc-42b8-a09e-fc2745acc50a",
+            "name": "Automation Rate Case",
+            "text": "KPI(\"Automation Rate Activity\")",
+            "units": "%",
+            "valueFormat": ",f"
+          }
+        ],
+        "connectionKpis": [],
+        "edgesFormatting": {},
+        "icon": "icons/icon-custom.svg",
+        "id": "0dcc64d7-742e-42f7-a2e5-b6fa2794131d",
+        "nodesFormatting": {
+          "colorThresholds": []
+        },
+        "title": "Automation Rate"
+      }
+    ],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "PP00 - Process Cockpit",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy"
+  },
+  "id": "9a49e833-4527-430b-a3e1-530aeb7b3957",
+  "lastChangeDate": 1601472536572,
+  "lastChangeUserId": "898e285c-979b-469d-892d-4ecd1586348a",
+  "lastChangeUserName": "philipp.gembe@endress.com(Philipp Gembe)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

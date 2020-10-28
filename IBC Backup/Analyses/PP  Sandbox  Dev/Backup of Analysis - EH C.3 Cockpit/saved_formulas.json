@@ -1,0 +1,10 @@
+[
+  {
+    "description": "Cycle time from process start till process end",
+    "id": "305f9e92-4cfd-4811-884a-2860eab98c0d",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "REMAP_TIMESTAMPS(PU_LAST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"), <%=unit%>) - REMAP_TIMESTAMPS(PU_FIRST(\"AFPO\", \"_CEL_PP_ACTIVITIES\".\"EVENTTIME\"), <%=unit%>)"
+  }
+]

@@ -1,0 +1,712 @@
+{
+  "components": [
+    {
+      "activityColumnRef": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Check completed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Production Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Download to MES"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity avail.not checked (CANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity shortage (MSCP)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Closed (CLSD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed canceled (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Created (CRTD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Deletion Flag (DLFL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered canceled (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation canceled (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked canceled (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Mat.availability not checked (MANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material committed (MACM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material shortage (MSPT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially confirmed (PCNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially delivered (PDLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Printed (PRT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Re-Read Master Data"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Release rejected (RELR)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Released (REL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Reprinted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Technically completed (TECO)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item created"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item to be checked"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER \"T001W\".\"WERKS\" = LEFT ( <%=production_plant_1%> , 4)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 47,
+      "hiddenActivities": {
+        "Order Capacity avail.not checked (CANC)": true,
+        "Order Capacity shortage (MSCP)": true,
+        "Order Mat.availability not checked (MANC)": true,
+        "Order Material committed (MACM)": true,
+        "Order Material shortage (MSPT)": true
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "0f69bb28-5584-4f5d-b376-a7fdaad850c4",
+      "kpiView": {
+        "connectionKpi": {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "colorEnd": "#1190b6",
+            "colorStart": "#40c6ed",
+            "id": "FREQUENCY",
+            "name": "frequency",
+            "text": "",
+            "units": "",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-frequency.svg",
+        "id": "FREQUENCY",
+        "inlineKpi": "variantCaseCount",
+        "title": "frequency"
+      },
+      "maximized": false,
+      "selection": [],
+      "selectionIndexes": [
+        0
+      ],
+      "showHeader": true,
+      "throughputUnits": "days",
+      "title": "Werk: <%=production_plant_1%>",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variant_explorer",
+      "variantSorting": {
+        "kpiIndex": 0,
+        "name": "most_common_variant",
+        "orderType": "DESC"
+      },
+      "vertical": false,
+      "width": 46,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "activityColumnRef": "\"_CEL_PP_ACTIVITIES\".\"ACTIVITY_EN\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Check completed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Production Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Download to MES"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity avail.not checked (CANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Capacity shortage (MSCP)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Closed (CLSD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Confirmed canceled (CNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Created (CRTD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Deletion Flag (DLFL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Delivered canceled (DLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Error in cost calculation canceled (CSER)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Locked canceled (LKD)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Mat.availability not checked (MANC)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material committed (MACM)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Material shortage (MSPT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially confirmed (PCNF)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Partially delivered (PDLV)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Printed (PRT)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Re-Read Master Data"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Release rejected (RELR)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Released (REL)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Reprinted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Order Technically completed (TECO)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item created"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item released"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Sales Order Item to be checked"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER ( \"T001W\".\"WERKS\" = LEFT ( <%=production_plant_2%> , 4) )",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 47,
+      "hiddenActivities": {
+        "Order Mat.availability not checked (MANC)": true,
+        "Order Material committed (MACM)": true,
+        "Order Material shortage (MSPT)": true
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "8f60dfce-e9a6-4617-8e33-9efbdb22e8e6",
+      "kpiView": {
+        "connectionKpi": {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "colorEnd": "#1190b6",
+            "colorStart": "#40c6ed",
+            "id": "FREQUENCY",
+            "name": "frequency",
+            "text": "",
+            "units": "",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-frequency.svg",
+        "id": "FREQUENCY",
+        "inlineKpi": "variantCaseCount",
+        "title": "frequency"
+      },
+      "maximized": false,
+      "selection": [],
+      "selectionIndexes": [],
+      "showHeader": true,
+      "throughputUnits": "days",
+      "title": "Werk: <%=production_plant_2%>",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variant_explorer",
+      "variantSorting": {
+        "kpiIndex": 0,
+        "name": "most_common_variant",
+        "orderType": "DESC"
+      },
+      "vertical": false,
+      "width": 46,
+      "x": 54,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "",
+      "border": false,
+      "buttonTitle": "<%= production_plant_1 == '' ? 'Werk 2 w\u00e4hlen' : production_plant_1%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "ca61ba70-6830-4a41-b23e-8fe956befca4",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"T001W\".\"WERKS\" ||'-'|| \"T001W\".\"NAME1\""
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "variableName": "production_plant_1",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 20,
+      "x": 0,
+      "y": 47,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "",
+      "border": false,
+      "buttonTitle": "<%= production_plant_2 == '' ? 'Werk 2 w\u00e4hlen' : production_plant_2%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "0914bd19-a719-4b51-b103-a1e460731591",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"T001W\".\"WERKS\" ||'-'|| \"T001W\".\"NAME1\""
+        },
+        "isMultiSelect": false,
+        "preview": "'Value'",
+        "separator": ",",
+        "variableName": "production_plant_2",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 20,
+      "x": 54,
+      "y": 47,
+      "zIndex": 2
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "2108b76f-ab9a-4988-ab6e-a74210203790",
+  "lines": [
+    {
+      "allowDataLink": false,
+      "arrow": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#777",
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "vertical",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 48,
+      "id": "74e97984-8064-46df-8ce8-160e80156892",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "dotted",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 12,
+      "x": 50,
+      "y": 1,
+      "zIndex": 2
+    }
+  ],
+  "name": "Vergleich Prozessvarianten",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

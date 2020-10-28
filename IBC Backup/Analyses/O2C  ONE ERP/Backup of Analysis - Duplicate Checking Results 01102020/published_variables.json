@@ -1,0 +1,27 @@
+[
+  {
+    "name": "duplicate_groups",
+    "type": "text_replacement",
+    "value": "\"DUPLICATE_CUSTOMERS\".\"Group_ID\""
+  },
+  {
+    "name": "main_color4",
+    "type": "text_replacement",
+    "value": "2C666E"
+  },
+  {
+    "name": "main_color3",
+    "type": "text_replacement",
+    "value": "f81b67"
+  },
+  {
+    "name": "main_color2",
+    "type": "text_replacement",
+    "value": "F0EDEE"
+  },
+  {
+    "name": "main_color1",
+    "type": "text_replacement",
+    "value": "2e2e2e"
+  }
+]

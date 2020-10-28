@@ -1,0 +1,874 @@
+[
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown3_text",
+    "type": "text_replacement",
+    "value": "Direct Delivery Indicator"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_VALUE_COLUMN",
+    "type": "text_replacement",
+    "value": "NETWR_CONVERTED"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_HEADER_TABLE",
+    "type": "text_replacement",
+    "value": "VBAK"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_HEADER",
+    "type": "text_replacement",
+    "value": "SO"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_boarders",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_background_freetext",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_no_background_freetext",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking_button_b",
+    "type": "text_replacement",
+    "value": "C3CED5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking2",
+    "type": "text_replacement",
+    "value": "007CAA"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_benchmarking1",
+    "type": "text_replacement",
+    "value": "506671"
+  },
+  {
+    "linkedEntries": null,
+    "name": "kpi_shown_t",
+    "type": "text_replacement",
+    "value": "# of SOs"
+  },
+  {
+    "linkedEntries": null,
+    "name": "kpi_shown",
+    "type": "text_replacement",
+    "value": "COUNT_TABLE(\"VBAK\")"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "048"
+      }
+    ],
+    "linkedFormula": "<%=benchmarking_dimension%>",
+    "name": "benchmarking2",
+    "type": "text_replacement",
+    "value": "'048'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "033"
+      }
+    ],
+    "linkedFormula": "<%=benchmarking_dimension%>",
+    "name": "benchmarking1",
+    "type": "text_replacement",
+    "value": "'033'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "benchmarking_dimension_t",
+    "type": "text_replacement",
+    "value": "Client"
+  },
+  {
+    "linkedEntries": null,
+    "name": "benchmarking_dimension",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"MANDT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_button_text",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ct_type",
+    "type": "text_replacement",
+    "value": "AVG"
+  },
+  {
+    "linkedEntries": null,
+    "name": "title",
+    "type": "text_replacement",
+    "value": "Process Cockpit"
+  },
+  {
+    "linkedEntries": null,
+    "name": "TIMETABLE",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"ERDAT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_VALUE",
+    "type": "text_replacement",
+    "value": "Net order value"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_ITEM",
+    "type": "text_replacement",
+    "value": "SO item"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_dim_col_t",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_dim_col_b",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_sidebar_b",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi_t",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi_b",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_box_b",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_b",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_table_t",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "process",
+    "type": "text_replacement",
+    "value": "O2C"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_header_background",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_button_color",
+    "type": "text_replacement",
+    "value": "F5F5F5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_sidebar_header",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_kpi",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_header_text",
+    "type": "text_replacement",
+    "value": "FFFFFF"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_diagram_p",
+    "type": "text_replacement",
+    "value": "AFD3E8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "colorschema_diagram_s",
+    "type": "text_replacement",
+    "value": "00597A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ct_target",
+    "type": "text_replacement",
+    "value": "150"
+  },
+  {
+    "linkedEntries": null,
+    "name": "from_occ",
+    "type": "text_replacement",
+    "value": "FIRST"
+  },
+  {
+    "linkedEntries": null,
+    "name": "to_occ",
+    "type": "text_replacement",
+    "value": "FIRST"
+  },
+  {
+    "linkedEntries": [],
+    "name": "percentage_color_low_2",
+    "type": "text_replacement",
+    "value": "0.1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "percentage_color_low",
+    "type": "text_replacement",
+    "value": "0.6"
+  },
+  {
+    "linkedEntries": null,
+    "name": "percentage_color_high",
+    "type": "text_replacement",
+    "value": "0.8"
+  },
+  {
+    "linkedEntries": null,
+    "name": "TIMEFRAME_TEXT",
+    "type": "text_replacement",
+    "value": "Quarter"
+  },
+  {
+    "linkedEntries": null,
+    "name": "TIMEFRAME",
+    "type": "text_replacement",
+    "value": "CASE\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (10,11,12) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q1'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (1,2,3) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q2'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (4,5,6) THEN YEAR(\"VBAK\".\"ERDAT\" ) || ' - Q3'\nWHEN MONTH(\"VBAK\".\"ERDAT\") IN (7,8,9) THEN YEAR(\"VBAK\".\"ERDAT\") || ' - Q4'\nELSE NULL\nEND"
+  },
+  {
+    "linkedEntries": null,
+    "name": "AutoTypes",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Material"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Sequence_Stop",
+    "type": "text_replacement",
+    "value": "'Change Material'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Order"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Sequence_Start",
+    "type": "text_replacement",
+    "value": "'Cancel Order'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "percentage_color_high_2",
+    "type": "text_replacement",
+    "value": "0.05"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Division"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Missing",
+    "type": "text_replacement",
+    "value": "'Change Division'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Confirmed Delivery Date"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Division"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Repeated",
+    "type": "text_replacement",
+    "value": "'Cancel Order','Change Confirmed Delivery Date','Change Division'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Approve Credit Check"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Confirmed Delivery Date"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Receive Delivery Confirmation"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "Undesired",
+    "type": "text_replacement",
+    "value": "'Approve Credit Check','Cancel Order','Change Confirmed Delivery Date','Change Quantity','Receive Delivery Confirmation'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Clear Invoice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Refuse Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Release Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Remove Payment Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Overdue Notice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order Update"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Payment Block"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "AutoActivities",
+    "type": "text_replacement",
+    "value": "'Block Purchase Order Item','Cancel Goods Receipt','Change Currency','Change Price','Change Quantity','Clear Invoice','Create Purchase Order Item','Create Purchase Requisition Item','Delete Purchase Order Item','Dun Order Confirmation','Receive Order Confirmation','Record Goods Receipt','Record Invoice Receipt','Refuse Purchase Order Item','Release Purchase Order','Remove Payment Block','Send Overdue Notice','Send Purchase Order','Send Purchase Order Update','Set Payment Block'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CASE_TABLE",
+    "type": "text_replacement",
+    "value": "VBAP"
+  },
+  {
+    "linkedEntries": null,
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"ERDAT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_automation_rate",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_automation_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_rework_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_rework_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_change_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_change_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": null,
+    "name": "unitTCT",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_CT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_CT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": null,
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"BUKRS_VF\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"WERKS\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VTWEG\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"AUART\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "InternalOrExternal"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(KNA1.VBUND)=1 THEN 'External' ELSE 'Internal' END"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Purchase Requisition Item",
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "formattedValue": "Change Price",
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "formattedValue": "Create Purchase Order Item",
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "formattedValue": "Receive Order Confirmation",
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      },
+      {
+        "formattedValue": "Record Invoice Receipt",
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "formattedValue": "Record Goods Receipt",
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "formattedValue": "Delete Purchase Order Item",
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "formattedValue": "Release Purchase Order",
+        "selected": true,
+        "value": "Release Purchase Order"
+      },
+      {
+        "formattedValue": "Refuse Purchase Order",
+        "selected": true,
+        "value": "Refuse Purchase Order"
+      },
+      {
+        "formattedValue": "Cancel Invoice Receipt",
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      },
+      {
+        "formattedValue": "Change Quantity",
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "formattedValue": "Cancel Goods Receipt",
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "formattedValue": "Block Purchase Order Item",
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "formattedValue": "Send Overdue Notice",
+        "selected": true,
+        "value": "Send Overdue Notice"
+      },
+      {
+        "formattedValue": "Reactivate Purchase Order Item",
+        "selected": true,
+        "value": "Reactivate Purchase Order Item"
+      },
+      {
+        "formattedValue": "Dun Order Confirmation",
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      }
+    ],
+    "name": "activities_used_in_automation_rate",
+    "type": "text_replacement",
+    "value": "'Create Purchase Requisition Item','Change Price','Create Purchase Order Item','Receive Order Confirmation','Record Invoice Receipt','Record Goods Receipt','Delete Purchase Order Item','Release Purchase Order','Refuse Purchase Order','Cancel Invoice Receipt','Change Quantity','Cancel Goods Receipt','Block Purchase Order Item','Send Overdue Notice','Reactivate Purchase Order Item','Dun Order Confirmation'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Currency"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "Net Order Price"
+      },
+      {
+        "available": true,
+        "id": 8,
+        "selected": true,
+        "value": "Order Quantity"
+      },
+      {
+        "available": true,
+        "id": 9,
+        "selected": true,
+        "value": "Payment Block"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Vendor"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_EN\"",
+    "name": "ChangedFields",
+    "type": "text_replacement",
+    "value": "'Currency','Net Order Price','Order Quantity','Payment Block','Vendor'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "B",
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Sales Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Create Sales Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Clear Invoice"
+      }
+    ],
+    "linkedFormula": "\"_CEL_<%= process %>_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Clear Invoice'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "exclude_CHANGED_FIELD",
+    "type": "text_replacement",
+    "value": "('KEY','LOEKZ')"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "CASE \n\t\t\tWHEN VBAP.ZZDLZ = '0' THEN '0 - Delivery from SC stock'\n\t\t\tWHEN VBAP.ZZDLZ = '1' THEN '1 - Direct delivery'\n\t\t\tWHEN VBAP.ZZDLZ = '2' THEN '2 - Delivery via SC'\n\t\t\tWHEN VBAP.ZZDLZ = '3' THEN '3 - Delivery via LC'\n\t\t\tWHEN VBAP.ZZDLZ = '4' THEN '4 - Direct dispatch from master plant via 3rd party order div.'\n\t\t\tWHEN VBAP.ZZDLZ = '5' THEN '5 - Direct dispatch from master plant with division'\n\t\t\tEND"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown5",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  }
+]

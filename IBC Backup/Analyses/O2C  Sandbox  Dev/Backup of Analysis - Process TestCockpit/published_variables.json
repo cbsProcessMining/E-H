@@ -1,0 +1,459 @@
+[
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Confirmed Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Plant"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Requested Goods Issue Date"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Requested Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Picking TO (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Cancelled (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Confirmed (MM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Confirmed (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Reason for Rejection"
+      }
+    ],
+    "linkedFormula": "\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "white_listed_activities",
+    "type": "text_replacement",
+    "value": "'Change Confirmed Quantity','Change Plant','Change Requested Goods Issue Date','Change Requested Quantity','Create Picking TO (WM)','Picking Cancelled (WM)','Picking Confirmed (MM)','Picking Confirmed (WM)','Set Reason for Rejection'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "percentage_color_low",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "percentage_color_high",
+    "type": "text_replacement",
+    "value": "90"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter10_text",
+    "type": "text_replacement",
+    "value": "InternalOrExternal"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter10",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(KNA1.VBUND)=1 THEN 'External' ELSE 'Internal' END"
+  },
+  {
+    "linkedEntries": null,
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"TS_ERDAT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Reason for Rejection"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Billing Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Delivery Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Material"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Plant"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Reason for Rejection"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Route"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Clear Invoice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Delivery"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Invoice"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Picking TO (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Sales Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Cancelled (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Confirmed (MM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Picking Confirmed (WM)"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Goods Issue"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Remove Billing Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Remove Delivery Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Billing Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Delivery Block"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Set Reason for Rejection"
+      }
+    ],
+    "linkedFormula": "\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "AutomationActivities",
+    "type": "text_replacement",
+    "value": "'Cancel Reason for Rejection','Change Billing Block','Change Delivery Block','Change Material','Change Plant','Change Price','Change Reason for Rejection','Change Route','Clear Invoice','Create Delivery','Create Invoice','Create Picking TO (WM)','Create Sales Order Item','Picking Cancelled (WM)','Picking Confirmed (MM)','Picking Confirmed (WM)','Record Goods Issue','Remove Billing Block','Remove Delivery Block','Set Billing Block','Set Delivery Block','Set Reason for Rejection', 'Sales Order Released'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"AUART\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"AUART\" || ' - ' || \"VBAK\".\"AUART_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VTWEG\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VTWEG\" || ' - ' || \"VBAK\".\"VTWEG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"WERKS\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"WERKS\" || ' - ' || \"VBAP\".\"WERKS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"BUKRS_VF\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"BUKRS_VF\" || '-' || \"VBAK\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "VSBED",
+        "selected": true,
+        "value": "VSBED"
+      },
+      {
+        "formattedValue": "ROUTE",
+        "selected": true,
+        "value": "ROUTE"
+      },
+      {
+        "formattedValue": "MATNR",
+        "selected": true,
+        "value": "MATNR"
+      },
+      {
+        "formattedValue": "LIFSK",
+        "selected": true,
+        "value": "LIFSK"
+      },
+      {
+        "formattedValue": "ABGRU",
+        "selected": true,
+        "value": "ABGRU"
+      },
+      {
+        "formattedValue": "FAKSK",
+        "selected": true,
+        "value": "FAKSK"
+      },
+      {
+        "formattedValue": "KUNNR",
+        "selected": true,
+        "value": "KUNNR"
+      },
+      {
+        "formattedValue": "LFMNG",
+        "selected": true,
+        "value": "LFMNG"
+      },
+      {
+        "formattedValue": "WERKS",
+        "selected": true,
+        "value": "WERKS"
+      }
+    ],
+    "name": "changedFields",
+    "type": "text_replacement",
+    "value": "'VSBED','ROUTE','MATNR','LIFSK','ABGRU','FAKSK','KUNNR','LFMNG','WERKS'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Cancel Reason for Rejection",
+        "selected": true,
+        "value": "Cancel Reason for Rejection"
+      },
+      {
+        "formattedValue": "Change Price",
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "formattedValue": "Set Delivery Block",
+        "selected": true,
+        "value": "Set Delivery Block"
+      },
+      {
+        "formattedValue": "Change Route",
+        "selected": true,
+        "value": "Change Route"
+      },
+      {
+        "formattedValue": "Change Material",
+        "selected": true,
+        "value": "Change Material"
+      },
+      {
+        "formattedValue": "Change Delivery Block",
+        "selected": true,
+        "value": "Change Delivery Block"
+      },
+      {
+        "formattedValue": "Deny Credit Check",
+        "selected": true,
+        "value": "Deny Credit Check"
+      },
+      {
+        "formattedValue": "Change Reason for Rejection",
+        "selected": true,
+        "value": "Change Reason for Rejection"
+      },
+      {
+        "formattedValue": "Change Plant",
+        "selected": true,
+        "value": "Change Plant"
+      }
+    ],
+    "name": "reworkActivities",
+    "type": "text_replacement",
+    "value": "'Cancel Reason for Rejection','Change Price','Set Delivery Block','Change Route','Change Material','Change Delivery Block','Deny Credit Check','Change Reason for Rejection','Change Plant'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "B",
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "name": "AutoTypes",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown6",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Sales Order Item",
+        "selected": true,
+        "value": "Create Sales Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Create Sales Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Invoice"
+      }
+    ],
+    "linkedFormula": "\"_CEL_O2C_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Create Invoice'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "exclude_CHANGED_FIELD",
+    "type": "text_replacement",
+    "value": "('KEY','LOEKZ')"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"VBAK\".\"VKORG\" || ' - ' || \"VBAK\".\"VKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"VBAK\",\"VBAP\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown5",
+    "type": "text_replacement",
+    "value": "\"VBAP\".\"MATNR\" || ' - ' || \"VBAP\".\"MATNR_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  }
+]

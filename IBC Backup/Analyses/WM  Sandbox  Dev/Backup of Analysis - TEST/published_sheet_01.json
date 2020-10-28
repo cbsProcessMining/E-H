@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "9c37f598-18df-4684-aaed-b3cdb27fb4bb",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_WM_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Begin Quality Inspection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Material Document"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create TO for Picking"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create TO for Posting Change"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create TO for Put-Away"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create TO for internal transfer"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Create Transfer Requirement Item"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking Cancelled (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Picking Confirmed (WM)"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Accepted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Rejected"
+      }
+    ],
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 4,
+    "preventResize": true,
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

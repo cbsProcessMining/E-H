@@ -1,0 +1,124 @@
+/*DESCRIPTION:
+CBS: App
+
+
+
+
+
+
+2. Required Tables:
+MARC
+VBAP
+_CEL_O2C_CASES
+
+3. Required Columns:
+MARC.*
+MARC.AUSDT
+MARC.MANDT
+MARC.MATNR
+MARC.MMSTD
+MARC.WERKS
+VBAP.MANDT
+VBAP.MATNR
+VBAP.POSNR
+VBAP.VBELN
+VBAP.WERKS
+_CEL_O2C_CASES.MANDT
+_CEL_O2C_CASES.POSNR
+_CEL_O2C_CASES.VBELN
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+-- DROP VIEW IF EXISTS O2C_VBKD;	
+-- CREATE VIEW "O2C_VBKD" AS (
+
+-- SELECT 
+--     VBKD.*,
+--     CASES."PRETTY_NAME" -- global job
+--     CASES."SC/PC", -- global job 
+-- FROM "VBKD"       
+-- INNER JOIN _CEL_O2C_CASES AS CASES ON 1=1
+--         AND VBKD."SCHEMA" = CASES."SCHEMA" -- global job
+-- 		AND VBKD.MANDT = CASES.MANDT
+--         AND VBKD.VBELN = CASES.VBELN
+-- );
+
+DROP VIEW IF EXISTS O2C_VBKD;	
+CREATE VIEW "O2C_VBKD" AS (
+
+SELECT 
+    CASES._CASE_KEY
+    ,VBKD.*
+    ,ZTERM_E.TEXT1 AS ZTERM_TEXT_E
+    ,ZTERM_D.TEXT1 AS ZTERM_TEXT_D
+    ,CASES."PRETTY_NAME" -- global job
+    ,CASES."SC/PC" -- global job 
+FROM "VBKD"       
+INNER JOIN TMP_O2C_VBAK_VBAP AS CASES ON 1=1
+    AND VBKD."SCHEMA" = CASES."SCHEMA" -- global job
+	AND VBKD.MANDT = CASES.MANDT
+    AND VBKD.VBELN = CASES.VBELN
+    AND VBKD.POSNR = CASES.POSNR
+LEFT JOIN T052U AS ZTERM_E ON 1 = 1
+    AND VBKD."SCHEMA" = ZTERM_E."SCHEMA" -- global job
+	AND VBKD.MANDT =  ZTERM_E.MANDT
+    AND VBKD.ZTERM = ZTERM_E.ZTERM
+    AND VBKD.VALTG = ZTERM_E.ZTAGG
+    AND 'E' = ZTERM_E.SPRAS
+LEFT JOIN T052U AS ZTERM_D ON 1 = 1
+    AND VBKD."SCHEMA" = ZTERM_D."SCHEMA" -- global job
+	AND VBKD.MANDT =  ZTERM_D.MANDT
+    AND VBKD.ZTERM = ZTERM_D.ZTERM
+    AND VBKD.VALTG = ZTERM_D.ZTAGG
+    AND 'D' = ZTERM_D.SPRAS
+
+UNION
+
+SELECT 
+    CASES_2._CASE_KEY
+    ,VBKD.*
+    ,ZTERM_E.TEXT1 AS ZTERM_TEXT_E
+    ,ZTERM_D.TEXT1 AS ZTERM_TEXT_D
+    ,CASES_2."PRETTY_NAME" -- global job
+    ,CASES_2."SC/PC" -- global job 
+FROM "VBKD"
+INNER JOIN (    SELECT 
+                    CASES.SCHEMA
+                    ,CASES.MANDT
+                    ,CASES.VBELN 
+                    ,CASES.POSNR
+                    ,CASES._CASE_KEY
+                    ,CASES."PRETTY_NAME" -- global job
+                    ,CASES."SC/PC" -- global job 
+                FROM TMP_O2C_VBAK_VBAP AS CASES       
+                LEFT JOIN "VBKD" ON 1=1
+                        AND VBKD."SCHEMA" = CASES."SCHEMA" -- global job
+                        AND VBKD.MANDT = CASES.MANDT
+                        AND VBKD.VBELN = CASES.VBELN
+                        AND VBKD.POSNR = CASES.POSNR
+                WHERE VBKD.VBELN IS NULL
+            ) AS CASES_2 ON 1 = 1
+    AND VBKD."SCHEMA" = CASES_2."SCHEMA" -- global job
+	AND VBKD.MANDT = CASES_2.MANDT
+    AND VBKD.VBELN = CASES_2.VBELN
+    AND VBKD.POSNR = '000000'
+LEFT JOIN T052U AS ZTERM_E ON 1 = 1
+    AND VBKD."SCHEMA" = ZTERM_E."SCHEMA" -- global job
+	AND VBKD.MANDT =  ZTERM_E.MANDT
+    AND VBKD.ZTERM = ZTERM_E.ZTERM
+    AND VBKD.VALTG = ZTERM_E.ZTAGG
+    AND 'E' = ZTERM_E.SPRAS
+LEFT JOIN T052U AS ZTERM_D ON 1 = 1
+    AND VBKD."SCHEMA" = ZTERM_D."SCHEMA" -- global job
+	AND VBKD.MANDT =  ZTERM_D.MANDT
+    AND VBKD.ZTERM = ZTERM_D.ZTERM
+    AND VBKD.VALTG = ZTERM_D.ZTAGG
+    AND 'D' = ZTERM_D.SPRAS
+);

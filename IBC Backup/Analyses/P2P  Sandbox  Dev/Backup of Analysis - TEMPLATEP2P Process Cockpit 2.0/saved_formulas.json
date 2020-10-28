@@ -1,0 +1,652 @@
+[
+  {
+    "description": "Share of Purchase Order Items in which Activities (user defined) have happened more than once.",
+    "id": "102279bb-076b-45c9-a637-17230f3b6c1a",
+    "name": "Repeated Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Repeated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Repeated",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT \r\n      CASE WHEN ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") >= 2 \r\n      AND \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\" IN ({p3})\r\n      THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END\r\n)\r\n/\r\nCOUNT_TABLE(\"{p4}\")"
+  },
+  {
+    "description": "",
+    "id": "2ebc1d29-b6e5-4a2a-8e93-3fbf2f44eb68",
+    "name": "Missing Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Missing Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Missing",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT CASE WHEN PROCESS NOT EQUALS {p2} THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)"
+  },
+  {
+    "description": "",
+    "id": "30eb1770-5173-4781-9e90-7a2d0658f51a",
+    "name": "SC/PC",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \n WHEN \"EKPO\".\"PRETTY_NAME\" IN ('PIN024','PIN020','PP1011','PP2005',\t'PP2004') THEN 'PC'\n ELSE 'SC'\nEND"
+  },
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type. (CASE LEVEL)",
+    "id": "6ea9ff10-5920-4a5b-be5a-ffdd91ab458d",
+    "name": "Automation Rate PU",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "-- # Automated Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p5})\n))\n\n/ \n\n(\n-- # Automated Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p5})\n))\n\n+\n-- # Manual Activities\nSUM( PU_COUNT(\"{p3}\", \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\", \n       ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p4})\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p5})\n))\n)"
+  },
+  {
+    "description": "Case Value w/ Currency Conversion",
+    "id": "727c390e-a7dd-429b-8a98-fc69886f84cb",
+    "name": "Case Value",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\"<%= CASE_TABLE %>\".<%=CASE_VALUE_COLUMN%>"
+  },
+  {
+    "description": "Number of Undesired Activities (User defined)",
+    "id": "7327d122-607e-4c4c-a5c1-b87c9c779e4a",
+    "name": "Undesired Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Undesired Activity",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Undesired",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM(PU_COUNT(\"{p1}\", \"_CEL_{p2}_ACTIVITIES\".\"ACTIVITY_{p3}\", \"_CEL_{p2}_ACTIVITIES\".\"ACTIVITY_{p3}\" IN ({p4})))"
+  },
+  {
+    "description": "This KPI calculates the median time from the process start until the process end in days.",
+    "id": "73de3bc3-bd48-4737-bf41-659497035bdd",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "<%= ct_type %>(CALC_THROUGHPUT(ALL_OCCURRENCE['Process Start'] TO ALL_OCCURRENCE['Process End'], REMAP_TIMESTAMPS(\"_CEL_{p2}_ACTIVITIES\".\"EVENTTIME\", {p1} )))"
+  },
+  {
+    "description": "",
+    "id": "77f2ab72-ae35-47a7-bde8-cb5763d76713",
+    "name": "Repeated Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Repeated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Repeated",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM(CASE \n    WHEN \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3}) \n    AND ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") >= 2 \n    THEN ACTIVATION_COUNT(\"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\") -1 \n    ELSE 0 \nEND)"
+  },
+  {
+    "description": "",
+    "id": "7ae7a29d-0533-4e13-ac4e-190cbd74236c",
+    "name": "Missing Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Missing Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Missing",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "100.0*(COUNT(DISTINCT CASE WHEN PROCESS NOT EQUALS {p2} THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)\n/ \nCOUNT(DISTINCT \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\"))"
+  },
+  {
+    "description": "",
+    "id": "aed32c95-6465-471a-803d-e5ac636a031a",
+    "name": "CT Subprocess_1",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Case Table",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "CASE_TABLE",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "From",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "From",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "To",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "To",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "{p1}_BETWEEN(\r\n    PU_<%= from_occ %>(\"{p2}\", \"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", \"_CEL_{p3}_ACTIVITIES\".\"ACTIVITY_{p4}\" = {p5}),\r\n    PU_<%= to_occ %>(\"{p2}\", \"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", \"_CEL_{p3}_ACTIVITIES\".\"ACTIVITY_{p4}\" = {p6})\r\n)\r\nCALC_THROUGHPUT(FIRST_OCCURRENCE[<%= from_occ %>] TO FIRST_OCCURRENCE[<%= to_occ %>], REMAP_TIMESTAMPS(\"_CEL_{p3}_ACTIVITIES\".\"EVENTTIME\", {p1}))\r\n"
+  },
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type. (ACTIVITY LEVEL)",
+    "id": "aed88e0f-3edf-4a3f-82e7-22373fade5ac",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "-- # Automated Activities\r\nSUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n\r\n/ \r\n\r\n(\r\n-- # Automated Activities\r\nSUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n+\r\n-- # Manual Activities\r\nSUM( CASE \r\n    WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p4})\r\n    THEN 1 ELSE 0 \r\nEND )*1.0\r\n)"
+  },
+  {
+    "description": "Counts the number of automated activities (user defined)",
+    "id": "b3908ca3-319b-4221-aefe-c1cdfeb4ccc7",
+    "name": "Automated Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM( CASE \r\n       WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n       AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" IN ({p4})\r\n    THEN 1 ELSE NULL \r\nEND )"
+  },
+  {
+    "description": "Share of Purchase Order Items, in which at least one Undesired Activity (user defined) has happened.",
+    "id": "b79700d2-4010-4a0a-8ea9-5f230923124b",
+    "name": "Undesired Activity Rate",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Undesired Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "Undesired",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "COUNT(DISTINCT CASE WHEN \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\" IN ({p3}) THEN \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\" ELSE NULL END)\n/\nCOUNT(DISTINCT \"_CEL_{p1}_ACTIVITIES\".\"_CASE_KEY\")"
+  },
+  {
+    "description": "",
+    "id": "e260c2aa-a8d5-44e3-ad0e-8a64cf58f9cd",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Unit of Observation",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "unit",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "From",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "From",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "To",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "To",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "CALC_THROUGHPUT(<%= from_occ %>_OCCURRENCE[{p3}] TO <%= to_occ %>_OCCURRENCE[{p4}], REMAP_TIMESTAMPS(\"_CEL_{p2}_ACTIVITIES\".\"EVENTTIME\", {p1}))"
+  },
+  {
+    "description": "Counts the number of manual activities (out of the considered activities)",
+    "id": "fe4b4232-0355-4645-a5fa-51e2a55b529c",
+    "name": "Manual Activities",
+    "parameterCount": 0,
+    "parameters": [
+      {
+        "name": "Process",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "process",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Language",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "language",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Activities",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoActivities",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      },
+      {
+        "name": "Automated Types",
+        "prefillWithColumn": null,
+        "prefillWithVariable": "AutoTypes",
+        "type": {
+          "format": "variable",
+          "id": 9,
+          "name": "Variable",
+          "type": "literal"
+        }
+      }
+    ],
+    "template": "SUM( CASE \r\n    WHEN ISNULL(\"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\") = 0 \r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"ACTIVITY_{p2}\"  IN ({p3})\r\n    AND  \"_CEL_{p1}_ACTIVITIES\".\"USER_TYPE\" NOT IN ({p4})\r\n    THEN 1 ELSE NULL \r\nEND )*1.0"
+  }
+]
